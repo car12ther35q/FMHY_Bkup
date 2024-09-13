@@ -1,0 +1,1946 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.779537605844">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.5.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Storage | FreeMediaHeckYeah</title>
+    <meta name="title" content="Storage | FreeMediaHeckYeah">
+    <meta name="description" content="◄◄ Back to Wiki Index">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://fmhy.pages.dev/docs/storage/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fmhy.pages.dev/docs/storage/">
+    <meta property="og:title" content="Storage | FreeMediaHeckYeah">
+    <meta property="og:description" content="◄◄ Back to Wiki Index">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fmhy.pages.dev/docs/storage/">
+    <meta property="twitter:title" content="Storage | FreeMediaHeckYeah">
+    <meta property="twitter:description" content="◄◄ Back to Wiki Index">
+
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../static/favicon.ico" rel="icon">
+    <link href="../../resources/css/retype.css?v=3.5.0.779537605844" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.779537605844" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.779537605844" data-turbo-eval="false" defer></script>
+
+    <link rel="stylesheet" href="static/styles.css">
+
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/fmhy.ico">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/fmhy.ico">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">FMHY</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://redd.it/17f8msf">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discord</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy-search.streamlit.app/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Search</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Reddit</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/fmhy">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Github</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Updates</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/backups">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.46 1.137a1.748 1.748 0 0 1 1.08 0l8.25 2.675A1.75 1.75 0 0 1 22 5.476V10.5c0 6.19-3.77 10.705-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.771 21.204 2 16.69 2 10.5V5.476c0-.76.49-1.43 1.21-1.664Zm.617 1.426a.253.253 0 0 0-.154 0L3.673 5.24a.25.25 0 0 0-.173.237V10.5c0 5.461 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0c5.15-1.943 8.43-5.965 8.43-11.426V5.476a.25.25 0 0 0-.173-.237ZM13 12.232V15a1 1 0 0 1-2 0v-2.768a2 2 0 1 1 2 0Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Backups</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://redd.it/17f8msf">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discord</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy-search.streamlit.app/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Search</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Reddit</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/fmhy">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Github</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Updates</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/backups">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.46 1.137a1.748 1.748 0 0 1 1.08 0l8.25 2.675A1.75 1.75 0 0 1 22 5.476V10.5c0 6.19-3.77 10.705-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.771 21.204 2 16.69 2 10.5V5.476c0-.76.49-1.43 1.21-1.664Zm.617 1.426a.253.253 0 0 0-.154 0L3.673 5.24a.25.25 0 0 0-.173.237V10.5c0 5.461 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0c5.15-1.943 8.43-5.965 8.43-11.426V5.476a.25.25 0 0 0-.173-.237ZM13 12.232V15a1 1 0 0 1-2 0v-2.768a2 2 0 1 1 2 0Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Backups</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="storage" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#storage">#</doc-anchor-trigger>
+        <span>Storage</span>
+    </h1>
+</doc-anchor-target>
+<hr>
+<hr>
+<p><strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/index">◄◄ Back to Wiki Index</a></strong></p>
+<hr>
+<hr>
+<doc-anchor-target id="3d-modeling-apps">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#3d-modeling-apps">#</doc-anchor-trigger>
+        <span>3D Modeling Apps</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.blender.org/">Blender</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/openai/shap-e">Shap-e</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong>Blender Tools</strong> - <a href="https://awesome-blender.netlify.app">Resources</a> / <a href="https://www.3dbestie.com/">Tutorials</a> / <a href="https://github.com/carson-katri/dream-textures">Textures</a> / <a href="https://github.com/prman-pixar/RenderManForBlender">Renderer</a> / <a href="https://t.me/geometrynodes">3D Nodes</a> / <a href="https://github.com/benrugg/AI-Render">AI Render</a></li>
+</ul>
+<p><a href="https://www.meshy.ai/">Meshy.ai</a> / <a href="https://discord.com/invite/KgD5yVM9Y4">Discord</a>, <a href="https://spline.design/">Spline</a>, <a href="https://www.anim8or.com/">Anim8or</a>, <a href="http://www.wings3d.com/">Wings 3D</a>, <a href="https://justsketch.me/">JustSketchMe</a>, <a href="https://www.povray.org/">POV-Ray</a>, <a href="https://www.vectary.com/">Vectary</a>, <a href="https://aoi.sourceforge.net/">Art of Illusion</a>, <a href="https://get.posturize-app.com/">Posturize</a>, <a href="https://studio.morflax.com/">Morflax</a>, <a href="https://poly.cam/">Polycam</a>, <a href="https://beta.womp.com/">Womp</a></p>
+<doc-anchor-target id="cad-engineering">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#cad-engineering">#</doc-anchor-trigger>
+        <span>CAD Engineering</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><a href="https://github.com/itta611/ChokokuCAD">ChokokuCAD</a> - CAD Modeling</li>
+<li><a href="https://www.tinkercad.com/">Tinkercad</a> - CAD Modeling</li>
+<li><a href="https://www.freecad.org/">FreeCAD</a> - CAD Modeling</li>
+<li><a href="https://brlcad.org/">BRL-CAD</a> - CAD Modeling</li>
+<li><a href="https://librecad.org/">LibreCAD</a> - CAD Modeling</li>
+<li><a href="https://openscad.org/">OpenSCAD</a> or <a href="https://github.com/fougue/mayo">Mayo</a> - 3D CAD Modelers</li>
+<li><a href="https://www.qcad.org/en/">QCAD</a> - 2D CAD Modeler</li>
+<li><a href="https://cadhub.xyz/">CadHub</a> - Community Hub for CAD Projects</li>
+</ul>
+<hr>
+<doc-anchor-target id="3d-models">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#3d-models">#</doc-anchor-trigger>
+        <span>3D Models</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.thingiverse.com/">Thingiverse</a></strong></li>
+</ul>
+<p><a href="https://clara.io/library">Clara.io</a>, <a href="https://sketchfab.com/">Sketchfab</a>, <a href="https://grabcad.com/">GrabCAD</a>, <a href="https://www.3dcu.com/">3DCU</a>, <a href="https://3dru.net/">3DLOAD</a>, <a href="https://cgdownload.ru/">CGdownloads</a>, <a href="https://p3dm.ru/">Pack 3d models</a>, <a href="https://3d-load.net/">3DLOAD</a>, <a href="https://www.cgtrader.com/free-3d-models">cgtrader</a>, <a href="https://free3d.com/">Free3D</a>, <a href="https://vrmodels.store/">VRModels</a>, <a href="https://www.cadnav.com/">CadNav</a>, <a href="https://render-state.to/">Render-State</a>, <a href="https://open3dmodel.com/">Open3dModel</a>, <a href="https://free3d.io/">Archive3D</a>, <a href="https://topgfx.info/index.php">TopGFX</a>, <a href="https://3dexport.com/free-3d-models">3DExport</a>, <a href="https://shop3dmili.com/free">3DMili Free Shop</a>, <a href="https://archibaseplanet.com/">ArchibasePlanet</a>, <a href="https://cults3d.com/">Cults</a>, <a href="https://3dsky.org/">3dsky</a>, <a href="https://www.turbosquid.com/Search/3D-Models/free">TurboSquid</a>, <a href="https://3dwarehouse.sketchup.com/">3D Warehouse</a>, <a href="https://www.blenderkit.com/">BlenderKit</a>, <a href="https://3dmili.com/">3DMili</a>, <a href="https://poly.pizza/">poly.pizza</a>, <a href="https://rigmodels.com/">RIGModels</a>, <a href="https://www.printables.com/">Printables</a>, <a href="https://thangs.com/">Thangs</a>, <a href="https://pinshape.com/">Pinshape</a>, <a href="https://nasa3d.arc.nasa.gov/models/printable">NASA 3D Resources</a>, <a href="https://t.me/cgworld_1">CG World</a>, <a href="https://t.me/blender_addon">Blender Add-on</a>, <a href="https://www.3dfindit.com/en/">3D Find It</a>, <a href="https://free3dbase.com/">free3dbase</a>, <a href="https://open3dlab.com/">open3dlab</a>, <a href="https://polyhaven.com/">PolyHaven</a>, <a href="https://www.blendswap.com/">blendswap</a></p>
+<hr>
+<doc-anchor-target id="ambient-sound-mixers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ambient-sound-mixers">#</doc-anchor-trigger>
+        <span>Ambient Sound Mixers</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://mynoise.net/">myNoise</a>, <a href="https://ambiph.one/">ambiphone</a>, <a href="https://moodist.app/">Moodist</a>, <a href="https://www.moodil.com/">Moodli</a>, <a href="https://soundescape.io/">Soundscape</a>, <a href="https://naturemixer.com/">Nature Mixer</a>, <a href="https://calmyleon.com/">CalmyLeon</a>, <a href="https://noises.online/">Noises Online</a>, <a href="https://www.shuteye.ai/relaxing-sounds/">Relaxing Sounds</a>, <a href="https://asoftmurmur.com/">A Soft Murmur</a>, <a href="https://en.ecosounds.net/">EcoSounds</a>, <a href="https://virtocean.com/">VirtOcean</a>, <a href="https://asmrion.com/">ASMRion</a>, <a href="https://defonic.com">Defonic</a>, <a href="https://soundofcolleagues.com/">Sound Of Colleagues</a>, <a href="https://imisstheoffice.eu/">IMissTheOffice</a>, <a href="http://imissmybar.com/">I Miss My Bar</a>, <a href="https://scoreascore.com/homesick">Homesick</a></p>
+<hr>
+<doc-anchor-target id="android-browsers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#android-browsers">#</doc-anchor-trigger>
+        <span>Android Browsers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.mozilla.org/">Firefox</a></strong> - <a href="https://f-droid.org/packages/org.mozilla.fennec_fdroid/">F-Droid</a> / <a href="https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/">Focus</a> / <a href="https://www.mozilla.org/en-US/firefox/channel/android/#nightly">Nightly</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/Tobi823/ffupdater">FFUpdater</a></strong> - Multi-Browser Updater</li>
+</ul>
+<p><a href="https://github.com/fork-maintainers/iceraven-browser">Iceraven Browser</a>, <a href="https://kiwibrowser.com/">Kiwi Browser</a>, <a href="https://play.google.com/store/apps/details?id=net.onecook.browser">Stargon Browser</a>, <a href="https://play.google.com/store/apps/details?id=com.ecosia.android">Ecosia</a>, <a href="https://play.google.com/store/apps/details?id=mark.via.gp">Via Browser</a>, <a href="https://github.com/Slion/Fulguris">Fulguris</a></p>
+<doc-anchor-target id="privacy-based">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#privacy-based">#</doc-anchor-trigger>
+        <span>Privacy Based</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://divestos.org/pages/browsers">Privacy Browser Comparisons</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="http://gitlab.com/divested-mobile/mull-fenix">Mull</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://tb-manual.torproject.org/mobile-tor/">Tor</a></strong> - Onion-Routed Browser</li>
+<li><a href="https://duckduckgo.com/app">DuckDuckGo Privacy Browser</a></li>
+<li><a href="https://www.stoutner.com/privacy-browser-android/">Privacy Browser</a></li>
+<li><a href="https://brave.com/">Brave</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="android-note-apps">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#android-note-apps">#</doc-anchor-trigger>
+        <span>Android Note Apps</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/Kin69/EasyNotes">Easy Notes</a></strong></li>
+<li><a href="https://f-droid.org/packages/org.documentfoundation.libreoffice/">LibreOffice Viewer</a> - Office Suite</li>
+</ul>
+<p><a href="https://fossdroid.com/a/markor.html">Markor</a>, <a href="https://sunilpaulmathew.github.io/sNotz/">sNotz</a>, <a href="https://play.google.com/store/apps/details?id=com.google.android.keep">Google Keep</a>, <a href="https://play.google.com/store/apps/details?id=com.xaviertobin.noted">Bundled Notes</a>, <a href="https://www.colornote.com/">ColorNote</a>, <a href="https://www.notion.so/">Notion</a>, <a href="https://joplinapp.org/">Joplin</a>, <a href="https://www.zoho.com/notebook/">Notebook</a>, <a href="https://play.google.com/store/apps/details?id=com.getupnote.android">UpNote</a>, <a href="https://support.microsoft.com/en-us/office/microsoft-onenote-for-android-46b4b49d-2bef-4746-9c30-6abb5e20b688">OneNote</a>, <a href="https://github.com/appml/neutrinote">neutriNote</a>, <a href="https://play.google.com/store/apps/details?id=co.easy4u.writer">Writer Plus</a>, <a href="https://github.com/orgzly-revived/orgzly-android-revived">Orgzly</a>, <a href="https://justnote.cc/">Justnote</a>, <a href="https://play.google.com/store/apps/details?id=com.makenotetoself">Note to Self</a>, <a href="https://github.com/alialbaali/Noto">Noto</a>, <a href="https://obsidian.md/mobile">Obsidian</a>, <a href="https://github.com/saber-notes/saber">Saber</a> (tablets), <a href="https://quillpad.github.io/">Quillpad</a>, <a href="https://theachoem.github.io/spooky-mb/">Spooky</a>, <a href="https://memos.moe/">Moe Memos</a>, <a href="https://github.com/hashemi-hossein/ara-note">Ara Note</a>, <a href="https://github.com/OmGodse/Notally">Notally</a>, <a href="https://omninotes.app/">Omni Notes</a>, <a href="https://play.google.com/store/apps/details?id=app.walling.mandroid">Walling</a>, <a href="https://play.google.com/store/apps/details?id=com.orion.notein.global">Orion</a>, <a href="https://memos.moe/">memos</a>, <a href="https://github.com/Yanndroid/NotiNotes">NotiNotes</a>, <a href="https://play.google.com/store/apps/details?id=com.akapps.dailynote">DailyNote</a>, <a href="https://play.google.com/store/apps/details?id=com.workflowy.android">Workflowy</a>, <a href="https://github.com/YangDai2003/OpenNote-Compose">OpenNote</a>, <a href="https://github.com/mshdabiola/NotePad">NotePad</a>, <a href="https://gitlab.com/Varlorg/uNote/">uNote</a>, <a href="https://github.com/RohitKushvaha01/Xed-Editor">Xed-Editor</a></p>
+<doc-anchor-target id="to-do-apps">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#to-do-apps">#</doc-anchor-trigger>
+        <span>To-Do Apps</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://tasks.org/">Tasks</a></strong> - Sync Supported</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/vishal2376/snaptick">SnapTick</a></strong></li>
+<li><a href="https://www.any.do/">Any.do</a> - Sync Supported</li>
+<li><a href="https://doable.at/">doable</a> - Sync Supported / Extensions</li>
+<li><a href="https://www.orgzly.com">Orgzly-revived</a> - Sync Supported</li>
+<li><a href="https://organice.200ok.ch/">organice</a> - Sync Supported / Account Required</li>
+<li><a href="https://thatsmanmeet.github.io/tasky-web/">Tasky</a></li>
+<li><a href="https://github.com/igorescodro/alkaa">Alkaa</a></li>
+<li><a href="https://www.twosapp.com/">Twos</a></li>
+<li><a href="https://github.com/shub39/Grit">Grit</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.tarasovmobile.cc2">Chaos Control 2</a></li>
+<li><a href="https://everydaytasks.jepfa.de/">EverydayTasks</a></li>
+<li><a href="https://teuxdeux.com/">Teuxdeux</a></li>
+<li><a href="https://taskito.io/">Taskito</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="android-video-players">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#android-video-players">#</doc-anchor-trigger>
+        <span>Android Video Players</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.videolan.org/vlc/download-android.html">VLC</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/abdallahmehiz/mpvKt/">mpvKt</a></strong> -</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/moneytoo/Player">Just Player</a></strong></li>
+</ul>
+<p><a href="https://rentry.co/FMHYBase64#mx-player">MX Player</a> / <a href="https://github.com/USBhost/MX_FFmpeg">Codec</a>, <a href="https://github.com/mpv-android/mpv-android">mpv-android</a>, <a href="https://github.com/nova-video-player">Nova Video Player</a>, <a href="https://github.com/AndreyPavlenko/Fermata">Fermata Media Player</a>, <a href="https://splayer.dev/">SPlayer</a>, <a href="https://github.com/anilbeesetti/nextplayer">Next Player</a>, <a href="https://github.com/realOxy/M3UAndroid">M3UAndroid</a> / <a href="https://t.me/m3u_android">Telegram</a>, <a href="https://github.com/iZakirSheikh/Audiofy">Audiofy</a></p>
+<hr>
+<doc-anchor-target id="app--site-mockups">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#app--site-mockups">#</doc-anchor-trigger>
+        <span>App / Site Mockups</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://mockoops.mohitya.dev/">Mockoops</a> - Animated Mockups</li>
+<li><a href="https://reallygoodemails.com/">Really Good Emails</a> - Product Email Mobile Designs and Templates</li>
+<li><a href="https://screen.traction.one/">Screen from Traction</a> - Create App Screenshots</li>
+</ul>
+<p><a href="https://previewed.app/">Previewed</a>, <a href="https://www.mockupworld.co/">Mockup World</a>, <a href="https://deviceshots.com/">DeviceShots</a>, <a href="https://deviceframes.com/">DeviceFrames</a>, <a href="https://shots.so/">shots.so</a>, <a href="https://medialoot.com/free-mockups/">medialoot</a>, <a href="https://www.mockmagic.com/">MockMagic</a>, <a href="https://mockupsforfree.com/">MockupsForFree</a>, <a href="https://zippypixels.com/">zippypixels</a>, <a href="https://mockuphone.com/">Mockuphone</a>, <a href="https://themockup.club/">TheMockupClub</a>, <a href="https://www.riseshot.com/">RiseShot</a>, <a href="https://www.upmock.io/">Upmock</a>, <a href="https://www.ls.graphics/">LS Graphics</a>, <a href="https://www.picassoapp.ca/">Picasso</a>, <a href="https://www.minimalmockups.com/">minimalmockups</a>, <a href="https://mrmockup.com/free-mockups/">mrmockup</a>, <a href="https://mockupnest.com/">mockupnest</a></p>
+<hr>
+<doc-anchor-target id="avatar--logo-creators">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#avatar--logo-creators">#</doc-anchor-trigger>
+        <span>Avatar / Logo Creators</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://picrew.me/en/">Picrew</a></strong> - Avatar Creator</li>
+<li><a href="https://xsgames.co/pixelme/">PixelMe</a> or <a href="https://kenney.itch.io/avatar-mixer">Avatar Mixer</a> - 8bit Avatar Creators</li>
+<li><a href="https://www.bitmoji.com/">Bitmoji</a> - Full Body Avatar Creator</li>
+<li><a href="https://avatarmaker.com/">Avatar Maker</a>, <a href="https://getavataaars.com/">Avataaars</a> or <a href="https://personas.draftbit.com/">Personas</a> - Simple Avatar Creators</li>
+<li><a href="https://multiavatar.com/">MultiAvatar</a> - Generate Random Avatars</li>
+<li><a href="https://logomakr.com/">Logo Makr</a>, <a href="https://designevo.com/">DesignEvo</a> or <a href="https://www.onlinelogomaker.com/">OnlineLogoMaker</a> - Logo Creators</li>
+<li><a href="https://logofa.st/">Logo Fast</a>, <a href="https://logomvp.com/">LogoMVP</a> or <a href="https://logofreeway.com/logos.php">LogoFreeway</a> - Simple Logo Creators Based on Premade Icons</li>
+<li><a href="https://www.shopify.com/tools/logo-maker">hatchful</a> or <a href="https://www.namecheap.com/logo-maker/app/new/">LogoMaker</a> - Generate Logos Based on Project Name &amp; Style</li>
+</ul>
+<hr>
+<doc-anchor-target id="background-removers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#background-removers">#</doc-anchor-trigger>
+        <span>Background Removers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://huggingface.co/spaces/Xenova/remove-background-web">Remove Background Web</a></strong></li>
+</ul>
+<p><a href="https://www.remove.bg/">remove.bg</a>, <a href="https://github.com/manu12121999/RemoveBG-GIMP">RemoveBG-GIMP</a>, <a href="https://fyrean.itch.io/bgbye-background-remover">BGBye</a>, <a href="https://github.com/danielgatis/rembg">Rembg</a>, <a href="https://www.adobe.com/express/feature/image/remove-background">Adobe Express Background Remover</a>, <a href="https://github.com/kevmo314/magic-copy">magic-copy</a></p>
+<doc-anchor-target id="object-removers">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#object-removers">#</doc-anchor-trigger>
+        <span>Object Removers</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://objectremover.com/">ObjectRemover</a></strong></li>
+</ul>
+<p><a href="https://lama-cleaner-docs.vercel.app/">Lama Cleaner</a>, <a href="https://theinpaint.com/">Inpaint</a>, <a href="https://magicstudio.com/magiceraser">Magic Eraser</a>, <a href="https://remover.zmo.ai/">Remover</a>, <a href="https://github.com/Sanster/IOPaint">IOPaint</a>, <a href="https://cleanup.pictures/">Cleanup.pictures</a>, <a href="https://segment-anything.com/">Segment Anything</a>, <a href="https://github.com/dibrale/samist">Samist</a>, <a href="https://www.hama.app/">hama</a>, <a href="https://github.com/continue-revolution/sd-webui-segment-anything">sd-webui-segment-anything</a></p>
+<hr>
+<doc-anchor-target id="browser-ebook-readers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#browser-ebook-readers">#</doc-anchor-trigger>
+        <span>Browser eBook Readers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://webextension.org/listing/chrome-reader-view.html">Reader View</a></strong>, <a href="https://mybrowseraddon.com/reader-view.html">2</a></li>
+</ul>
+<p><a href="https://www.fviewer.com/">Online Cloud File Viewer</a>, <a href="https://www.loudreader.com/">Ebook Reader for web</a>, <a href="https://readwok.com/">Readwok</a>, <a href="https://www.ofoct.com/viewer/epub-reader-online.html">ePub Reader Online</a>, <a href="https://reader.ttsu.app/manage">Ebook Reader</a>, <a href="https://github.com/johnfactotum/foliate-js">epub.js</a>, <a href="https://www.minimalreader.xyz/">minimalreader</a></p>
+<hr>
+<doc-anchor-target id="browser-startpages">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#browser-startpages">#</doc-anchor-trigger>
+        <span>Browser Startpages</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://weboasis.app/">WebOasis</a></strong>, <a href="https://ndsamuelson.github.io/weboas-is/">2</a>, <a href="https://behu.io/">3</a> / <a href="https://pastebin.com/CczqreS4">Source Code</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.monknow.com/">MONKNOW</a></strong></li>
+</ul>
+<p><a href="https://www.8bitdash.com/">8bitdash</a>, <a href="https://8bitdashboard.com/">8 Bit Dashboard</a>, <a href="https://startpages.github.io/">Startpage Emporium</a>, <a href="https://github.com/jnmcfly/awesome-startpage">Awesome Startpage</a>, <a href="https://www.clippingmini.com/">Clippingmini</a>, <a href="https://draggo.com/">Draggo</a>, <a href="https://www.pearltrees.com/">Pearltrees</a>, <a href="https://apps.nextcloud.com/apps/bookmarks">Nextcloud</a>, <a href="https://cling.com/">Cling</a>, <a href="https://www.symbaloo.com/">Symbaloo</a>, <a href="https://tixio.io/">Tixio</a>, <a href="https://github.com/migueravila/Bento">Bento</a>, <a href="https://ez.lol/">ez.lol</a>, <a href="https://github.com/damnitharshit/nightly">nightly</a>, <a href="https://www.protopage.com/">Protopage</a>, <a href="https://github.com/xvvvyz/tilde">tilde</a>, <a href="https://prettycoffee.github.io/fluidity/">Fluidity</a> / <a href="https://github.com/PrettyCoffee/fluidity">GitHub</a>, <a href="https://allmyfaves.com/">AllMyFaves</a></p>
+<doc-anchor-target id="customizable-new-tab-page">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#customizable-new-tab-page">#</doc-anchor-trigger>
+        <span>Customizable New Tab Page</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.withaview.co/ext/">Tab with A view</a></strong> - Virtual Sights New Tab Page</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/sawyerpollard/MineWeather">MineWeather</a></strong> - Weather-Based Minecraft New Tab Page</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://anori.app/">Anori</a></strong> - Customizable New Tab</li>
+<li><a href="https://www.tabwave.app/">TabWave</a> - Minimal / Productivity New Tab</li>
+<li><a href="https://pastebin.com/tApHRJDv">Tabiverse</a> / <a href="https://discord.gg/MUgRGwE">Discord</a></li>
+</ul>
+<p><a href="https://github.com/deepjyoti30/startpage">Minimal Startpage</a>, <a href="https://github.com/zombieFox/hexagonTab">hexagonTab</a>, <a href="https://www.carettab.com/">CaretTab</a>, <a href="https://bonjourr.fr/">Bonjourr</a>, <a href="https://github.com/perfect-things/perfect-home">Perfect Home</a>, <a href="https://github.com/conceptualspace/yet-another-speed-dial">Yet Another Speed Dial</a>, <a href="https://tabliss.io/">Tabliss</a>, <a href="https://en.infinitynewtab.com/">Infinity New Tab</a>, <a href="https://d3ward.github.io/b2ntp/">b2ntp</a>, <a href="https://github.com/midnitefox/Nord-Theme-Ports-and-Assets/tree/main/custom-start-page">Terminal-style new tab page</a>, <a href="https://renewedtab.com/">Renewed Tab</a>, <a href="https://momentumdash.com/">Momentum</a>, <a href="https://github.com/zombieFox/nightTab">NightTab</a></p>
+<hr>
+<doc-anchor-target id="cli-cheat-sheets">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#cli-cheat-sheets">#</doc-anchor-trigger>
+        <span>CLI Cheat Sheets</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://linuxcommandlibrary.com/">Linux Command Library</a></strong></li>
+</ul>
+<p><a href="https://github.com/sheepla/awesome-for-oneliner">Awesome for One Liner</a>, <a href="https://github.com/you-dont-need/You-Dont-Need-GUI">You Don&#x27;t Need GUI</a>, <a href="https://helpmanual.io/">Helmanual</a>, <a href="https://www.commandlinefu.com/">CommandlineFU</a>, <a href="https://github.com/santinic/how2">how2</a>, <a href="https://guide.bash.academy/">Bash Academy</a>, <a href="https://ss64.com/bash/">ss64 Bash</a>, <a href="https://onceupon.github.io/Bash-Oneliner/">Bash Oneliner</a>, <a href="https://github.com/denisidoro/navi">navi</a></p>
+<hr>
+<doc-anchor-target id="coding-tutorials">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#coding-tutorials">#</doc-anchor-trigger>
+        <span>Coding Tutorials</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.geeksforgeeks.org/">GeeksforGeeks</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.w3schools.com/">W3Schools</a></strong> - <a href="https://github.com/Ja7ad/W3Schools">Offline Version</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://codecrafters.io">Build your own X</a> / <a href="https://github.com/codecrafters-io/build-your-own-x">GitHub</a></strong></li>
+</ul>
+<p><a href="https://riptutorial.com/">RIP Tutorial</a>, <a href="https://www.programiz.com/">Programiz</a>, <a href="https://pythontutor.com/">Python Tutor</a>, <a href="https://calmcode.io/">calmcode</a>, <a href="https://tuts4you.com/">Tuts 4 You</a>, <a href="https://codelabs.developers.google.com/">Codelabs</a>, <a href="https://ebookfoundation.github.io/free-programming-books/">Free Ebook Foundation</a>, <a href="https://www.nayuki.io/">Nayuki</a>, <a href="https://zetcode.com/">ZetCode</a>, <a href="http://xahlee.info/index.html">Xah Code</a>, <a href="https://hackr.io/">Hackr.io</a>, <a href="https://www.guru99.com/">Guru99</a>, <a href="https://coachingdaddy.com/">Use My Notes</a>, <a href="https://www.codebreakthrough.com/ultimate-programming-all-in-one-tutorials?coupon=LEARNFORFREE">Ultimate Programming All-in-One Tutorials</a>, <a href="https://github.com/practical-tutorials/project-based-learning">Project Based Learning</a>, <a href="https://www.javatpoint.com/">Javatpoint</a>, <a href="https://technosmarter.com/">Techno Smarter</a>, <a href="https://www.tutorialkart.com/">tutorialkart</a></p>
+<hr>
+<doc-anchor-target id="collaboration-platforms">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#collaboration-platforms">#</doc-anchor-trigger>
+        <span>Collaboration Platforms</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://doozy.live/">Doozy</a>, <a href="https://zulip.com/">Zulip</a>, <a href="https://lucidspark.com/">LucidSpark</a>, <a href="https://miro.com/">Miro</a>, <a href="https://mattermost.com/">Mattermost</a>, <a href="https://twake.app/">Twake</a>, <a href="https://asana.com/">Asana</a>, <a href="https://freedcamp.com/">Freedcamp</a>, <a href="https://www.lumeer.io/">Lumeer</a>, <a href="https://slab.com/">Slab</a>, <a href="https://www.focalboard.com/">Focalboard</a>, <a href="https://wekan.github.io/">WeKan</a>, <a href="https://kanboard.org/">Kanboard</a>, <a href="https://www.mural.co/">Mural</a>, <a href="https://www.dendron.so/">Dendron</a>, <a href="https://trello.com/">Trello</a>, <a href="https://planka.app/">Planka</a>, <a href="https://github.com/JordanKnott/taskcafe">Taskcafe</a>, <a href="https://room.sh/">Room</a>, <a href="https://www.atlassian.com/">Atlassian</a>, <a href="https://linear.app/">linear</a>, <a href="https://screenrec.com/">ScreenRec</a>, <a href="https://nino.app/">nino</a>, <a href="https://creately.com/">Creately</a></p>
+<hr>
+<doc-anchor-target id="command-line-shells">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#command-line-shells">#</doc-anchor-trigger>
+        <span>Command Line Shells</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.zsh.org/">zsh</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong>zsh Tools</strong> - <a href="https://github.com/unixorn/awesome-zsh-plugins">Plugins</a> / <a href="https://github.com/zsh-users/zsh-autosuggestions">Auto Suggest</a> / <a href="https://ohmyz.sh/">Customization</a> / <a href="https://github.com/romkatv/powerlevel10k">Theme</a> / <a href="https://github.com/gustavohellwig/gh-zsh">Auto Setup</a> / <a href="https://github.com/sorin-ionescu/prezto">Rich Framework</a> / <a href="https://github.com/zsh-users/zsh-syntax-highlighting">Syntax Highlighting</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.gnu.org/software/bash/">bash</a></strong> - Pre-Installed on Most Distros</li>
+</ul>
+<p><a href="https://fishshell.com/">fish</a>, <a href="https://elv.sh/">Elvish</a>, <a href="https://wryun.github.io/es-shell/">Es</a>, <a href="https://gitlab.redox-os.org/redox-os/ion">Ion</a>, <a href="https://xon.sh/">Xonsh</a>, <a href="https://www.nushell.sh/">Nushell</a></p>
+<hr>
+<doc-anchor-target id="covers--posters">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#covers--posters">#</doc-anchor-trigger>
+        <span>Covers / Posters</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://bendodson.com/projects/itunes-artwork-finder/">Ben Dodson</a></strong>, <a href="https://bendodson.com/projects/apple-tv-movies-artwork-finder/">2</a></li>
+<li><a href="https://bigboxcollection.com/">BigBoxCollection</a> - 3D Game Boxes</li>
+</ul>
+<p><a href="https://theposterdb.com/">The Poster Database</a>, <a href="https://www.covercentury.com/">Cover Century</a>, <a href="https://www.covrik.com/">covrik</a>, <a href="https://www.dvd-covers.org/">DVD Covers</a>, <a href="https://www.gamingalexandria.com/">Gaming Alexandria</a>, <a href="https://postercollector.co.uk/">The Poster Collector</a>, <a href="https://www.moviepostersgallery.com/">Movie Posters Gallery</a>, <a href="https://www.filmonpaper.com/blog/">Film on Paper</a>, <a href="https://www.gametdb.com/">GameTDB</a>, <a href="https://www.joblo.com/movie-posters/">JoBlo</a>, <a href="https://www.reddit.com/r/MoviePosterPorn/">/r/MoviePosterPorn</a>, <a href="http://www.impawards.com/">IMP Awards</a>, <a href="https://fanart.tv/">Fanart</a>, <a href="https://www.thecoverproject.net/">The Cover Project</a>, <a href="https://www.covercity.net/">covercity</a>, <a href="https://thumbnails.libretro.com/">libretro</a></p>
+<doc-anchor-target id="album-art">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#album-art">#</doc-anchor-trigger>
+        <span>Album Art</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://covers.musichoarders.xyz">Cover Search Engine</a></strong></li>
+</ul>
+<p><a href="https://sourceforge.net/projects/album-art/">Album Art Downloader</a>, <a href="https://github.com/sdushantha/kunst">kunst</a>, <a href="https://github.com/bunnykek/Apple-Music-Animated-Artwork-Fetcher">Apple-Music-Animated-Artwork-Fetcher</a>, <a href="https://www.classic-rock-covers.com/">Classic Rock Covers</a>, <a href="https://artwork.thekvt.eu.org/">Apple Artwork</a>, <a href="https://albumart.digital/">albumart.digital</a>, <a href="https://www.spotifycover.art/">spotifycover</a>, <a href="https://spotify-art.vercel.app/">2</a></p>
+<hr>
+<doc-anchor-target id="css-framework-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#css-framework-tools">#</doc-anchor-trigger>
+        <span>CSS Framework Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/troxler/awesome-css-frameworks">Awesome CSS Frameworks</a></strong> CSS Frameworks Index</li>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/dbohdan/classless-css">Classless CSS</a></strong> - Classless CSS Themes &amp; Frameworks</li>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/aniftyco/awesome-tailwindcss">Awesome TailwindCSS</a></strong> - Tailwind CSS Resources</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://tailwindcss.com/">Tailwind CSS</a></strong> - CSS Framework</li>
+<li><a href="https://tailwindtoolbox.com/">Tailwind Toolbox</a> - Tailwind Starter Templates &amp; Components</li>
+<li><a href="https://tailsc.com/">Tailsc</a>, <a href="https://daisyui.com/">daisyUI</a>, <a href="https://floatui.com/">Float UI</a> / <a href="https://github.com/MarsX-dev/floatui">GitHub</a>, <a href="https://ui.aceternity.com/">Aceternity UI</a> or <a href="https://tailspark.co/">Tailspark</a> - Tailwind CSS Components</li>
+<li><a href="https://tailblocks.cc/">TailBlocks</a> - Ready-to-use Tailwind CSS Blocks</li>
+<li><a href="https://terminalcss.xyz/">Terminal CSS</a> - Terminal-style CSS Framework</li>
+<li><a href="https://bulma.io/">Bulma</a> - CSS Framework</li>
+</ul>
+<hr>
+<doc-anchor-target id="data-visualization-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-visualization-tools">#</doc-anchor-trigger>
+        <span>Data Visualization Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://app.rawgraphs.io/">RAWGraphs</a></strong> - <a href="https://github.com/rawgraphs/rawgraphs-app">GitHub</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.drawio.com/">Draw</a></strong> - <a href="https://github.com/jgraph/drawio">GitHub</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://datavizcatalogue.com/">DataVizCatalogue</a></strong> - Data Visualization Wiki</li>
+<li><a href="https://flowchart.fun/">flowchart fun</a> - Generate Flowchart From Text / <a href="https://github.com/tone-row/flowchart-fun">GitHub</a></li>
+<li><a href="https://piechartmaker.co/">Pie Chart Maker</a> - Create Pie Charts</li>
+<li><a href="https://www.bargraphmaker.net/">Bar Graph Maker</a> - Create Bar Graphs</li>
+<li><a href="https://maltsev.github.io/vinnslu/">Vinnslu</a> - Tabular Data Parser</li>
+</ul>
+<p><a href="https://datagifmaker.withgoogle.com/">Data GIF Maker</a>, <a href="https://flourish.studio/">Flourish</a>, <a href="https://www.datawrapper.de/">Datawrapper</a>, <a href="https://www.chartd.co/">chartd</a>, <a href="https://timqian.com/chart.xkcd/">Chart.xkcd</a>, <a href="https://quickchart.io/">QuickChart</a>, <a href="https://percival.ink/">Percival</a>, <a href="https://live.amcharts.com/">amCharts</a>, <a href="https://acme.com/chartmaker/">ACME Chartmaker</a>, <a href="https://www.paraview.org/">ParaView</a>, <a href="http://dia-installer.de/">Dia</a>, <a href="https://www.yworks.com/yed-live/">yEd Live</a>, <a href="https://mermaid.live/">Mermaid</a>, <a href="https://linegraphmaker.co/">LineGraphMaker</a>, <a href="https://swimlanes.io/">SwimLanes</a>, <a href="https://q.uiver.app/">Quiver</a>, <a href="https://gephi.org/">Gephi</a>, <a href="https://graphviz.org/">Graphviz</a> / <a href="https://edotor.net/">Editor</a>, <a href="https://graphonline.ru/en/">graphonline</a>, <a href="https://diagramify.agiliq.com/">Diagramify</a>, <a href="https://charts.hohli.com/">Charts Builder</a>, <a href="https://www.eraser.io/diagramgpt">diagramgpt</a>, <a href="https://www.diagram.codes/">Diagram.codes</a>, <a href="https://text2diagram.com/">text2diagram</a></p>
+<hr>
+<doc-anchor-target id="design-resources">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#design-resources">#</doc-anchor-trigger>
+        <span>Design Resources</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://rentry.co/dt92f">Design Resources</a></strong></li>
+</ul>
+<p><a href="https://github.com/bradtraversy/design-resources-for-developers">design-resources-for-developers</a>, <a href="https://freebies.bypeople.com/">Freebies.ByPeople</a>, <a href="https://www.imcreator.com/free">IM Creator</a>, <a href="https://designbundles.net/free-design-resources">Design Bundles</a>, <a href="https://designresourc.es/">Design Resources</a>, <a href="https://psddd.co/">PSDDD.co</a>, <a href="https://www.graphicsfuel.com/">GraphicsFuel</a>, <a href="https://www.pixeden.com/">Pixeden</a>, <a href="https://sketchrepo.com/">Sketch Repo</a>, <a href="https://interfacer.xyz/">Interfacer</a>, <a href="https://freebiesbug.com/">Freebiesbug</a>, <a href="https://www.sketchappsources.com/">Sketch App Sources</a>, <a href="https://freebiesui.com/">FreebiesUI</a>, <a href="https://t.me/Envato_Download_Bot">Envato Elements Downloader</a>, <a href="https://www.creativefabrica.com/freebies/">Creative Fabrica</a>, <a href="https://www.toools.design/">Toools.design</a> / <a href="https://t.me/envatoss">2</a> / <a href="https://t.me/elements_downloader_bot">3</a>, <a href="https://www.evernote.design/">Evernote.Design</a>, <a href="https://www.gfxtra31.com/">GFXTRA</a>, <a href="https://xsgames.co/devassets/">XSGames</a>, <a href="https://design.dev/">design.dev</a>, <a href="https://www.uistore.design/">UI STORE DESIGN</a>, <a href="https://www.charco.design/">Charco</a>, <a href="https://craftwork.design/downloads/category/freebies/">Craftwork</a>, <a href="https://pixelbuddha.net/">Pixelbuddha</a>, <a href="https://t.me/squaxassets">squax</a>, <a href="https://t.me/designlabb">𝖌𝖗𝖕𝖍𝖈 𝖉𝖘𝖌𝖓 𝖇𝖆𝖈𝖐𝖚𝖕</a>, <a href="https://t.me/all4designer">all 4 designer</a>, <a href="https://discord.gg/bMmqQdXAhp">Kropes Leaking Server</a>, <a href="https://gift4designer.net/">Gift4Designer</a>, <a href="https://gfxmountain.com/">GFXMountain</a>, <a href="https://buckets-of-bookmarks.daniebeler.com/">Buckets Of Bookmarks</a>, <a href="https://www.degreeless.design/">degreeless</a></p>
+<hr>
+<doc-anchor-target id="digital-art-collections">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#digital-art-collections">#</doc-anchor-trigger>
+        <span>Digital Art Collections</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://vads.ac.uk/digital/">vads</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://artsandculture.google.com/">Arts and Culture</a></strong></li>
+</ul>
+<p><a href="https://index-of.eu/Paintings/">Painting Index</a>, <a href="https://www.rijksmuseum.nl/en/rijksstudio">rijksstudio</a>, <a href="https://www.haltadefinizione.com/en/">Haltadefinizione</a>, <a href="http://www.artcyclopedia.com/">Artcyclopedia</a>, <a href="https://wolfmanmuseum.org/">The Wolfman Museum of Art</a>, <a href="https://darkclassics.blogspot.com/">DarkClassics</a>, <a href="https://photos.app.goo.gl/q5GRdpSvARAqhbSh6">European Art</a>, <a href="https://www.watercolourworld.org/">The Watercolour World</a>, <a href="https://museo.app/">Museo</a>, <a href="https://arthur.io/">Arthur</a>, <a href="https://www.wga.hu/">WGA</a>, <a href="https://gallerix.org/">Gallerix</a>, <a href="https://www.wikiart.org/">WikiArt</a>, <a href="https://public.work/">Public Work</a></p>
+<hr>
+<doc-anchor-target id="dns-filters">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dns-filters">#</doc-anchor-trigger>
+        <span>DNS Filters</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://oisd.nl/">OISD</a></strong></li>
+</ul>
+<p><a href="https://github.com/hectorm/hblock">hBlock</a>, <a href="https://someonewhocares.org/hosts/">someonewhocares</a>, <a href="https://winhelp2002.mvps.org/hosts.htm">MVPS HOSTS</a>, <a href="https://github.com/StevenBlack/hosts">Hosts File Aggregator</a>, <a href="https://www.spamhaus.org/">Spamhaus</a>, <a href="https://github.com/anudeepND/blacklist">Anudeep&#x27;s Blacklist</a>, <a href="https://www.github.developerdan.com/hosts/">Lightswitch05</a>, <a href="https://github.com/T145/black-mirror">black-mirror</a>, <a href="https://github.com/durablenapkin/scamblocklist">Scam Blocklist</a>, <a href="https://hblock.molinero.dev/">hBlock</a>, <a href="https://github.com/DRSDavidSoft/additional-hosts">Additional Undesired Hosts</a>, <a href="https://github.com/neodevpro/neodevhost">neodevhost</a>, <a href="https://github.com/piperun/iploggerfilter">Piperun&#x27;s IP-Logger Filter</a>, <a href="https://jerryn70.github.io/GoodbyeAds/">GoodbyeAds</a>, <a href="https://github.com/mullvad/dns-blocklists">mullvad blocklists</a>, <a href="https://o0.pages.dev/">1Hosts</a></p>
+<hr>
+<doc-anchor-target id="domain-availability">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#domain-availability">#</doc-anchor-trigger>
+        <span>Domain Availability</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://brandsnap.ai/">BrandSnap</a>, <a href="https://atlaq.com/">atlaq</a>, <a href="https://namy.ai/">namy.ai</a>, <a href="https://pyfunceble.github.io/#/">Pyfunceble</a>, <a href="https://www.realtime.at/">realtime.at</a>, <a href="https://host.io/">Host.io</a>, <a href="https://www.whois.com/">Whois.com</a>, <a href="https://instantdomainsearch.com/">instantdomainsearch</a>, <a href="https://iwantmyname.com/">IWantMyName</a>, <a href="https://domain.garden/">domaingarden</a>, <a href="https://www.expireddomains.net/">expireddomains</a>, <a href="https://domainr.com/">Domainr</a></p>
+<hr>
+<doc-anchor-target id="dos-games">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dos-games">#</doc-anchor-trigger>
+        <span>DOS Games</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://www.dosgamesarchive.com/">DOS Games Archive</a>, <a href="https://www.dosbox.com/">DOSBox</a>, <a href="https://www.doshaven.eu/">DOS HAVEN</a>, <a href="https://archive.org/details/softwarelibrary_msdos">The Software Library</a>, <a href="https://www.bestoldgames.net/">Best Old Games</a>, <a href="https://dosgames.com/">DOSGames</a>, <a href="https://www.playdosgames.com/">PlayDOSGames</a>, <a href="https://www.classicdosgames.com/">RGB Classic Games</a>, <a href="https://www.abandonwaredos.com/">Abandonware DOS</a>, <a href="https://dos.zczc.cz/">Online DOS games</a>, <a href="https://classicdosgames.com/">Classic Games</a>, <a href="https://weplaydos.games/">DOS games in browser</a></p>
+<hr>
+<doc-anchor-target id="encrypted-android-messengers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#encrypted-android-messengers">#</doc-anchor-trigger>
+        <span>Encrypted Android Messengers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://signal.org/#signal">Signal</a></strong> or <a href="https://github.com/mollyim/mollyim-android">Mollyim</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://briarproject.org/">Briar</a></strong></li>
+</ul>
+<p><a href="https://status.im/">Status</a>, <a href="https://play.google.com/store/apps/details?id=cm.confide.android">Confide</a>, <a href="https://ballinger.io/apps/chatsecure/">ChatSecure</a>, <a href="https://snikket.org/">Snikket</a>, <a href="https://retroshare.cc/">RetroShare</a>, <a href="https://bip.com/en/">BiP</a>, <a href="https://olvid.io/en/">Olvid</a>, <a href="https://berty.tech/">Berty</a>, <a href="https://www.openkeychain.org/">OpenKeychain</a>, <a href="https://newnode.com/">NewNode</a>, <a href="https://www.kontalk.org/">Kontalk</a>, <a href="https://wire.com/en/download/">Wire</a>, <a href="https://github.com/balzack/databag">Databag</a></p>
+<p><strong>Video / Text</strong></p>
+<p><a href="https://jami.net/">Jami</a>, <a href="https://syphon.org/">Syphon</a>, <a href="https://play.google.com/store/apps/details?id=com.mesibo.mesiboapplication">Mesibo</a>, <a href="https://github.com/ouchadam/small-talk">SmallTalk</a>, <a href="https://schildi.chat/android/">Element</a> / <a href="https://play.google.com/store/apps/details?id=im.vector.app">2</a></p>
+<hr>
+<doc-anchor-target id="encrypted-messengers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#encrypted-messengers">#</doc-anchor-trigger>
+        <span>Encrypted Messengers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://matrix.org/">Matrix</a></strong>, <a href="https://cinny.in/">Cinny</a>, <a href="https://schildi.chat/">SchildiChat</a>, <a href="https://fluffychat.im">Fluffy</a> or <a href="https://www.dittochat.org/">Ditto</a> - Matrix Client / <a href="https://github.com/matrix-org/mjolnir">Mod Tools</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://signal.org/">Signal</a></strong></li>
+</ul>
+<p><a href="https://wiki.bitmessage.org/Main_Page">Bitmessage</a>, <a href="https://speek.network/">Speek</a>, <a href="https://retroshare.cc/">Retroshare</a>, <a href="https://otr.cypherpunks.ca/">Off-the-Record Messaging</a>, <a href="https://getsession.org/">Session</a>, <a href="https://www.demonsaw.com/">Demonsaw</a>, <a href="https://enigma-reloaded.github.io/enigma-reloaded">Enigma</a>, <a href="https://mx-moment.xyz/">mx moment</a>, <a href="https://keybase.io/">Keybase</a>, <a href="https://cwtch.im/">Cwtch</a>, <a href="https://bip.com/en/">BiP</a>, <a href="https://simplex.chat/">SimpleX</a>, <a href="https://emberclear.io/">emberclear</a>, <a href="https://commune.chat/">Commune</a>, <a href="https://mesh.im/">Mesh</a>, <a href="https://coy.im/">CoyIM</a>, <a href="https://www.ricochetrefresh.net/">RicochetRefresh</a></p>
+<doc-anchor-target id="matrix-home-servers">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#matrix-home-servers">#</doc-anchor-trigger>
+        <span>Matrix Home Servers</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://tatsumoto-ren.github.io/blog/list-of-matrix-servers.html">List of Matrix servers</a></strong>, <a href="https://tatsumoto.neocities.org/blog/list-of-matrix-servers.html">2</a></li>
+</ul>
+<p><a href="https://gitlab.com/famedly/conduit">Conduit</a>, <a href="https://joinmatrix.org/servers/">Public Matrix Homeservers</a>, <a href="https://archive.md/4xZE4">Public Matrix Homeservers Archive</a>, <a href="https://wiki.asra.gr/en:public_servers">Public Servers</a></p>
+<hr>
+<doc-anchor-target id="encrypted-xmpp-servers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#encrypted-xmpp-servers">#</doc-anchor-trigger>
+        <span>Encrypted XMPP Servers</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://xmpp.404.city/">Server List</a>, <a href="https://www.hot-chilli.eu/jabber/">Hot Chilli</a>, <a href="https://xmpp.jp/">XMPP.jp</a> / <a href="https://xmpp.is/">xmpp.is</a>, <a href="https://dismail.de/">dismail</a>, <a href="https://blah.im/">blah</a>, <a href="https://404.city/">404.city</a></p>
+<hr>
+<doc-anchor-target id="encyclopedias">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#encyclopedias">#</doc-anchor-trigger>
+        <span>Encyclopedias</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.wikipedia.org/">Wikipedia</a></strong> - Encyclopedia / <a href="https://en.wikipedia.org/wiki/Wikipedia:Contents/Lists">Content List</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong>Wikipedia Frontends</strong> - <a href="https://www.wikiwand.com/">WikiWand</a> or <a href="https://www.modernwiki.app/">ModernWiki</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.wolframalpha.com/">Wolfram Alpha</a></strong> - Searchable Knowledgebase / <a href="https://wolfreealpha.gitlab.io">API Access</a></li>
+<li><a href="https://encycloreader.org/">EncycloReader</a> - Encyclopedia Search</li>
+<li><a href="https://www.omniglot.com/index.htm">Omniglot</a> - Writing Systems &amp; Languages Encyclopedia</li>
+<li><a href="https://github.com/archivy/archivy/">Archivy</a> - Self-Hosted Wiki</li>
+</ul>
+<p><a href="https://www.britannica.com/">Britannica</a>, <a href="https://en.everybodywiki.com/">EverybodyWiki</a>, <a href="https://www.encyclopedia.com/">Encyclopedia</a>, <a href="https://www.newworldencyclopedia.org/">NewWorldEncyclopedia</a>, <a href="https://citizendium.org/">Citizendium</a>, <a href="https://wikitia.com/">Wikitia</a>, <a href="https://conze.pt/">Conze.pt</a>, <a href="https://www.infoplease.com/">InfoPlease</a>, <a href="https://www.refdesk.com/factency.html">Refdesk</a></p>
+<doc-anchor-target id="wikipedia-tools">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#wikipedia-tools">#</doc-anchor-trigger>
+        <span>Wikipedia Tools</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://top.hatnote.com/">Top Pages</a> / <a href="https://deletionpedia.org/en/Main_Page">Deleted Pages</a> / <a href="https://hyperleap.com/">Page Connections</a> / <a href="https://en.wikipedia.org/wiki/Wikipedia:Dark_mode">Dark Mode</a> / <a href="https://github.com/yashsinghcodes/wik">TUI</a> / <a href="http://cdpedia.python.org.ar/index.en.es.html">Offline View</a> / <a href="https://github.com/attardi/wikiextractor">Extract Text</a> / <a href="https://substance.reorx.com/">Extract Markdown</a> / <a href="https://meta.wikimedia.org/wiki/Special:UrlShortener">Shorten URLs</a> / <a href="https://wikinearby.toolforge.org/">Location Search</a></p>
+<hr>
+<doc-anchor-target id="fun-indexes">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fun-indexes">#</doc-anchor-trigger>
+        <span>Fun Indexes</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://neal.fun/">Neal.fun</a></strong></li>
+</ul>
+<p><a href="https://oimo.io/works">Oimo</a>, <a href="https://aidn.jp/">AIDN</a>, <a href="https://codepen.io/neave">Neave</a> / <a href="https://neave.com/">2</a>, <a href="https://boredhumans.com/">BoredHumans</a>, <a href="https://sandwichpuissant.net/">puissant</a>, <a href="https://mrdoob.com/">Mr.doob</a>, <a href="https://in.bimble.space/toys">Bimble Space</a>, <a href="https://creativetechguy.com/">Creative Tech Guy</a>, <a href="https://justforfun.io/">Just For Fun</a>, <a href="https://andrewmarsh.com/software">Andrew Marsh</a>, <a href="https://jenniferdewalt.com/">JenniferDewalt</a>, <a href="https://experiments.withgoogle.com/collection/chrome">Chrome Experiments</a>, <a href="https://yezi.itch.io/">yezi</a>, <a href="https://topster.net/">topster</a>, <a href="https://experiments.p5aholic.me/">p5aholic</a>, <a href="https://vole.wtf/">vole.wtf</a>, <a href="https://williamhoza.com/misc/">WilliamHoza</a>, <a href="http://www.rinkworks.com/">Rinkworks</a>, <a href="https://orteil.dashnet.org/">Orteil</a>, <a href="https://funwebsite.fun/">funwebsite</a>, <a href="https://toms.toys/">Toms.Toys</a>, <a href="https://www.pointlesssites.com/">Pointless Sites</a>, <a href="https://scientific.place/">The Scientific Place</a>, <a href="https://lab.aizastudio.com/">Aiza Lab</a></p>
+<hr>
+<doc-anchor-target id="free-dns-servers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#free-dns-servers">#</doc-anchor-trigger>
+        <span>Free DNS Servers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://quad9.net/">Quad9</a></strong> - Malware, Phishing, Spyware &amp; Botnet DNS Protection</li>
+<li><a href="https://pastebin.com/vTxFat5r">NextDNS</a></li>
+<li><a href="https://bancuh.com/">Bancuh</a> / <a href="https://github.com/ragibkl/adblock-dns-server">GitHub</a></li>
+<li><a href="https://developers.cloudflare.com/1.1.1.1/ip-addresses/">https://developers.cloudflare.com/1.1.1.1/ip-addresses/</a></li>
+<li><a href="https://adguard-dns.io/en/public-dns.html">https://adguard-dns.io/en/public-dns.html</a></li>
+<li><a href="https://mullvad.net/en/help/dns-over-https-and-dns-over-tls">https://mullvad.net/en/help/dns-over-https-and-dns-over-tls</a></li>
+<li><a href="https://dnsforfamily.com/">https://dnsforfamily.com/</a></li>
+<li><a href="https://www.publicdns.xyz/">https://www.publicdns.xyz/</a></li>
+<li><a href="https://gernot-walzl.at/Miscellaneous/wikileaks_alternative_dns.html">https://gernot-walzl.at/Miscellaneous/wikileaks_alternative_dns.html</a></li>
+<li><a href="https://wikileaks.org/wiki/Alternative_DNS">https://wikileaks.org/wiki/Alternative_DNS</a></li>
+<li><a href="https://www.cloudns.net/">https://www.cloudns.net/</a></li>
+<li><a href="https://dns.he.net/">https://dns.he.net/</a></li>
+<li><a href="https://www.dnspod.com/">https://www.dnspod.com/</a></li>
+<li><a href="https://acavalin.com/p/free_dns">https://acavalin.com/p/free_dns</a></li>
+<li><a href="https://www.luadns.com/">https://www.luadns.com/</a></li>
+<li><a href="https://www.dns0.eu/">https://www.dns0.eu/</a></li>
+<li><a href="https://dynu.com/">https://dynu.com/</a></li>
+<li><a href="https://blog.uncensoreddns.org/dns-servers/">https://blog.uncensoreddns.org/dns-servers/</a></li>
+<li><a href="https://publicdnsserver.com/">https://publicdnsserver.com/</a></li>
+<li><a href="https://1984.is/product/freedns/">https://1984.is/product/freedns/</a></li>
+<li><a href="https://www.namecheap.com/domains/freedns/">https://www.namecheap.com/domains/freedns/</a></li>
+<li><a href="https://zilore.com/en/dns">https://zilore.com/en/dns</a></li>
+<li><a href="https://docs.glauca.digital/hexdns/">https://docs.glauca.digital/hexdns/</a></li>
+<li><a href="https://www.zoneedit.com/free-dns/">https://www.zoneedit.com/free-dns/</a></li>
+<li><a href="https://www.dnsabr.com/">https://www.dnsabr.com/</a></li>
+<li><a href="https://dns.sb/">https://dns.sb/</a></li>
+<li><a href="https://www.bestdns.org/">https://www.bestdns.org/</a></li>
+<li><a href="https://public-dns.info/">https://public-dns.info/</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="free-vpn-configs">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#free-vpn-configs">#</doc-anchor-trigger>
+        <span>Free VPN Configs</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://www.racevpn.com/">https://www.racevpn.com/</a></li>
+<li><a href="https://www.greenssh.com/">https://www.greenssh.com/</a></li>
+<li><a href="https://cyberssh.com/vpn/config">https://cyberssh.com/vpn/config</a></li>
+<li><a href="https://vpn.fail/">https://vpn.fail/</a></li>
+<li><a href="https://www.vpnjantit.com/">https://www.vpnjantit.com/</a></li>
+<li><a href="https://pisovpn.com">https://pisovpn.com</a></li>
+<li><a href="https://www.lionssh.com/">https://www.lionssh.com/</a></li>
+<li><a href="https://www.sshocean.com/">https://www.sshocean.com/</a></li>
+<li><a href="https://www.freevpn.us/">https://www.freevpn.us/</a></li>
+<li><a href="https://www.sshocean.net/">https://www.sshocean.net/</a></li>
+<li><a href="https://www.cloudssh.us/">https://www.cloudssh.us/</a></li>
+<li><a href="https://starssh.com/">https://starssh.com/</a></li>
+<li><a href="https://www.goodssh.com/">https://www.goodssh.com/</a></li>
+<li><a href="https://sshkit.com/">https://sshkit.com/</a></li>
+<li><a href="https://www.jagoanssh.com/">https://www.jagoanssh.com/</a></li>
+<li><a href="https://dewassh.net/">https://dewassh.net/</a></li>
+<li><a href="https://www.speedssh.com/">https://www.speedssh.com/</a></li>
+<li><a href="https://www.fastssh.com/">https://www.fastssh.com/</a></li>
+<li><a href="https://www.mytunneling.com/">https://www.mytunneling.com/</a></li>
+<li><a href="https://createssh.net/">https://createssh.net/</a></li>
+<li><a href="https://opentunnel.net/">https://opentunnel.net/</a></li>
+<li><a href="https://howdy.id/">https://howdy.id/</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="free-webhosting-sites">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#free-webhosting-sites">#</doc-anchor-trigger>
+        <span>Free Webhosting Sites</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://pages.cloudflare.com/">pages.cloudflare</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://pages.github.com/">GitHub Pages</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://surge.sh/">surge</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://firebase.google.com/products/hosting">firebase</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://infinityfree.com/">infinityfree</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://workers.cloudflare.com/">workers.dev</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://vercel.com/">vercel</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.netlify.com/">netlify</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://srht.site/">sourcehut pages</a></strong></li>
+</ul>
+<p><a href="https://codeberg.page/">codeberg</a>, <a href="https://www.redhat.com/en/technologies/cloud-computing/openshift">openshift</a>, <a href="https://www.cloudaccess.net/">cloudaccess</a>, <a href="https://docs.gitlab.com/ee/user/project/pages/index.html">Gitlab Pages</a>, <a href="https://glitch.com/">glitch</a>, <a href="https://www.biz.nf/">biz.nf</a>, <a href="https://coolify.io/">coolify</a>, <a href="https://www.wix.com/">wix</a>, <a href="https://byet.host/free-hosting">byet.host</a>, <a href="https://www.yola.com/">yola</a>, <a href="https://wordpress.com/">WordPress</a> / <a href="https://wordpress.org/">2</a>, <a href="https://www.jimdo.com/">jimdo</a>, <a href="https://www.awardspace.com/">awardspace</a>, <a href="https://www.pythonanywhere.com/">pythonanywhere</a>, <a href="https://droppages.com/">droppages</a>, <a href="https://cheapskatesguide.org/articles/zeronet-site.html">Zeronet</a>, <a href="https://zeronet.io/docs/site_development/getting_started/">Zeronet 2</a>, <a href="https://www.ibm.com/cloud/free">ibm cloud</a>, <a href="https://www.site123.com/">site123</a>, <a href="https://hostbreak.com/web-hosting/free">hostbreak</a>, <a href="https://tilda.cc/">tilda</a>, <a href="https://support.atlassian.com/bitbucket-cloud/docs/publishing-a-website-on-bitbucket-cloud/">BitBucket</a>, <a href="https://render.com/">render</a>, <a href="https://fleek.co/">Fleek</a>, <a href="https://www.stormkit.io/">stormkit</a>, <a href="https://freehosting.host/">freehosting</a>, <a href="https://www.freewebhostingarea.com/">freewebhostingarea</a>, <a href="https://milkshake.app/">milkshake</a>, <a href="https://www.ikoula.com/">ikoula</a>, <a href="http://www.fanspace.com/">fanspace</a>, <a href="https://dotera.net/">dotera</a>, <a href="https://web.fc2.com/en/">fc2</a>, <a href="https://www.w3schools.com/spaces/">w3schools</a>, <a href="https://www.freehostia.com/">freehostia</a>, <a href="https://www.olitt.com/">olitt</a>, <a href="https://www.uhostfull.com/">uhostfull</a>, <a href="https://x10hosting.com/">x10hosting</a>, <a href="https://lenyxo.com/freehosting/">lenyxo</a>, <a href="https://yunohost.org/">yunohost</a>, <a href="https://www.bravenet.com/">bravenet</a>, <a href="https://www.atspace.com/">atspace</a>, <a href="https://aava.dy.fi/">aava</a>, <a href="https://netlib.re/">netlib</a>, <a href="https://www.unison.cloud/">unison</a>, <a href="https://serv00.com/">Serv00</a> / <a href="https://www.serv00.com/offer">Offers</a>, <a href="https://web1.0hosting.net/">0hosting</a></p>
+<hr>
+<doc-anchor-target id="game-assets">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#game-assets">#</doc-anchor-trigger>
+        <span>Game Assets</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://www.kenney.nl/">Kenney</a> - Free Game Assets</li>
+<li><a href="https://devassets.com/">Dev Assets</a> - Free Game Assets</li>
+<li><a href="https://www.gameuidatabase.com/">Game UI Database</a> - Game UI Database</li>
+<li><a href="https://game-icons.net/">Game-icons</a> - Game Icons</li>
+<li><a href="https://www.reddit.com/r/gameassets/">r/GameAssets</a> - Reddit Community</li>
+<li><a href="https://unityassets4free.com/">UnityAssets4Free</a> - Free Paid Unity Assets</li>
+<li><a href="https://github.com/AssetRipper/AssetRipper">AssetRipper</a> / <a href="https://discord.gg/XqXa53W2Yh">Discord</a> or <a href="https://github.com/zhangjiequan/AssetStudio">AssetStudio</a> - Extract Assets from Unity Files</li>
+<li><a href="https://craftpix.net/freebies/">CraftPix</a> - 2D Game Assets</li>
+<li><a href="https://github.com/xonotic">xonotic</a> or <a href="https://github.com/Warsow">Warsow</a> - FPS Game Assets</li>
+<li><a href="https://www.gamedevmarket.net/">GameDev Market</a> - Assets for Indie Developers</li>
+<li><a href="https://opengameart.org/">OpenGameArt.org</a> - Game Art Community</li>
+<li><a href="https://www.unityfreaks.com/">UnityFreaks</a> or <a href="https://t.me/GameDevUE">GameDevUE</a> - Unity &amp; Unreal Engine Assets</li>
+<li><a href="https://www.steamgriddb.com/">SteamGridDB</a> - Custom Video Game Assets</li>
+</ul>
+<hr>
+<doc-anchor-target id="game-engines">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#game-engines">#</doc-anchor-trigger>
+        <span>Game Engines</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="2d-game-engines">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#2d-game-engines">#</doc-anchor-trigger>
+        <span>2D Game Engines</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><a href="https://github.com/TorqueGameEngines/Torque2D">Torque2D</a> / <a href="https://discord.com/invite/qdAZxT4">Discord</a></li>
+<li><a href="https://gamua.com/starling/">starling</a> / <a href="https://github.com/Gamua/Starling-Framework">GitHub</a></li>
+<li><a href="https://love2d.org/">LÖVE</a> / <a href="https://github.com/love2d-community/awesome-love2d">Resources</a></li>
+<li><a href="https://www.gbstudio.dev/">GB Studio</a> / <a href="https://github.com/chrismaltby/gb-studio">GitHub</a> / <a href="https://www.reddit.com/r/gbstudio">Subreddit</a> / <a href="https://discord.com/invite/bxerKnc">Discord</a></li>
+<li><a href="https://gamemaker.io/">GameMaker</a> / <a href="https://github.com/bytecauldron/awesome-gamemaker">Resources</a> / <a href="https://yellowafterlife.github.io/GMEdit/">Online</a></li>
+<li><a href="https://github.com/boardgameio/boardgame.io">boardgame.io)</a>, <a href="https://vassalengine.org/">Vassal</a> or <a href="https://www.boardzilla.io/">Boardzilla</a> - Board Game Engines</li>
+<li><a href="https://jonathan-cauldwell.itch.io/arcade-game-designer">Arcade Game Designer</a> / <a href="https://jonathan-cauldwell.itch.io/multi-platform-arcade-game-designer">Multi-platform</a></li>
+<li><a href="https://scratch.mit.edu/">Scratch</a> / <a href="https://scratch-wiki.info/">Wiki</a> / <a href="https://scratchaddons.com/">Addons</a></li>
+<li>Scratch Forks - <a href="https://turbowarp.org/">Turbowarp</a>, <a href="https://penguinmod.com/">Penguin Mod</a>, <a href="https://www.snail-ide.com/">Snail IDE</a>, <a href="https://getgandi.com/">Gandi IDE</a> or <a href="https://www.adacraft.org/">Adacraft</a></li>
+<li><a href="https://haxeflixel.com/">HaxeFlixel</a></li>
+<li><a href="https://flame-engine.org/">Flame</a></li>
+<li><a href="https://pixwlk.itch.io/pixelbox">Pixelbox</a></li>
+<li><a href="https://charliezip.itch.io/pq93">PQ93</a></li>
+<li><a href="https://github.com/kitao/pyxel">Pyxel</a></li>
+<li><a href="https://make.bitsy.org/">Bitsy</a></li>
+<li><a href="https://script-8.github.io/">Script 8</a></li>
+<li><a href="https://tic80.com/">Tic80</a></li>
+<li><a href="https://www.byond.com/">Byond</a></li>
+</ul>
+<doc-anchor-target id="3d-game-engines">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#3d-game-engines">#</doc-anchor-trigger>
+        <span>3D Game Engines</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.unrealengine.com/">Unreal Engine</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong>Unreal Engine Tools</strong> - <a href="https://framedsc.com/GeneralGuides/universal_ue4_consoleunlocker.htm">Unlocker</a> / <a href="https://quixel.com/megascans">Megascans</a> / <a href="https://www.gildor.org/en/projects/umodel">Model Viewer</a> / <a href="https://www.nexusmods.com/site/mods/587">UPK Explorer</a>, <a href="https://www.pcgamingwiki.com/wiki/UPK_Explorer">Wiki</a>, <a href="https://discord.gg/9KPvQ4H">Discord</a></li>
+<li><a href="https://springrts.com/">Spring RTS</a> - 3D RTS Game Engine</li>
+<li><a href="https://fmodel.app/">Archives Explorer</a></li>
+<li><a href="https://unidaystudio.itch.io/cave-engine">Cave Engine</a></li>
+<li><a href="https://www.panda3d.org/">Panda3D</a></li>
+<li><a href="https://github.com/OpenXRay">OpenXRay</a> / <a href="https://discord.com/invite/sjRMQwv">Discord</a></li>
+<li><a href="https://www.cryengine.com/">cryengine</a> / <a href="https://discord.com/invite/cryengine">Discord</a></li>
+<li><a href="https://armory3d.org/">armory3d</a> / <a href="https://github.com/armory3d/armory">GitHub</a></li>
+<li><a href="https://torque3d.org/">torque3d</a> / <a href="https://github.com/TorqueGameEngines/Torque3D">GitHub</a> / <a href="https://discord.com/invite/qdAZxT4">Discord</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="gdrive-file-sharing">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#gdrive-file-sharing">#</doc-anchor-trigger>
+        <span>GDrive File Sharing</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://sharer.pw/">https://sharer.pw/</a></li>
+<li><a href="https://yushare.my.id/">https://yushare.my.id/</a></li>
+<li><a href="https://new3.gdtot.dad/">https://new3.gdtot.dad/</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="geometry-dash-demon-lists">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#geometry-dash-demon-lists">#</doc-anchor-trigger>
+        <span>Geometry Dash Demon Lists</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://pointercrate.com/demonlist/">Pointercrate</a></strong> - Original Demon List / <a href="https://pointercrate.com/demonlist/statsviewer/">Stats Viewer</a></li>
+<li><a href="https://challengelist.gd/challenges/">Challenge List</a> - Challenge Level List</li>
+<li><a href="https://aredl.net/">AREDL</a> - All Rated Extreme Demons List</li>
+<li><a href="https://udl.pages.dev/">UDL</a> - Unrated Demons List</li>
+<li><a href="https://insanedemonlist.com/">IDL</a> - Insane Demon List</li>
+<li><a href="https://gdmobilewrlist.com/main">MobileWRList</a> - Mobile World Records List</li>
+<li><a href="https://mobilepointercrate.com/">HRR Mobile List</a> - High Refresh Rate Mobile List</li>
+<li><a href="https://docs.google.com/document/d/1byBf60vW_Tq7TjQPyniBxQ1Iw9CtSURJU4_Cl1IziqY/edit">Impossible Levels List</a></li>
+<li><a href="https://sites.google.com/view/nine-circles-demonlist/home">Nine Circles Demonlist</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="git-projects">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#git-projects">#</doc-anchor-trigger>
+        <span>Git Projects</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://evanli.github.io/Github-Ranking/">GitHub Rankings</a> - Git Project Rankings</li>
+<li><a href="https://techgaun.github.io/active-forks/">Active GitHub Forks</a> - List of Active GitHub Forks</li>
+<li><a href="https://github.com/musically-ut/lovely-forks">Lovely Forks</a> - View Repository Forks</li>
+</ul>
+<p><a href="https://www.gitlogs.com/">git:logs</a>, <a href="https://github.com/felipefialho/awesome-made-by-brazilians">Awesome Made by Brazilians</a>, <a href="https://github.com/unicodeveloper/awesome-opensource-apps">Awesome Opensource Apps</a>, <a href="https://hot.opensauced.pizza/">opensauced</a>, <a href="https://www.libhunt.com/">LibHunt</a>, <a href="https://bestofjs.org/">bestofjs</a></p>
+<hr>
+<doc-anchor-target id="google-piracy-discussion-groups">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#google-piracy-discussion-groups">#</doc-anchor-trigger>
+        <span>Google Piracy Discussion Groups</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://techy-transistor.notion.site/Team-drives-ab7ebffc1e5040b5b5362e9d70fca4d5">https://techy-transistor.notion.site/Team-drives-ab7ebffc1e5040b5b5362e9d70fca4d5</a></li>
+<li><a href="https://groups.google.com/forum/#!forum/sammytorrents">https://groups.google.com/forum/#!forum/sammytorrents</a></li>
+<li><a href="https://groups.google.com/g/team-drive99">https://groups.google.com/g/team-drive99</a></li>
+<li><a href="https://groups.google.com/g/rdrivelinks">https://groups.google.com/g/rdrivelinks</a></li>
+<li><a href="https://groups.google.com/g/torrentleech-gdrive">https://groups.google.com/g/torrentleech-gdrive</a></li>
+<li><a href="https://groups.google.com/g/monarch-cloud">https://groups.google.com/g/monarch-cloud</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="image-download-extensions">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#image-download-extensions">#</doc-anchor-trigger>
+        <span>Image Download Extensions</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://webextension.org/listing/save-images.html">Download all Images</a>, <a href="https://github.com/Dezaimasu/cute-button">Cute Save Button</a>, <a href="https://chromewebstore.google.com/detail/downalbum/cgjnhhjpfcdhbhlcmmjppicjmgfkppoken">DownAlbum</a>, <a href="https://github.com/belaviyo/save-images/">Save Images</a>, <a href="https://svgexport.io/">svgexport</a>, <a href="https://chromewebstore.google.com/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg">svg-grabber</a>, <a href="https://github.com/rossmoody/svg-gobbler">SVG Gobbler</a>, <a href="https://github.com/eight04/image-picka">Image Picka</a></p>
+<hr>
+<doc-anchor-target id="image-compressors">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#image-compressors">#</doc-anchor-trigger>
+        <span>Image Compressors</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://squoosh.app/">Squoosh</a></strong></li>
+</ul>
+<p><a href="https://compress-or-die.com/">CompressOrDie</a>, <a href="https://tinyjpg.com/">TinyJPG</a>, <a href="https://imagecompresser.com/">ImageCompresser</a>, <a href="https://saerasoft.com/caesium/">Caesium</a>, <a href="https://www.imagesmaller.com/">ImageSmaller</a>, <a href="https://compressjpeg.com/">Compress JPEG</a>, <a href="https://compressimage.io/">CompressImage</a>, <a href="https://crushimage.com/">CrushImage</a>, <a href="https://shrinkme.app/">ShrinkMe</a>, <a href="https://crushee.app/">Crushee</a>, <a href="https://www.seopix.io/">Seopix</a>, <a href="https://imagator.co/">Imagator</a>, <a href="https://compressor.io/">Compressor</a>, <a href="https://optimize.photos/">optimize.photos</a>, <a href="https://batchcompress.com/en">Batch Compress</a>, <a href="https://imagecompressr.com/">Bulk Image Compress</a>, <a href="https://minipic.app/">minipic</a></p>
+<doc-anchor-target id="png-compressors">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#png-compressors">#</doc-anchor-trigger>
+        <span>PNG Compressors</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://tinypng.com/">TinyPNG</a>, <a href="https://compresspng.com/">Compress PNG</a>, <a href="https://github.com/shssoichiro/oxipng">OxiPNG</a>, <a href="https://pngquant.org/">PNGQuant</a></p>
+<hr>
+<doc-anchor-target id="image-converters">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#image-converters">#</doc-anchor-trigger>
+        <span>Image Converters</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://bulkimageconvert.com">Bulk Image Convert</a>, <a href="https://convert-my-image.com/">Convertmyimage</a>, <a href="https://imageconvert.org/">ImageConvert</a>, <a href="https://www.imverter.com/">imverter</a>, <a href="https://raw.pics.io/">Raw Pics</a>, <a href="https://converseen.fasterland.net/">Converseen</a>, <a href="https://minipic.app/">minipic</a></p>
+<hr>
+<doc-anchor-target id="image-resizing">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#image-resizing">#</doc-anchor-trigger>
+        <span>Image Resizing</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://pixelhunter.io/">PixelHunter</a> - Resize Images for Different Sites</li>
+<li><a href="https://resizeappicon.com/">Resize App Icon</a> - Resize Square Images</li>
+</ul>
+<p><a href="https://www.simpleimageresizer.com/">Simple Image Resizer</a>, <a href="https://imageresizer.com/">ImageResizer</a>, <a href="https://picresize.com/">PicResize</a>, <a href="https://www.birme.net/">Birme</a>, <a href="https://bulkimageresize.com/">Bulk Image Resize</a>, <a href="https://www.resizenow.com/en">ResizeNow</a>,<a href="https://bulkresizephotos.com/">BulkResizePhotos</a></p>
+<hr>
+<doc-anchor-target id="iptv-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#iptv-tools">#</doc-anchor-trigger>
+        <span>IPTV Tools</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://iptv.community/">Forum</a> / <a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_m3u_players">Players</a> / <a href="https://cabernetwork.github.io/">Manager</a> / <a href="https://rentry.co/fmhybase64#iptv-playlists">Playlists</a> / <a href="https://www.foodieguide.com/iptvsearch/">Search</a> / <a href="https://siptv.eu/converter/">m3u to txt</a> / <a href="https://m3u4u.com/">M3U Editor</a> / <a href="https://github.com/nilaoda/N_m3u8DL-RE">M3U Downloader</a> / <a href="https://nilaoda.github.io/N_m3u8DL-CLI/">CLI</a> / <a href="https://github.com/peterpt/IPTV-CHECK">List Checker</a></p>
+<hr>
+<doc-anchor-target id="latex-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#latex-tools">#</doc-anchor-trigger>
+        <span>LaTeX Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://www.learnlatex.org/">Learn LaTeX</a> - LaTeX Guide</li>
+<li><a href="https://www.lyx.org/">Lyx</a>, <a href="https://typst.app/home">Typst</a>, <a href="https://texstudio.org/">TeXStudio</a> or <a href="https://papeeria.com/">Papeeria</a> - LaTeX Editors</li>
+<li><a href="https://www.tablesgenerator.com/">Tables Generator</a> - Create LaTeX Tables</li>
+<li><a href="https://quicklatex.com/">Quick LaTeX</a> - Generate LaTeX Images</li>
+<li><a href="https://github.com/guanyingc/latex_paper_writing_tips">Tips for Writing a Research Paper using LaTeX</a></li>
+<li><a href="https://mathb.in/">MathB.in</a> - Share Mathematics with LaTeX and Markdown</li>
+<li><a href="https://github.com/ekrem-qb/math_scan">Math Scan</a>, <a href="https://github.com/RapidAI/RapidLatexOCR">RapidLatexOCR</a> or <a href="https://lukas-blecher.github.io/LaTeX-OCR/">LaTeX-OCR</a> - Extract Mathematical Expressions</li>
+</ul>
+<hr>
+<doc-anchor-target id="libgen-mirrors">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#libgen-mirrors">#</doc-anchor-trigger>
+        <span>LibGen Mirrors</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://libgen.rs/">https://libgen.rs/</a> - main</li>
+<li><a href="https://libgen.is/">https://libgen.is/</a> - main</li>
+<li><a href="https://libgen.st/">https://libgen.st/</a> - main</li>
+<li><a href="https://libgen.li/">https://libgen.li/</a> - clone</li>
+<li><a href="https://libgen.gs/">https://libgen.gs/</a> - clone</li>
+<li><a href="https://libgen.vg/">https://libgen.vg/</a> - clone</li>
+<li><a href="https://libgen.pm/">https://libgen.pm/</a> - clone</li>
+<li><a href="https://rentry.co/fmhy-libgen">https://rentry.co/fmhy-libgen</a> - Differences between the mirrors</li>
+</ul>
+<hr>
+<doc-anchor-target id="libgen-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#libgen-tools">#</doc-anchor-trigger>
+        <span>LibGen Tools</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://wiki.mhut.org/software:libgen_desktop">Desktop</a> / <a href="https://chromewebstore.google.com/detail/libgen-search/cbcehgllfaddbjidleabcdjpldlognad">Search Extension</a> / <a href="https://pastebin.com/DdwbbhG8">Amazon Buttons</a> / <a href="https://phillm.net/libgen-seeds-needed.php">Need Seeds</a> / <a href="https://t.me/amazingbookdownloaderbot">Telegram Bot</a> / <a href="https://github.com/VikParuchuri/libgen_to_txt">Convert to Text</a> / <a href="https://redd.it/edwi9b">Backup</a> / <a href="https://reddit.com/r/libgen">/r/libgen</a></p>
+<hr>
+<doc-anchor-target id="linux-themes">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#linux-themes">#</doc-anchor-trigger>
+        <span>Linux Themes</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://www.gnome-look.org/">Gnome-Look</a>, <a href="https://github.com/themix-project/themix-gui">Themix</a>, <a href="https://github.com/jnsh/arc-theme">Arc</a>, <a href="https://github.com/material-ocean/material-ocean">Material Ocean</a>, <a href="https://github.com/EliverLara/Ant">Ant</a>, <a href="https://www.xfce-look.org/">xfce-look</a>, <a href="https://discord.gg/unixporn">UnixPorn</a></p>
+<hr>
+<doc-anchor-target id="live-webcams">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#live-webcams">#</doc-anchor-trigger>
+        <span>Live Webcams</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://www.earthcam.com/">EarthCam</a>, <a href="https://explore.org/">Explore</a>, <a href="http://www.opentopia.com/">Opentopia</a>, <a href="https://www.webcamgalore.com/">WebcamGalore</a>, <a href="https://www.webcamtaxi.com/en/">WebcamTaxi</a>, <a href="https://worldcams.tv/">WorldCams</a>, <a href="https://worldcam.eu/">WorldCam</a>, <a href="https://balticlivecam.com/">BalticLiveCam</a>, <a href="https://www.skylinewebcams.com/en.html">SkylineWebcams</a>, <a href="https://camstreamer.com/live">CamStreaner</a>, <a href="https://reddit.com/r/controllablewebcams">/r/controllablewebcams</a> / <a href="https://discord.gg/wdjtevG">Discord</a>, <a href="https://www.pictimo.com/">PicTimo</a>, <a href="https://wxyzwebcams.com/">WXYZWebcams</a> <a href="https://www.snoweye.com/">snoweye</a>, <a href="https://www.camscape.com/">camscape</a>, <a href="https://www.whatsupcams.com/">whatsupcams</a>, <a href="https://www.worldcam.pl/">worldcam</a>, <a href="https://www.webcamhopper.com/">webcamhopper</a>, <a href="https://explore.org/livecams">explore.org</a>, <a href="https://www.windy.com/-Webcams/webcams">Windy Webcams</a>, <a href="http://www.insecam.org/en/">Insecam</a>, <a href="https://airportwebcams.net/">Airport Webcams</a> (Airports), <a href="https://www.tfljamcams.net/">TFLJamCams</a>, <a href="https://www.seattlesouthside.com/plan-your-trip/webcams/">seattlesouthside</a>, <a href="https://www.portugal-live.net/en/webcams.html">portugal-live</a>, <a href="https://www.livecamcroatia.com/en">livecamcroatia</a>, <a href="https://www.myrtlebeach.com/webcams/">myrtlebeach</a>, <a href="https://www.sootoday.com/webcams">sootoday</a>, <a href="https://www.interlochen.org/webcasts/live-webcams">interlochen</a>, <a href="https://whitehouse.gov1.info/webcam/">whitehouse cam</a>, <a href="https://www.nps.gov/yell/learn/photosmultimedia/webcams.htm">yellowstone cam</a>, <a href="https://www.carowinds.com/live-video">carowinds</a>, <a href="https://www.zellamsee-kaprun.com/en/live/webcams">zellamsee</a>, <a href="https://www.wpri.com/live-cams/">wpri</a>, <a href="https://hdontap.com/">hdontap</a>, <a href="https://floridakeyswebcams.tv/">floridakeyswebcams</a>, <a href="https://www.earthtv.com/en">earthtv</a>, <a href="https://www.geocam.ru/en/">geocam</a>, <a href="https://livefromiceland.is/">livefromiceland</a>, <a href="https://en.world-cam.ru/">world-cam</a>, <a href="https://www.mangolinkworld.com/">mangolinkworld</a>, <a href="https://www.mylivestreams.com/live-streaming-cams/">mylivestreams</a>, <a href="https://www.spain-grancanaria.com/en/images-videos/webcams.html">spain-grancanaria</a>, <a href="https://www.visitlondon.com/things-to-do/sightseeing/london-attraction/webcams-of-london">visitlondon</a>, <a href="https://www.ctsfl.us/cams/">ctsfl</a>, <a href="https://www.aruba.com/us/live-webcams-and-channels">aruba</a>, <a href="https://www.fogcam.org/">fogcam</a>, <a href="https://bigrigtravels.com/">bigrigtravels</a>, <a href="https://www.lochness.co.uk/livecam/">lochness</a>, <a href="https://www.abbeyroad.com/crossing">abbeyroad</a>, <a href="https://www.camsecure.co.uk/Camsecure_Live_Demo_Index.html">camsecure</a>, <a href="https://www.worldlivecamera.com/">worldlivecamera</a></p>
+<doc-anchor-target id="animal-cams">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#animal-cams">#</doc-anchor-trigger>
+        <span>Animal Cams</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><a href="https://meow.camera/">meow.camera</a> - Chinese Cat Cams / <a href="https://discord.com/invite/QmHWpZF9cP">Discord</a></li>
+<li><a href="https://visdeurbel.nl/en/the-fish-doorbell/">The Fish Doorbell</a> - Help Fish Migrate</li>
+</ul>
+<p><a href="https://www.montereybayaquarium.org/animals/live-cams">Monterey Bay Aquarium</a>, <a href="https://zoo.sandiegozoo.org/live-cams">San Diego Zoo</a>, <a href="https://www.zoo.org/webcams">Zqoo.org</a>, <a href="https://animalslife.net/">AnimalsLife</a>, <a href="https://www.africam.com/wildlife/live-african-wildlife-safari-streams">Africam</a>, <a href="https://nationalzoo.si.edu/webcams">NationalZoo</a>, <a href="https://birdcams.live/">BirdCams</a>, <a href="https://critteryard.com/">CritterYard</a>, <a href="https://www.aquariumofpacific.org/exhibits/webcams">AquariumOfPacific</a>, <a href="https://curlie.org/en/Computers/Internet/On_the_Web/Webcams/Animals">Curlie Webcam Animals</a></p>
+<hr>
+<doc-anchor-target id="m3u-players">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#m3u-players">#</doc-anchor-trigger>
+        <span>M3U Players</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://iptvnator.vercel.app/">IPTVNator</a></strong> / <a href="https://t.me/iptvnator">Telegram</a> / <a href="https://github.com/4gray/iptvnator">GitHub</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.microsoft.com/store/productId/9WZDNCRDPQSX">Best Player</a></strong> / <a href="https://rentry.co/paidAppsMsStore">Unlock</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/fredolx/open-tv">Open TV</a></strong></li>
+</ul>
+<p><a href="https://github.com/Isayso/PlaylistEditorTV">PlaylistEditorTV</a>, <a href="https://github.com/interlark/ustvgo-iptv">ustvgo-iptv</a>, <a href="https://livepush.io/hls-player/index.html">LivePush</a></p>
+<hr>
+<doc-anchor-target id="magic--esoteric-telegram-ebooks">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#magic--esoteric-telegram-ebooks">#</doc-anchor-trigger>
+        <span>Magic / Esoteric Telegram Ebooks</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://t.me/magZtore">https://t.me/magZtore</a></li>
+<li><a href="https://t.me/ocultarias">https://t.me/ocultarias</a></li>
+<li><a href="https://t.me/WonderlandLibraryOfMagicBooks">https://t.me/WonderlandLibraryOfMagicBooks</a></li>
+<li><a href="https://t.me/spiritualbooks">https://t.me/spiritualbooks</a></li>
+<li><a href="https://t.me/spiritualitybooks">https://t.me/spiritualitybooks</a></li>
+<li><a href="https://t.me/synchroncity1111">https://t.me/synchroncity1111</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="manga-downloaders">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#manga-downloaders">#</doc-anchor-trigger>
+        <span>Manga Downloaders</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://hakuneko.download/">HakuNeko</a> / <a href="https://github.com/manga-download/hakuneko">GitHub</a></strong></li>
+</ul>
+<p><a href="https://github.com/Girbons/comics-downloader">Comics Downloader</a>, <a href="https://github.com/Xonshiz/comic-dl">Comic-DL</a>, <a href="https://github.com/kanasimi/work_crawler/blob/master/document/README.en-US.md">work_crawler</a>, <a href="https://www.redsquirrel87.altervista.org/doku.php/manga-downloader">Manga Downloader</a>, <a href="https://github.com/HDoujinDownloader/HDoujinDownloader">HDoujinDownloader</a>, <a href="https://github.com/dazedcat19/FMD2">FMD2</a>, <a href="https://github.com/darylhjd/mangadesk">mangadesk</a>, <a href="https://github.com/liamtoaldo/mangodl">mangodl</a>, <a href="https://github.com/vrienstudios/anime-dl">anime-dl</a>, <a href="https://github.com/metafates/mangal">mangal</a></p>
+<hr>
+<doc-anchor-target id="manga-readers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#manga-readers">#</doc-anchor-trigger>
+        <span>Manga Readers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/Suwayomi">Suwayomi</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong>Suwayomi Tools</strong> - <a href="https://keiyoushi.github.io/">Extensions</a>, <a href="https://discord.gg/3FbCpdKbdY">2</a> / <a href="https://github.com/Suwayomi/Tachidesk-Server">Desktop Client</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://houdoku.org/">Houdoku</a></strong></li>
+</ul>
+<p><a href="https://allmangasreader.com/">AllMangasReader</a>, <a href="https://github.com/AdollaApp/Adolla">Adolla</a>, <a href="https://github.com/ollm/OpenComic">OpenComic</a>, <a href="https://github.com/Suwayomi/Tachidesk-Sorayomi">Tachidesk-Sorayomi</a>, <a href="https://gitgud.io/Nagru/Manga-Organizer">Manga-Organizer</a>, <a href="https://github.com/TagoDR/MangaOnlineViewer">MangaOnlineViewer</a>, <a href="https://github.com/Difegue/LANraragi">LANraragi</a>, <a href="https://github.com/kodjodevf/mangayomi">Mangayomi</a>, <a href="https://github.com/K3vinb5/Unyo">Unyo</a></p>
+<doc-anchor-target id="self-hosted">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#self-hosted">#</doc-anchor-trigger>
+        <span>Self-Hosted</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://happypandax.github.io/">HappyPanda X</a>, <a href="https://www.kavitareader.com/">KavitaReader</a>, <a href="https://komga.org/">Komga</a> / <a href="https://github.com/gotson/komga">GitHub</a> / <a href="https://discord.gg/TdRpkDu">Discord</a>, <a href="https://atsumeru.xyz/">atsumeru</a></p>
+<hr>
+<doc-anchor-target id="markdown-editors">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#markdown-editors">#</doc-anchor-trigger>
+        <span>Markdown Editors</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://hedgedoc.org/">HedgeDoc</a></strong></li>
+<li><a href="https://www.zettlr.com/">zettlr</a></li>
+<li><a href="https://dillinger.io/">Dillinger</a></li>
+<li><a href="https://notable.app/">Notable</a></li>
+<li><a href="https://github.com/vnotex/vnote">vnote</a></li>
+<li><a href="https://www.markdowntools.com/">MarkdownTools</a></li>
+<li><a href="https://stackedit.io/">StackEdit</a></li>
+<li><a href="https://markdownify.js.org/">Markdownify</a></li>
+<li><a href="https://github.com/charmbracelet/glow">Glow</a></li>
+<li><a href="https://markdownlivepreview.com/">MarkdownLivePreview</a></li>
+<li><a href="https://editor.vrite.io/">Vrite</a></li>
+<li><a href="https://markflowy.vercel.app/">Markflowy</a></li>
+<li><a href="https://www.mindforger.com/">MindForger</a></li>
+<li><a href="https://panwriter.com/">PanWriter</a></li>
+<li><a href="https://www.marktext.cc/">MarkText</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="media-database-site-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#media-database-site-tools">#</doc-anchor-trigger>
+        <span>Media Database Site Tools</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="trakt-tools">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#trakt-tools">#</doc-anchor-trigger>
+        <span>Trakt Tools</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://trakt.tv/apps">Apps</a> / <a href="https://github.com/trakt-tools/universal-trakt-scrobbler">Universal Scrobble</a> / <a href="https://huere.net/trakt/duplicate_removal/">Duplicate Remover</a> / <a href="https://listrr.pro/">Create Lists</a> / <a href="https://anitrakt.huere.net/">Anilist Sync</a></p>
+<doc-anchor-target id="letterboxd-tools">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#letterboxd-tools">#</doc-anchor-trigger>
+        <span>Letterboxd Tools</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://www.letterboxd.tools/">Multi Tool</a> / <a href="https://github.com/alandours/letterboxd-shortcuts">Shortcuts</a> / <a href="https://watchlistpicker.com/">Watchlist Picker</a> / <a href="https://mrdys.github.io/letterboxd-completionist/">Collections</a></p>
+<doc-anchor-target id="myanimelist-tools">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#myanimelist-tools">#</doc-anchor-trigger>
+        <span>MyAnimeList Tools</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://hritikvaishnav.github.io/Project-Redesign/public/mal.html">Redesign</a> / <a href="https://anime.plus/">Extension</a> / <a href="https://myanimelist.net/forum/?topicid=1849731">Scripts</a> / <a href="https://www.mal-badges.com/">Badges</a> / <a href="https://greasyfork.org/en/scripts/429784">Search Helper</a> / <a href="https://greasyfork.org/en/scripts/17961">Hide Seen</a> / <a href="https://malscraper.azurewebsites.net/">Export</a> / <a href="https://malsync.moe/">Site Sync</a> / <a href="https://discord.com/invite/cTH4yaw">MALSync Discord</a> / <a href="https://jikan.moe/">API</a></p>
+<doc-anchor-target id="anilist-tools">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#anilist-tools">#</doc-anchor-trigger>
+        <span>AniList Tools</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://github.com/CosmicPredator/AniMoe">Desktop</a> / <a href="https://github.com/AurelicButter/AniList-Node">Wrapper</a> / <a href="https://greasyfork.org/en/scripts/370473-automail">Extras</a> / <a href="https://github.com/hotsno/keroro">MPV Sync</a></p>
+<hr>
+<doc-anchor-target id="minecraft">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#minecraft">#</doc-anchor-trigger>
+        <span>Minecraft</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="mod-indexes">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mod-indexes">#</doc-anchor-trigger>
+        <span>Mod Indexes</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://modrinth.com/">Modrinth</a></strong> / <a href="https://github.com/devBoi76/modrinthify">Redirector</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/TheUsefulLists/UsefulMods">UsefulMods</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://alternatives.microcontrollers.dev/">Alternatives</a></strong> / <a href="https://microcontrollersdev.github.io/Alternatives/">2</a></li>
+<li><a href="https://www.curseforge.com/minecraft">CurseForge</a> / <a href="https://greasyfork.org/en/scripts/389255-curseforge-qol-fixes">QOL Fixes</a>, <a href="https://greasyfork.org/en/scripts/445993-modrinthify">2</a></li>
+<li><a href="https://www.planetminecraft.com/">Planet Minecraft</a></li>
+<li><a href="https://mcarchive.net/">MC Archive</a></li>
+<li><a href="https://modbay.org/">ModBay</a></li>
+<li><a href="https://www.fibermc.com/">FiberMC</a></li>
+</ul>
+<doc-anchor-target id="optimization-mods">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#optimization-mods">#</doc-anchor-trigger>
+        <span>Optimization Mods</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://optifine.alternatives.lambdaurora.dev/">OptiFine Alternatives</a></strong> - OptiFine Alternatives for Fabric</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://download.fo">Fabulously Optimized</a></strong> - Performance Modpack / <a href="https://github.com/Fabulously-Optimized/fabulously-optimized">GitHub</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://modrinth.com/modpack/sop">Simply Optimized</a></strong> - Performance Modpack</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://modrinth.com/mod/sodium">Sodium</a></strong> - Rendering Optimization / <a href="https://modrinth.com/mod/sodium-extra">Extra Features</a> / <a href="https://modrinth.com/mod/reeses-sodium-options">Reese&#x27;s Options</a></li>
+<li><a href="https://modrinth.com/modpack/additive">Additive</a> - Performance Modpack</li>
+<li><a href="https://modrinth.com/mod/lithium">Lithium</a> - Game Logic &amp; Server Optimization</li>
+<li><a href="https://modrinth.com/mod/ferrite-core">FerriteCore</a> - Memory Usage Optimizations</li>
+<li><a href="https://modrinth.com/mod/nvidium">Nvidium</a> - Improved Rendering Capability (Nvidia GPUs Only) / <a href="https://github.com/MCRcortex/nvidium">GitHub</a></li>
+<li><a href="https://gitlab.com/jeseibel/distant-horizons">Distant Horizons</a> - Increased Render Distance</li>
+<li><a href="https://modrinth.com/mod/embeddium">Embeddium</a> - Unofficial Sodium Fork for Forge / <a href="https://modrinth.com/mod/rubidium-extra">Extra Features</a></li>
+<li><a href="https://github.com/xCollateral/VulkanMod">VulkanMod</a> - Rendering Optimization</li>
+</ul>
+<hr>
+<doc-anchor-target id="multi-console-browser-emulators">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#multi-console-browser-emulators">#</doc-anchor-trigger>
+        <span>Multi-Console Browser Emulators</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://demo.emulatorjs.org/">EmulatorJS</a></strong> - Multi-Console Browser Emulator / <a href="https://emulatorjs.org/docs/systems">Supported Systems</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://eclipseemu.me/play/">Eclipse</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://archive.org/details/consolelivingroom">Console Living Room</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.myabandonware.com/">My Abandonware</a></strong></li>
+</ul>
+<p><a href="https://theretrosaga.com/">The Retro Saga</a>, <a href="https://crocdb.net/">CrocDB</a>, <a href="https://www.webrcade.com/">WebRCade</a>, <a href="https://www.retrogames.cz/">RetroGames</a>, <a href="https://www.retrogames.cc/">retrogames.cc</a>, <a href="https://classicreload.com/">ClassicReload</a>, <a href="https://retrogamesbot.com/">Retro Games Bot</a>, <a href="https://www.vizzed.com/">Vizzed</a>, <a href="https://www.free80sarcade.com/">Free80sArcade</a>, <a href="https://www.retrouprising.com/">Retro Uprising</a>, <a href="https://www.retrogames.onl/">Retro Games</a>, <a href="https://playclassic.games/">Play Classic Games</a>, <a href="https://www.classicgames.me/">ClassicGames</a>, <a href="https://www.emugames.net/">Emulator.Games</a>, <a href="https://www.gamulator.com/ROMs">GamulatoR</a>, <a href="https://afterplay.io/">AfterPlay</a>, <a href="https://skitty.xyz/aurora/">Aurora</a>. <a href="http://emulator.online/">Emulator.online</a>, <a href="https://online.oldgames.sk/">Online.OldGames</a>, <a href="https://www.playretrogames.com/">Retro Games Online</a>, <a href="https://playemulator.online/">PlayEmulator</a>, <a href="https://www.playemulator.io/games/">2</a>, <a href="https://gamesfrog.com/">Emulator Games Online</a>, <a href="https://virtualconsoles.com/">Virtual Consoles</a>, <a href="https://oldgameshelf.com/">OldGameShelf</a>, <a href="https://emulatoronline.com/">Emulator Online</a>, <a href="https://playretrogames.net/">PlayRetroGames</a>, <a href="https://retrogamesfree.com/">Retro Games Free</a>, <a href="https://playretrogames.com/">PlayRetroGames</a>, <a href="https://piepacker.com/">Piepacker</a>, <a href="https://floooh.github.io/tiny8bit/">Tiny8bit</a>, <a href="https://www.classicgame.com/">ClassicGame</a>, <a href="https://classicgamesarcade.com/">ClassicGamesArcade</a>, <a href="https://www.radyolojinet.com/retro/">Radyolojinet</a>, <a href="https://www.weplayold.com/">WePlayOld</a></p>
+<hr>
+<doc-anchor-target id="multireddits">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#multireddits">#</doc-anchor-trigger>
+        <span>Multireddits</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.reddit.com/r/multihub/top/?sort=top&amp;t=all">Explore All Multireddits</a></strong></li>
+</ul>
+<p><a href="https://www.reddit.com/user/nbatman/m/piracy/">Piracy</a> / <a href="https://www.reddit.com/user/rekuloustoad/m/the_piracy_feed/">2</a> / <a href="https://www.reddit.com/user/nanomuto/m/piracyhub/">3</a> / <a href="https://www.reddit.com/user/goretsky/m/piracy_counterfeit_goods/">4</a>, <a href="https://www.reddit.com/user/nbatman/m/random/">Random</a> / <a href="https://www.reddit.com/user/nbatman/m/random2/">2</a>, <a href="https://www.reddit.com/user/nbatman/m/streaming/">Streaming</a>, <a href="https://www.reddit.com/user/efidol/m/cordfreetv/">Cord Free TV</a>, <a href="https://www.reddit.com/user/nbatman/m/leaks/">Piracy Leaks</a>, <a href="https://www.reddit.com/user/nbatman/m/news/">News</a>, <a href="https://www.reddit.com/user/goretsky/m/win_itpro/">Tech</a>, <a href="https://www.reddit.com/user/nbatman/m/left/">Left</a> / <a href="https://www.reddit.com/user/nbatman/m/left_2/">2</a>, <a href="https://www.reddit.com/user/nbatman/m/mysteries/">Mysteries</a>, <a href="https://www.reddit.com/user/nbatman/m/aliens/">Aliens</a>, <a href="https://www.reddit.com/user/nbatman/m/paranormal/">Paranormal</a>, <a href="https://www.reddit.com/user/nbatman/m/metaphysics/">Metaphysics</a>, <a href="https://www.reddit.com/user/rainbowlemon/m/minimalist_lifestyle/">Minimalism</a>, <a href="https://www.reddit.com/user/sneaky5erpent/m/countries/">Countries</a> / <a href="https://www.reddit.com/user/sneaky5erpent/m/countries2/">2</a>, <a href="https://www.reddit.com/user/sneaky5erpent/m/ask_people_nationality/">International AskARedditor</a>, <a href="https://www.reddit.com/user/aokaga/m/stories">Text Only</a>, <a href="https://www.reddit.com/user/korfor/m/chess/">Chess</a>, <a href="https://www.reddit.com/user/nbatman/m/engineering/">Engineering</a></p>
+<hr>
+<doc-anchor-target id="multi-dev-tool-sites">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#multi-dev-tool-sites">#</doc-anchor-trigger>
+        <span>Multi Dev Tool Sites</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://jetbrains.com/">JetBrains</a></strong> - <a href="https://github.com/crazy-max/docker-jetbrains-license-server">License Server</a> / <a href="https://rentry.co/FMHYBase64#jetbrain-ide">Free Method</a> / <a href="https://rentry.co/FMHYBase64#jetbrains-reset">Trial Reset</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://free-for.dev/">Free for Developers</a></strong></li>
+</ul>
+<p><a href="https://smalldev.tools/">SmallDev.tools</a>, <a href="https://webdevhome.github.io/">WebdevHome</a>, <a href="https://www.eclipse.org/">Eclipse Foundation</a>, <a href="https://intab.io/resources/">DevBox</a>, <a href="https://freestuff.dev/">Free Developer Stuff</a>, <a href="https://tinytools.directory/">Tiny Tools</a>, <a href="https://www.cleancss.com/">Clean CSS</a>, <a href="https://devresourc.es/">Dev Resources</a>, <a href="https://freeformatter.com/">FreeFormatter.com</a>, <a href="https://utilities-online.info/">Utilities and Tools Online</a>, <a href="https://online-toolz.com/">Free Online Tools for Everyone</a>, <a href="https://onlinestringtools.com/">Online String Tools</a>, <a href="https://www.coderstool.com/">Coders Tool</a>, <a href="https://prototypr.io/toolbox/page/1">Prototypr</a>, <a href="https://appdevtools.com/">AppDevTools</a>, <a href="https://it-tools.tech/">IT Tools</a>, <a href="https://omatsuri.app/">Omatsuri</a>, <a href="https://devina.io/">devina</a>, <a href="https://wangchujiang.com/tools/">wangchujiang</a>, <a href="https://toolkit.addy.codes/">Addy</a></p>
+<hr>
+<doc-anchor-target id="music-notation-editors">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#music-notation-editors">#</doc-anchor-trigger>
+        <span>Music Notation Editors</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://musescore.org/">MuseScore</a></strong> - Editor</li>
+<li><a href="https://noteflight.com/">Noteflight</a> - Editor</li>
+<li><a href="https://www.mcmusiceditor.com/">MC Musiceditor</a> - Editor</li>
+<li><a href="https://flat.io/">Flat</a> - Editor</li>
+<li><a href="https://www.finalemusic.com/products/notepad/">Finale Notepad</a> - Editor</li>
+<li><a href="https://archive.org/details/score-perfect-professional-lite-5.1/">Score Perfect Professional</a> - Editor</li>
+<li><a href="https://www.tierramedia.com/">MusicWorks</a> - Editor</li>
+</ul>
+<hr>
+<doc-anchor-target id="music-sheet-collections">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#music-sheet-collections">#</doc-anchor-trigger>
+        <span>Music Sheet Collections</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="general-music-sheets">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#general-music-sheets">#</doc-anchor-trigger>
+        <span>General Music Sheets</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://musescore.com/">Musescore.com</a></strong> / <a href="https://github.com/LibreScore/dl-librescore">Downloader</a> - Free Sheet Music</li>
+<li><a href="https://www.8notes.com/">8notes</a> - Free Sheet Music</li>
+<li><a href="https://www.mutopiaproject.org/">Mutopia Project</a> - Free Sheet Music</li>
+<li><a href="https://sheetmusiceden.com/">sheetmusiceden</a> - Free Sheet Music</li>
+<li><a href="https://notes-box.com/">Notes Box</a> - Free Sheet Music</li>
+<li><a href="https://musopen.org/">Musopen</a> - Free Sheet Music</li>
+<li><a href="https://sheetmusicinternational.com/">Sheet Music International</a> - Free Sheet Music</li>
+<li><a href="http://waltercosand.com/CosandScores/">CosandScores</a> - Free Sheet Music</li>
+<li><a href="https://www.free-scores.com/free-sheet-music.php">free-scores</a> - Free Sheet Music</li>
+<li><a href="https://sheetmusicforfree.com/">Sheet music for free</a> - Free Sheet Music</li>
+<li><a href="https://www.bateristaspt.com/membros/drumscores/">bateristaspt</a> - Free Sheet Music</li>
+<li><a href="https://www.daev.ca/tchunes/">tchunes</a> - Free Sheet Music</li>
+<li><a href="http://en.scorser.com/D/Sheet+music.html">ScorSer</a> - Free Sheet Music</li>
+</ul>
+<doc-anchor-target id="specific-music-sheets">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#specific-music-sheets">#</doc-anchor-trigger>
+        <span>Specific Music Sheets</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><a href="https://www.flutetunes.com/">flutetunes</a> or <a href="https://drive.google.com/drive/folders/1WMtVRNqLFdEQ4X39Dpof9o5aWGJsdtFe?usp=sharing">Flue Music</a> - Flute Sheet Music</li>
+<li><a href="https://www.gamemusicthemes.com/">Game Music Themes</a> - Video Game Sheet Music</li>
+<li><a href="https://ichigos.com/">Ichigo&#x27;s Sheet Music</a> - Video Game &amp; Anime Sheet Music</li>
+<li><a href="https://drive.google.com/drive/folders/0BxkQJMTuId4dfkxiM01GYnFBUFdDVmRHMGREM1JKYVdBajJtV2pVSExrS2txT1BOdXlfMUE?resourcekey=0-4uwizkHnsGLakmC-cA173A">Piano Sheet Music</a>, <a href="https://drive.google.com/drive/folders/1-hieArroBCq1x6z4GQ_gdFuyEz_Ftvxg">2</a> or <a href="https://drive.google.com/drive/folders/0B2k9HIXzBEfMVlgxTlhNWThzZkk?resourcekey=0-q0RdwD55Az5S3NigaliZEA">Anime Sheet Music</a> - Sheet Music Drives</li>
+<li><a href="https://www.cpdl.org/wiki/index.php/Main_Page">ChoralWiki</a> - Choral Music Sheets</li>
+<li><a href="https://bandmusicpdf.org/">BandMusic PDF Library</a> - Golden Age Band Music Sheets</li>
+<li><a href="https://www.themorgan.org/music">themorgan</a> or <a href="https://www.sfsma.org/">Silent Film Archive</a> - Music Manuscripts</li>
+<li><a href="https://www.diamm.ac.uk/">DIAMM</a> - Medieval Manuscripts</li>
+<li><a href="https://digital.library.unt.edu/explore/collections/VRBR/browse/">UNT Digital Library</a> or <a href="https://chopin.lib.uchicago.edu/">chopin</a> - Rare Manuscripts</li>
+<li><a href="https://dme.mozarteum.at/DME/nma/nmapub_srch.php?l=2">mozarteum</a> - Digital Mozart Collection</li>
+<li><a href="https://library.brown.edu/cds/sheetmusic/afam/about.html">Brown University</a> - African American Sheet Music</li>
+<li><a href="https://urresearch.rochester.edu/viewInstitutionalCollection.action?collectionId=63">Rochester University</a>, <a href="https://escholarship.org/uc/uclamusicscores">Contemporary Music Score</a>, <a href="https://dc.lib.unc.edu/cdm/landingpage/collection/sheetmusic">UNC</a> - University Collections</li>
+<li><a href="https://digital.library.ucla.edu/sheetmusic/">Sheet Music Consortium</a> - Search Universities</li>
+<li><a href="https://www.publicdomainsherpa.com/free-sheet-music.html">Public Domain Sherpa</a> - Sheet Music Resources</li>
+</ul>
+<hr>
+<doc-anchor-target id="mpv-shaders">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mpv-shaders">#</doc-anchor-trigger>
+        <span>MPV Shaders</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5">FSR</a></li>
+<li><a href="https://github.com/bjin/mpv-prescalers/">NNEDI / Ravu</a></li>
+<li><a href="https://github.com/igv/FSRCNN-TensorFlow/">FSRCNNX</a></li>
+<li><a href="https://github.com/Artoriuz/glsl-chroma-from-luma-prediction">CFL</a></li>
+<li><a href="https://github.com/Artoriuz/glsl-joint-bilateral">JointBilateral</a></li>
+<li><a href="https://gist.github.com/igv/a015fc885d5c22e6891820ad89555637">KrigBilateral </a></li>
+<li><a href="https://github.com/Artoriuz/ArtCNN">ArtCNN</a></li>
+<li><a href="https://gist.github.com/igv/2364ffa6e81540f29cb7ab4c9bc05b6b">SSimSuperRes</a></li>
+<li><a href="https://gist.github.com/igv/36508af3ffc84410fe39761d6969be10">SSimDownscaler</a></li>
+<li><a href="https://github.com/Artoriuz/glsl-pixel-clipper">Pixel Clipper</a></li>
+<li><a href="https://gist.github.com/igv/8a77e4eb8276753b54bb94c1c50c317e">adaptive-sharpen</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="msx-games">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#msx-games">#</doc-anchor-trigger>
+        <span>MSX Games</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://msxgamesworld.com/index.php">MSXGamesWorld</a>, <a href="https://www.msx.org/">MSX Resource Center</a>, <a href="https://www.generation-msx.nl/">Generation MSX</a>, <a href="https://www.file-hunter.com/">File Hunter</a>, <a href="https://download.file-hunter.com/">download.file-hunter</a>, <a href="https://msxabandonware.com/en/home">MSXAbandonware</a></p>
+<hr>
+<doc-anchor-target id="open-directory-search-string-builder">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#open-directory-search-string-builder">#</doc-anchor-trigger>
+        <span>Open Directory Search String Builder</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://strixx.vercel.app/">strixx</a>, <a href="http://lendx.org/">lendx</a>, <a href="https://www.eyeofjustice.com/od/">eyeofjustice</a>, <a href="https://lumpysoft.com/">lumpysoft</a>, <a href="https://opendirsearch.abifog.com/">opendirsearch</a>, <a href="https://ewasion.github.io/opendirectory-finder/">Ewasion</a>, <a href="https://doyou.needmorehdd.space/#">doyouneedmorehdd</a>, <a href="https://odfinder.github.io/">odfinder</a>, <a href="https://thuvien.com/">thuvien</a></p>
+<hr>
+<doc-anchor-target id="piracy-site-proxies">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#piracy-site-proxies">#</doc-anchor-trigger>
+        <span>Piracy Site Proxies</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://knaben.info/">Knaben&#x27;s Proxy List</a>, <a href="https://unblockninja.com/">unblockninja</a>, <a href="https://unblock.soy/">unblock.soy</a> / <a href="https://en-proxy.com/">2</a> / <a href="https://unblockedscene.com/">3</a>, <a href="https://piracyproxy.page/">piracyproxy</a>, <a href="https://dirproxy.cc/">dirproxy</a>, <a href="https://proxyninja.org/">ProxyNinja</a>, <a href="https://ninjaproxy1.com/">ninjaproxy1</a>, <a href="https://immortalproxy.com/">immortalproxy</a>, <a href="https://unblockit.download/">unblockit</a></p>
+<hr>
+<doc-anchor-target id="png-images--clipart">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#png-images--clipart">#</doc-anchor-trigger>
+        <span>PNG Images / Clipart</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://www.cleanpng.com/">CleanPNG</a>, <a href="https://www.pngwing.com/">PNGWing</a>, <a href="https://www.pngegg.com/">PNGEgg</a>, <a href="https://www.anyrgb.com/">AnyRGB</a>, <a href="https://www.hiclipart.com/">HiClipart</a>, <a href="https://hdclipartall.com/">HDClipArtAll</a>, <a href="https://www.pngmart.com/">pngmart</a>, <a href="https://www.pngall.com/">pngall</a>, <a href="https://www.pngplay.com/">pngplay</a>, <a href="https://www.freepngimg.com/">freepngimg</a>, <a href="https://www.kindpng.com/">KindPNG</a>, <a href="https://www.freepnglogos.com/">FreePNGLogos</a>, <a href="https://www.pngfind.com">PNGFind</a>, <a href="https://pnghero.com/">PNGHero</a>, <a href="https://pluspng.com/">PlusPNG</a>, <a href="https://pnghut.com/">PNGHut</a>, <a href="https://pinpng.com/">pinpng</a>, <a href="https://openclipart.org">openclipart</a>, <a href="https://www.pikpng.com/">pikpng</a></p>
+<hr>
+<doc-anchor-target id="poll-sites">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#poll-sites">#</doc-anchor-trigger>
+        <span>Poll Sites</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://pollcode.com/">PollCode</a>, <a href="https://www.yopolls.com/">YoPolls</a>, <a href="https://polls.fr/">Polls.fr</a>, <a href="https://minipoll.co/">minipoll</a>, <a href="https://pickvote.web.app/">PickVote</a>, <a href="https://strawpoll.com/">StrawPoll</a>, <a href="https://framadate.org/">framadate</a>, <a href="https://quick.mobpoll.org/">mobpoll</a>, <a href="https://www.polltab.com/">polltab</a>, <a href="https://xoyondo.com/polling-app">polling-app</a>, <a href="https://poal.me/">poal.me</a>, <a href="https://poll.ly/">poll.ly</a>, <a href="https://www.matepoll.com/index.html">matepoll</a>, <a href="https://typeform.com/examples/polls/">typeform</a></p>
+<doc-anchor-target id="live-polling">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#live-polling">#</doc-anchor-trigger>
+        <span>Live Polling</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://www.slido.com/">slido</a>, <a href="https://www.feedbackr.io/">Feedbackr</a>, <a href="https://trypingo.com/">Trypingo</a></p>
+<hr>
+<doc-anchor-target id="presentation-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#presentation-tools">#</doc-anchor-trigger>
+        <span>Presentation Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://maaslalani.com/slides/">Slides</a> / <a href="https://github.com/maaslalani/slides">GitHub</a> - Terminal-Based Presentation Tool</li>
+<li><a href="https://github.com/AmNotAGoose/Python-PPTX-ChatGPT-Presentation-Generator">PPTX</a> - AI Presentation Generator</li>
+<li><a href="https://github.com/vilmacio/gslides-maker">GSlides Maker</a> - Turn Wiki Pages into Google Slides</li>
+</ul>
+<p><a href="https://marp.app/">Marp</a>, <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit">ZoomIt</a>, <a href="https://presentator.io/">Presentator</a>, <a href="https://hiroppy.github.io/fusuma/">Fusuma</a>, <a href="https://pitch.com/">Pitch</a>, <a href="https://www.zoho.com/show/">Zoho Show</a>, <a href="https://webslides.tv/">Webslides</a>, <a href="https://freeshow.app/">FreeShow</a>, <a href="https://play.presenta.cc/">Presenta</a>, <a href="https://www.openelearning.org/">OpenLearning</a>, <a href="https://www.slideshare.net/">Slideshare</a> / <a href="https://www.slidesdownloader.com/">Downloader</a></p>
+<doc-anchor-target id="presentation-templates">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#presentation-templates">#</doc-anchor-trigger>
+        <span>Presentation Templates</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://slidesgo.com/">SlidesGo</a>, <a href="https://www.showeet.com/">Showeet</a>, <a href="https://www.slidescarnival.com/">Slides Carnival</a>, <a href="https://www.presentationgo.com/">PresentationGO</a>, <a href="https://thepopp.com/">ThePOPP</a></p>
+<hr>
+<doc-anchor-target id="proxy-lists">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#proxy-lists">#</doc-anchor-trigger>
+        <span>Proxy Lists</span>
+    </h2>
+</doc-anchor-target>
+<p><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/TheSpeedX/PROXY-List">PROXY List</a></strong></p>
+<p><a href="https://free-proxy-list.net/">Free-Proxy-List</a>, <a href="https://github.com/proxy4parsing">Proxy4Parsing</a> / <a href="https://t.me/proxy4parsing">Telegram</a>, <a href="https://openproxylist.com/">OpenProxyList</a>, <a href="https://www.proxyscrape.com/free-proxy-list">ProxyScrape</a>, <a href="https://github.com/mmpx12/proxy-list">proxy-list</a>, <a href="https://hidemy.name/en/proxy-list/">hide.my proxy list</a>, <a href="https://www.freeproxylists.net/">FreeProxyLists</a>, <a href="https://www.proxynations.com/">ProxyNations</a>, <a href="https://spys.one/en/free-proxy-list/">spys.one</a>, <a href="https://cyber-gateway.net/get-proxy/free-proxy">cyber-gateway</a>, <a href="https://free-proxy-list.net/web-proxy.html">ree-proxy-list</a>, <a href="https://geonode.com/free-proxy-list/">geonode</a>, <a href="https://freeproxyupdate.com/">freeproxyupdate</a>, <a href="https://proxypedia.org">proxypedia</a>, <a href="https://www.proxydocker.com/en/proxylist/">proxydocker</a>, <a href="https://proxyhub.me/">proxyhub</a>, <a href="https://proxy-list.download/">proxy-list</a>, <a href="https://proxydb.net/">proxydb</a>, <a href="https://advanced.name/freeproxy">advanced.name</a>, <a href="https://github.com/monosans/proxy-list">monosans list</a>, <a href="https://github.com/jetkai/proxy-list">jetkai list</a>, <a href="https://freeproxy.world/">freeproxy</a></p>
+<hr>
+<doc-anchor-target id="radio-streaming-sites">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#radio-streaming-sites">#</doc-anchor-trigger>
+        <span>Radio Streaming Sites</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="live-radio">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#live-radio">#</doc-anchor-trigger>
+        <span>Live Radio</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://radio.garden/">Radio Garden</a></strong> - Worldwide Radio Globe / <a href="https://redd.it/18e12gf">Site Unblock</a>, <a href="https://redd.it/13b53zs">2</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://en.wikipedia.org/wiki/List_of_Internet_radio_stations">List of Internet Radio Stations</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.radio-browser.info/users">Radio Browser</a></strong> - Radio App / Site Index</li>
+</ul>
+<p><a href="https://www.iheart.com/">iHeartRadio</a>, <a href="https://www.bbc.co.uk/sounds">BBC Radio</a>, <a href="https://onlineradiobox.com/">OnlineRadioBox</a>, <a href="https://liveonlineradio.net/">LiveOnlineRadio</a>, <a href="http://www.websdr.org/">WebSDR</a>, <a href="https://fulldecent.github.io/system-bus-radio/">System Bus Radio</a>, <a href="https://mytuner-radio.com/">myTuner</a>, <a href="https://www.radio-browser.info/">Radio Browser</a>, <a href="https://zeno.fm/">Zeno</a>, <a href="https://tuneyou.com/">TuneYou</a>, <a href="https://tvradiotuner.com/">Tvradiotuner</a>, <a href="https://instant.audio/">Instant.audio</a>, <a href="https://www.radiodeck.com/">Radiodeck</a>, <a href="https://www.akouradio.com/">VRadio</a>, <a href="https://worldradiomap.com/">WorldRadioMap</a>, <a href="https://streema.com/">Streema</a>, <a href="https://vtuner.com/setupapp/guide/asp/BrowseStations/startpage.asp">vTuner</a>, <a href="https://www.radio.net/">Radio.net</a>, <a href="https://theonestopradio.com/">TheOneStopRadio</a>, <a href="https://www.radioguide.fm/">Radio Guide</a>, <a href="https://dir.xiph.org/">Xiph</a>, <a href="https://raddio.net/">raddio</a>, <a href="https://wproject.vercel.app/">WProject</a>, <a href="https://ilovemusic.de/">ilovemusic</a>, <a href="https://www.0nradio.com/">0nRadio</a>, <a href="https://www.1aradio.com/">1a Radio</a></p>
+<doc-anchor-target id="internet-radio">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#internet-radio">#</doc-anchor-trigger>
+        <span>Internet Radio</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://deep-cut.fm/">deep-cut.fm</a>, <a href="https://coreradio.online/listen">CoreRadio</a>, <a href="https://radioparadise.com/">RadioParadise</a>, <a href="https://www.indieshuffle.com/">IndieSHuffle</a>, <a href="https://www.you42.com/">You42</a>, <a href="https://www.jango.com/">Jango</a>, <a href="https://www.radiotunes.com/">RadioTunes</a>, <a href="https://live365.com/">Live365</a>, <a href="https://www.accuradio.com/">AccuraRadio</a>, <a href="https://radio.dubbeh.net/">Radio.dubbeh</a>, <a href="https://tilderadio.org/">Tilderadio</a>, <a href="https://anonradio.net/">AnonRadio</a>, <a href="https://upbeatradio.net/">UpBeat</a> / <a href="https://upbeat.pw/discord">Discord</a>, <a href="https://radios.yt/">Radios.yt</a>, <a href="https://somafm.com/">SomaFM</a>, <a href="https://directory.shoutcast.com/">ShoutCast</a>, <a href="https://internet-radio.com/">Internet-Radio</a>, <a href="https://radiolise.gitlab.io/">Radiolise</a>, <a href="https://jetsetradio.live/">JetSetRadio</a> / <a href="https://jetsetradiofuture.live/">2</a>, <a href="https://chiru.no/">Chiru.no</a>, <a href="https://radio.uwu.network/">radio.uwu</a>, <a href="http://radcap.ru/">radcap</a>, <a href="https://audiophile.fm/">Audiophile</a>, <a href="https://www.nts.live/">NTS Radio</a> / <a href="https://soundcloud.com/user-643553014">SoundCloud</a></p>
+<hr>
+<doc-anchor-target id="random-generators">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#random-generators">#</doc-anchor-trigger>
+        <span>Random Generators</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://perchance.org/generators">perchance</a>, <a href="https://www.coolgenerator.com/">Cool Generator</a>, <a href="https://theonegenerator.com/">The One Generator</a>, <a href="https://random-ize.com/">Random-Ize</a>, <a href="https://www.random.org/">RANDOM</a>, <a href="https://www.bestrandoms.com/">BestRandoms</a>, <a href="https://randommer.io/">Randommer</a>, <a href="https://www.springhole.net/writing_roleplaying_randomators/index.html">Springhole</a>, <a href="https://wiizard-generator.neocities.org/">Wiizard Generator</a>, <a href="https://github.com/m-i-n-a-r/randomix">randomix</a>, <a href="https://numbergenerator.org/">NumberGenerator</a>, <a href="https://www.randomlists.com/">Random Lists</a>, <a href="https://randomuser.me/">Random User Generator</a></p>
+<doc-anchor-target id="random-image-sites">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#random-image-sites">#</doc-anchor-trigger>
+        <span>Random Image Sites</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://r.sine.com/index">r.sine.com</a>, <a href="https://cvines528.github.io/Pretty-Flix/">Pretty Flix</a>, <a href="https://cameron.red/imgur/">Cameron.Red</a>, <a href="https://funnyjunk.com/">Funnyjunk</a>, <a href="https://f0ck.me/">f0ck</a>, <a href="https://imgflip.com/">ImgFlip</a>, <a href="https://9gag.com/">9Gag</a>, <a href="https://thread-puller.party/">Thread-Puller</a>, <a href="https://www.iwastesomuchtime.com/">IWasteSoMuchTime</a>, <a href="https://ifunny.co/">iFunny</a>, <a href="https://kongoucheats.com/">KongouCheats</a>, <a href="https://randomwaffle.gbs.fm/">RandomWaffle</a>, <a href="https://www.wimp.com/">Wimp.com</a>, <a href="https://www.heahy.com/">Heahy</a>, <a href="https://z0r.de/">z0r</a></p>
+<hr>
+<doc-anchor-target id="remove-vocals">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#remove-vocals">#</doc-anchor-trigger>
+        <span>Remove Vocals</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://mvsep.com/">MVSEP</a></strong> / <a href="https://pastebin.com/U9kTDigG">Decrease Queue Time</a></li>
+</ul>
+<p><a href="https://colab.research.google.com/github/jarredou/MVSEP-MDX23-Colab_v2/blob/v2.4/MVSep-MDX23-Colab.ipynb">MDX23</a>, <a href="https://vocalremover.org/">VocalRemover</a>, <a href="https://github.com/Anjok07/ultimatevocalremovergui">ultimatevocalremovergui</a> / <a href="https://github.com/Anjok07/ultimatevocalremovergui/tree/v5-beta-cml">2</a>, <a href="https://phonicmind.com/">PhonicMind</a>, <a href="https://colab.research.google.com/github/NaJeongMo/Colaboratory-Notebook-for-Ultimate-Vocal-Remover/blob/main/Vocal%20Remover%205_arch.ipynb">Ultimate Vocal Remover</a>, <a href="https://x-minus.pro/ai">x-minus</a>, <a href="https://www.notta.ai/en/tools/online-vocal-remover">online-vocal-remover</a>, <a href="https://www.remove-vocals.com/">Remove Vocals</a>, <a href="https://vocali.se/en">vocali</a>, <a href="https://voxremover.com/">voxremover</a>, <a href="https://www.mazmazika.com/">mazmazika</a>, <a href="https://demixor.com/">demixor</a>, <a href="https://huggingface.co/spaces/TheStinger/Ilaria_UVR">Ilaria_UVR</a></p>
+<hr>
+<doc-anchor-target id="royalty-free-music">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#royalty-free-music">#</doc-anchor-trigger>
+        <span>Royalty Free Music</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://ncs.io/">NCS</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.youtube.com/audiolibrary">YouTube Audio Library</a></strong></li>
+</ul>
+<p><a href="https://freepd.com/">FreePB</a>, <a href="https://freemusicarchive.org/">Free Music Archive</a>, <a href="https://www.joshwoodward.com/">joshwoodward</a>, <a href="https://wowsound.com/">wowsound</a>, <a href="https://pixabay.com/music/">Pixabay Music</a>, <a href="https://www.audiomicro.com/">audiomicro</a>, <a href="https://starfrosch.com/">Starfrosch</a>, <a href="https://mubert.com/">Mubert</a>, <a href="https://cchound.com/">ccHound</a>, <a href="https://www.musicscreen.org/">MusicScreen</a>, <a href="https://filmmusic.io/">FilmMusic</a>, <a href="https://icons8.com/music">Fugue</a>, <a href="https://edmroyaltyfree.net/">EDMRF</a>, <a href="https://www.chosic.com/free-music/all/">chosic</a>, <a href="https://www.gamedev.net/news/2000-instrumental-pieces-released-by-anttis-instrumentals-r1135/">Anttis Instrumentals</a> / <a href="https://drive.google.com/open?id=0ByvAPNATAYsBR0FUczYzWHk3NEU">Torrent</a>, <a href="https://open.sampld.app/">Sampld</a>, <a href="https://bluefoxmusic.com/">BLueFoxMusic</a>, <a href="https://www.scottbuckley.com.au/library/">ScottBuckley</a>, <a href="https://jazz.mixremix.cc/">Creative Commons Jazz</a>, <a href="https://tunetank.com/">tunetank</a>, <a href="https://www.audiolibrary.com.co/">audiolibrary</a>, <a href="https://www.purple-planet.com/">purple-planet</a>, <a href="https://www.freemusicpublicdomain.com/">freemusicpublicdomain</a>, <a href="https://incompetech.com/music/royalty-free/music.html">Incompetech Music</a></p>
+<hr>
+<doc-anchor-target id="scene-release-trackers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#scene-release-trackers">#</doc-anchor-trigger>
+        <span>Scene Release Trackers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://www.reddit.com/r/CrackWatch/">/r/CrackWatch</a></li>
+<li><a href="https://crackwatcher.com/">CrackWatcher</a></li>
+<li><a href="https://reddit.com/r/RepackWorld">/r/RepackWorld</a></li>
+<li><a href="https://gamestatus.info/">GameStatus</a></li>
+<li><a href="https://t.me/fitgirl_repack">fitgirl_repack</a></li>
+<li><a href="https://discord.gg/APfesEBjjn">GitGud</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="site-legitimacy-check">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#site-legitimacy-check">#</doc-anchor-trigger>
+        <span>Site Legitimacy Check</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.urlvoid.com/">URL Void</a></strong></li>
+</ul>
+<p><a href="https://www.threatstop.com/check-ioc">ThreatStop</a>, <a href="https://urlscan.io/">urlscan.io</a>, <a href="https://www.scamadviser.com/">Scamadviser</a>, <a href="https://www.islegitsite.com/">IsLegitSite</a>, <a href="https://scanurl.net/">scanurl</a>, <a href="https://transparencyreport.google.com/safe-browsing/search">Google Safe Browsing</a>, <a href="https://zulu.zscaler.com/">ZScaler</a>, <a href="https://talosintelligence.com/">Talos</a>, <a href="https://global.sitesafety.trendmicro.com/">Trend Micro</a>, <a href="https://www.scamrate.com/">ScamRate</a></p>
+<hr>
+<doc-anchor-target id="sms-verification-sites">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sms-verification-sites">#</doc-anchor-trigger>
+        <span>SMS Verification Sites</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://www.2ndline.co/">2ndline</a>, <a href="https://www.textnow.com/">TextNow</a>, <a href="https://www.smspool.net/free-sms-verification">smspool</a>, <a href="https://getfreesmsnumber.com/">GetFreeSMSNUmber</a>, <a href="https://smser.net/">Smser</a>, <a href="https://sms-receive.net/">SMS Receive</a>, <a href="https://www.receivesmsonline.net/">Receive SMS Online</a>, <a href="https://receivesmsonline.in/">receivesmsonline</a>, <a href="https://www.mytrashmobile.com/">My Trash Mobile</a>, <a href="http://freesmsverification.com/">freesmsverification</a>, <a href="https://temp-sms.org/">temp-sms</a>, <a href="https://temporary-phone-number.com/">temporary-phone-number</a>, <a href="https://www.spoofbox.com/en/tool/trash-mobile/number">spoofbox</a>, <a href="https://www.receive-sms-online.info/">receive-sms-online</a>, <a href="https://yunjisms.xyz/">yunjisms</a>, <a href="https://smscodeonline.com/">smscodeonline</a>, <a href="https://mianfeijiema.com/">mianfeijiema</a>, <a href="https://jiemahao.com/">jiemahao</a>, <a href="https://www.storytrain.info/">storytrain</a>, <a href="https://temp-number.com/">Temp Number</a>, <a href="https://www.sms24.me/">sms24</a>, <a href="https://receive-smss.com">receive-smss</a>, <a href="https://receive-sms.cc/">receive-sms</a>, <a href="https://spytm.com/">spytm</a>, <a href="https://receive-sms-free.cc/">receive-sms-free</a>, <a href="https://tempsmss.com/">tempsmss</a>, <a href="https://quackr.io/">quackr</a>, <a href="https://smsnator.online/">smsnator</a>, <a href="https://inboxsms.me/">InboxSMS</a>, <a href="https://anonymsms.com/temporary-phone-number/">anonymsms</a>, <a href="https://onlinesim.io/">onlinesim</a>, <a href="http://receivefreesms.com/">Receive SMS Online Free</a>, <a href="https://sms-activate.org/en/freeNumbers">sms-activate</a>, <a href="https://proovl.com/numbers">proovl</a>, <a href="http://receivefreesms.net/">receivefreesms</a>, <a href="http://receivesmsonline.in/">receivesmsonline</a>, <a href="http://hs3x.com/">hs3x</a>, <a href="http://receiveonlinesms.biz/">receiveonlinesms</a>, <a href="http://freereceivesmsonline.com/">freereceivesmsonline</a>, <a href="https://www.shejiinn.com/">shejiinn</a>, <a href="https://www.jiemadi.com/en">jiemadi</a>, <a href="https://freephonenum.com/">freephonenum</a>, <a href="https://receivesmsonline.me/">receivesmsonline</a>, <a href="https://freereceivesmsonline.com/">freereceivesmsonline</a>, <a href="https://7sim.pro/">7sim</a>, <a href="https://www.jiemagou.com/en">jiemagou</a>, <a href="https://yunjiema.net/">yunjiema</a>, <a href="https://supercloudsms.com/en">supercloudsms</a>, <a href="https://us-phone-number.com/">us-phone-number</a>, <a href="https://lothelper.com/en/shownumber">shownumber</a>, <a href="https://receivesmsverification.com/">receivesmsverification</a>, <a href="https://yunduanxin.net/">yunduanxin</a>, <a href="https://bestsms.xyz/">bestsms</a>, <a href="https://www.bfsms.com/">114sim</a>, <a href="https://smsget.net/">smsget</a>, <a href="https://www.free-sms-receive.com/">free-sms-receive</a>, <a href="https://sms247.net/">sms247</a>, <a href="https://www.otp4free.com/">otp4free</a>, <a href="https://free-sms-receive.co/">free-sms-receive</a></p>
+<doc-anchor-target id="no-cc-required-trial-sites">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#no-cc-required-trial-sites">#</doc-anchor-trigger>
+        <span>No CC Required Trial Sites</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://www.directsms.com.au/">directsms</a>, <a href="https://www.vumber.com/">vumber</a></p>
+<hr>
+<doc-anchor-target id="speed-test-sites">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#speed-test-sites">#</doc-anchor-trigger>
+        <span>Speed Test Sites</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://fast.com/">fast</a></strong> - Speed Test / <a href="https://userstyles.world/style/17413">Blur Info</a> / <a href="https://github.com/sindresorhus/fast-cli">CLI</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://speed.cloudflare.com/">Cloudflare Speed Test</a></strong> - Speed Test</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://librespeed.org/">LibreSpeed</a></strong> - Speed Test</li>
+<li><a href="https://openspeedtest.com">OpenSpeedTest</a> / <a href="https://github.com/openspeedtest/Speed-Test">GitHub</a> - Speed Test</li>
+<li><a href="https://packetlosstest.com/">Packet Loss Test</a> - Speed Test</li>
+<li><a href="https://www.speedtest.net/">Speedtest</a> - Speed Test</li>
+<li><a href="https://www.speedcheck.org/">speedcheck</a> - Speed Test</li>
+<li><a href="https://www.meter.net/">Meter</a> - Speed Test</li>
+<li><a href="https://speedsmart.net/">Speedsmart</a> - Speed Test</li>
+<li><a href="https://ooni.org/">OONI</a> - Speed Test</li>
+</ul>
+<hr>
+<doc-anchor-target id="steam-workshop-downloaders">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#steam-workshop-downloaders">#</doc-anchor-trigger>
+        <span>Steam Workshop Downloaders</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="websites">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#websites">#</doc-anchor-trigger>
+        <span>Websites</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="http://steamworkshop.download/">Steamworkshop.download</a>, <a href="https://steamworkshopdownloader.ru">steamworkshopdownloader.ru</a>, <a href="https://greasyfork.org/en/scripts/449046">Workshop Script</a>, <a href="https://ggntw.com/steam">ggntw</a></p>
+<doc-anchor-target id="programs">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#programs">#</doc-anchor-trigger>
+        <span>Programs</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/imwaitingnow/WorkshopDL">WorkshopDL</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://rentry.co/FMHYBase64#mod-authority">Mod Authority</a></strong></li>
+<li><a href="https://github.com/NethercraftMC5608/NetherWorkshopDownloader">NetherWorkshopDownloader</a> / <a href="https://discord.com/invite/bs9TMxMJk9">Discord</a></li>
+</ul>
+<p><a href="https://github.com/BerdyAlexei/SCMD-Workshop-Downloader-2">SCMD</a>, <a href="https://github.com/shadoxxhd/steamworkshopdownloader">steamworkshopdownloader</a></p>
+<hr>
+<doc-anchor-target id="streaming-site-clones">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#streaming-site-clones">#</doc-anchor-trigger>
+        <span>Streaming Site Clones</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="m4ufree-clones">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#m4ufree-clones">#</doc-anchor-trigger>
+        <span>M4UFree Clones</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><a href="https://ww2.m4ufree.com/">M4uFree.com</a></li>
+<li><a href="https://m4ufree.se/">M4uFree.se</a></li>
+<li><a href="https://ww1.m4ufree.tv/">M4uFree.tv</a> / <a href="https://m4ufree.to/">2</a> / <a href="https://m4ufree.vip/">3</a> / <a href="https://m4ufree.pw/">4</a></li>
+<li><a href="https://ww1.m4uhd.tv/">M4uHD.tv</a> / <a href="https://ww1.m4uhd.cc/">2</a> / <a href="https://m4uhd.to/">3</a></li>
+<li><a href="https://streamm4u.ws/">Streamm4u</a> / <a href="https://ww1.streamm4u.tv/">2</a> / <a href="https://ww1.streamm4u.net/">3</a></li>
+<li><a href="https://m4umv.org/">M4uMV.org</a></li>
+<li><a href="https://moviesm4u.net/">MoviesM4U</a></li>
+<li><a href="https://filmzie.cc/">Filmzie</a></li>
+<li><a href="https://andyday.cc/">Andyday</a></li>
+<li><a href="https://foumovies.tv/">FouMovies</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="hianime-clones">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hianime-clones">#</doc-anchor-trigger>
+        <span>HiAnime Clones</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><a href="https://4anime.gg/">4anime</a></li>
+<li><a href="https://kaido.to/">kaido</a></li>
+<li><a href="https://9animetv.to/">9animetv</a></li>
+<li><a href="https://anicrush.to/">anicrush</a></li>
+<li><a href="https://aniwatchtv.to/">aniwatchtv</a></li>
+<li><a href="https://9anime.pe/">9anime.pe</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="survival">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#survival">#</doc-anchor-trigger>
+        <span>Survival</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.survivorlibrary.com/">Survivor Library</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://youtube.com/@primitivetechnology9550?si=NClgkWZP5Q3L_p_W">Primitive Technology</a></strong></li>
+<li><a href="https://ligi.de/">SurvivalManual</a> / <a href="https://github.com/ligi/SurvivalManual">GitHub</a></li>
+<li><a href="https://www.reddit.com/r/preppers/">r/Preppers</a></li>
+</ul>
+<p><a href="https://t.me/offgriddownload">OffGridDownload</a>, <a href="http://www.exploremarmaris.com/read/Survival/">ExploreMarMaris</a>, <a href="https://reddit.com/r/PrepperFileShare">/r/PrepperFileShare</a>, <a href="https://www.fluidicice.com/tpe">The Preparedness Encyclopedia</a></p>
+<hr>
+<doc-anchor-target id="svg-icons">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#svg-icons">#</doc-anchor-trigger>
+        <span>SVG Icons</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/notlmn/awesome-icons">Awesome Icons</a></strong>, <strong><a href="https://github.com/neutraltone/awesome-stock-resources#icons">Awesome Stock Resources</a></strong> or <strong><a href="https://www.iconshock.com/freeicons/">Free Icons</a></strong> - Icon Indexes</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://icons8.com/icons">icons8</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.svgrepo.com/">SVG Repo</a></strong></li>
+<li><a href="https://icons.grommet.io/">GrommetIcons</a> - SVG Icons for React</li>
+<li><a href="https://healthicons.org/">HealthIcons</a> - Medical Icons</li>
+</ul>
+<p><a href="https://icofont.com/icons">Icofont</a>, <a href="https://svgl.app/">svgl</a>, <a href="https://iconer.app/">iconer</a>, <a href="https://simpleicons.org/">SimpleIcons</a>, <a href="https://xicons.org">xIcons</a>, <a href="https://polaris.shopify.com/icons">Polaris</a>, <a href="https://phosphoricons.com/">Phosphor Icons</a>, <a href="https://icongo.github.io/">iCongo</a>, <a href="https://www.iconfinder.com/">IconFinder</a>, <a href="https://lucide.dev/icons/">Lucide</a>, <a href="https://ant.design/components/icon/">Ant Design</a>, <a href="https://www.iconpacks.net/">IconPacks</a>, <a href="https://svgmix.com/">svgmix</a>, <a href="https://iconbuddy.app/">Iconbuddy</a>, <a href="https://thenounproject.com/">Noun Project</a>, <a href="https://cappuccicons.com/">cappuccicons</a>, <a href="https://www.orioniconlibrary.com/">Orion</a>, <a href="https://www.flaticon.com/">Flaticon</a>, <a href="https://devicon.dev/">Devicon</a>, <a href="https://glyphs.fyi/">Glyphs</a>, <a href="https://iconarchive.com/">IconArchive</a>, <a href="https://iconduck.com/">IconDuck</a>, <a href="https://icon-icons.com/">icon icons</a>, <a href="https://icons-for-free.com/">Icons-For-Free</a>, <a href="https://www.streamlinehq.com/">Streamline</a>, <a href="https://dryicons.com/">Dryicons</a>, <a href="https://icones.js.org/">Icones</a>, <a href="https://mariodelvalle.github.io/CaptainIconWeb/">CaptainIconWeb</a>, <a href="https://iconify.design/">Iconify</a> / <a href="https://github.com/Kyutefox/Iconify">Extension</a>, <a href="https://www.iconninja.com/">IconNinja</a>,<a href="https://www.iconhunt.site/">IconHunt</a>, <a href="https://teenyicons.com/">Teenyicons</a>, <a href="https://awsicons.dev/">awsicons</a>, <a href="https://iconoir.com/">iconoir</a>, <a href="https://heroicons.dev/">heroicons</a>, <a href="https://composeicons.com/">composeicons</a></p>
+<hr>
+<doc-anchor-target id="switch-roms">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#switch-roms">#</doc-anchor-trigger>
+        <span>Switch ROMs</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://rutracker.org/forum/viewforum.php?f=1605">RUTracker Switch</a> - Use VPN</li>
+<li><a href="https://nxbrew.com/">NXBrew</a> / Scroll past Download Setup buttons</li>
+<li><a href="https://ziperto.com/">Ziperto</a> / Avoid <a href="https://ibb.co/wWJbkX6">Fake</a> Buttons / <a href="https://discord.gg/VgZ66bM87u">Discord</a></li>
+<li><a href="https://nsw2u.com/">nsw2u</a>, <a href="https://nsw2u.net/">2</a></li>
+<li><a href="https://nswrom.com/">NswRom</a></li>
+<li><a href="https://taodung.com/">taodung</a></li>
+<li><a href="https://romsim.com/">ROMSim</a> / <a href="https://discord.gg/Zgdhq7xDcd">Discord</a></li>
+<li><a href="https://romslab.com/">ROMSLAB</a></li>
+<li><a href="https://www.hopmarks.com/">Hopmarks</a> - Torrent</li>
+</ul>
+<hr>
+<doc-anchor-target id="tab-managers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tab-managers">#</doc-anchor-trigger>
+        <span>Tab Managers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/mbnuqw/sidebery">Sidebery</a></strong></li>
+</ul>
+<p><a href="https://www.one-tab.com/">OneTab</a>, <a href="https://framagit.org/ariasuni/tabcenter-reborn">Tab Center Reborn</a>, <a href="https://github.com/drive4ik/simple-tab-groups">Simple Tab Groups</a>, <a href="https://josh-berry.github.io/tab-stash/">Tab Stash</a>, <a href="https://tabbutler.netlify.app/">Tab Butler</a>, <a href="https://www.onetab.group/">One Tab Group</a>, <a href="https://github.com/piroor/treestyletab">TreeStyleTabs</a></p>
+<hr>
+<doc-anchor-target id="telegram-anime-downloads">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#telegram-anime-downloads">#</doc-anchor-trigger>
+        <span>Telegram Anime Downloads</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://t.me/Anime_Ocean_Backup">https://t.me/Anime_Ocean_Backup</a></li>
+<li><a href="https://t.me/Anime_Gallery">https://t.me/Anime_Gallery</a></li>
+<li><a href="https://t.me/anidlws">https://t.me/anidlws</a></li>
+<li><a href="https://t.me/AnimeCrunch">https://t.me/AnimeCrunch</a></li>
+<li><a href="https://t.me/Anime_Library">https://t.me/Anime_Library</a></li>
+<li><a href="https://t.me/for_otaku">https://t.me/for_otaku</a></li>
+<li><a href="https://t.me/Any_Animebot">https://t.me/Any_Animebot</a></li>
+<li><a href="https://t.me/Anime_World_1">https://t.me/Anime_World_1</a></li>
+<li><a href="https://t.me/Hd_Anime_Series">https://t.me/Hd_Anime_Series</a></li>
+<li><a href="https://t.me/myanimetvbot">https://t.me/myanimetvbot</a></li>
+<li><a href="https://t.me/Anime_Flix_Pro">https://t.me/Anime_Flix_Pro</a></li>
+<li><a href="https://t.me/Ongoing_animes">https://t.me/Ongoing_animes</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="telegram-ebook-download">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#telegram-ebook-download">#</doc-anchor-trigger>
+        <span>Telegram eBook Download</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://t.me/Books_worldd">https://t.me/Books_worldd</a></li>
+<li><a href="https://t.me/NovelsArchive">https://t.me/NovelsArchive</a></li>
+<li><a href="https://t.me/free_ebooks_pdfs">https://t.me/free_ebooks_pdfs</a></li>
+<li><a href="https://t.me/booksmania">https://t.me/booksmania</a></li>
+<li><a href="https://t.me/joinchat/RGzvjJF-0op3SRR1">https://t.me/joinchat/RGzvjJF-0op3SRR1</a></li>
+<li><a href="https://t.me/yourlibraries">https://t.me/yourlibraries</a></li>
+<li><a href="https://t.me/Dao_Qigong_Taiji_TCM_ebooks">https://t.me/Dao_Qigong_Taiji_TCM_ebooks</a></li>
+<li><a href="https://t.me/lib_of_dos_old_vk">https://t.me/lib_of_dos_old_vk</a></li>
+<li><a href="https://duckduckgo.com/?q=site%3At.me+books&amp;ia=web">More Telegram eBook Channels</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="text-adventures">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#text-adventures">#</doc-anchor-trigger>
+        <span>Text Adventures</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://ifdb.org/">IFDB</a> (Index), <a href="https://philome.la/johnayliff/seedship/play/index.html">Seedship</a>, <a href="http://textadventures.co.uk/">TextAventures</a>, <a href="https://www.web-adventures.org/">Web Adventures</a>, <a href="https://writtenrealms.com/">WrittenRealms</a>, <a href="https://doublespeak.chat/">doublespeak</a>, <a href="https://www.genesismud.org/">Genesis</a>, <a href="https://fateful.quest/">Fateful Quest</a>, <a href="https://nroutasuo.github.io/level13/">Level 13</a>, <a href="https://year01.life/">Year 01</a></p>
+<hr>
+<doc-anchor-target id="torrent-to-gdrive">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#torrent-to-gdrive">#</doc-anchor-trigger>
+        <span>Torrent to GDrive</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><strong>Note</strong> - Use throwaway accounts with these</li>
+</ul>
+<doc-anchor-target id="collab">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#collab">#</doc-anchor-trigger>
+        <span>Collab</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://colab.research.google.com/github/Xavy-13/qbittorrent/blob/main/qBittorrent.ipynb">QBit to Gdrive</a> / <a href="https://rentry.co/TorrentColab">How-To</a>, <a href="https://colab.research.google.com/github/FKLC/Torrent-To-Google-Drive-Downloader/blob/master/Torrent_To_Google_Drive_Downloader.ipynb">Torrent_To_Google_Drive_Downloader</a></p>
+<doc-anchor-target id="telegram-bots">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#telegram-bots">#</doc-anchor-trigger>
+        <span>Telegram Bots</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><a href="https://t.me/+qkrAOiq7k7ozNzRk">https://t.me/+qkrAOiq7k7ozNzRk</a></li>
+<li><a href="https://t.me/Punisherdiscussion">https://t.me/Punisherdiscussion</a></li>
+<li><a href="https://github.com/yash-dk/TorToolkit-Telegram">https://github.com/yash-dk/TorToolkit-Telegram</a></li>
+<li><a href="https://t.me/TorrentLeechingGroup">https://t.me/TorrentLeechingGroup</a> (list)</li>
+<li><a href="https://t.me/MirrorBots">https://t.me/MirrorBots</a> (list)</li>
+</ul>
+<hr>
+<doc-anchor-target id="typescript-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#typescript-tools">#</doc-anchor-trigger>
+        <span>TypeScript Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.typescriptlang.org/">TypeScript</a></strong> - JS Superset</li>
+<li><a href="https://react-typescript-cheatsheet.netlify.app">React Typescript Cheatsheets</a> - Typescript Cheatsheet for React Devs</li>
+<li><a href="https://labs42io.github.io/clean-code-typescript">Clean Code TypeScripts</a> - Clean Code for TypeScript</li>
+<li><a href="https://exploringjs.com/tackling-ts/toc.html">Tackling TS</a> or <a href="https://basarat.gitbook.io/typescript/getting-started">TypeScript Deep Drive</a> - TypeScript Guides</li>
+<li><a href="https://typehero.dev/">TypeHero</a> or <a href="https://github.com/type-challenges/type-challenges">Type Challenges</a> - TypeScript Exercises / Challenges</li>
+<li><a href="https://trpc.io/">tRPC</a> - Build Typesafe TypeScript APIs</li>
+</ul>
+<hr>
+<doc-anchor-target id="udemy-coupons">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#udemy-coupons">#</doc-anchor-trigger>
+        <span>Udemy Coupons</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><strong>Note</strong> - If you&#x27;re in the US you should be able to access Udemy courses for free using your library and looking for &quot;Gale Presents Udemy.&quot;</li>
+</ul>
+<hr>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://coursevania.com/">Coursevania</a></strong> / <a href="https://t.me/Coursevania">Telegram</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://couponscorpion.com/">CouponScorpion</a></strong></li>
+<li><a href="https://github.com/techtanic/Discounted-Udemy-Course-Enroller">Udemy-Course-Enroller</a> - Auto Course Enrollment</li>
+<li><a href="https://t.me/GUdemyBot">GUdemyBot</a>, <a href="https://github.com/gautamajay52/UdemyBot">UdemyBot</a>, <a href="https://t.me/UdemyScrapperZBot">UdemyScrapperZBot</a> or <a href="https://github.com/dylannalex/UdemyPy">UdemyPy</a> - Udemy Course Bots</li>
+<li><a href="https://gigacourse.com/">Giga Course</a> - Udemy Courses / Torrent</li>
+<li><a href="https://github.com/Puyodead1/udemy-downloader">udemy-downloader</a> - Udemy Downloader</li>
+<li><a href="https://docs.google.com/document/d/1W91OS9rj7h9DBp5UwR68lA2zMEtqNmxdGaNVmBktIaw/">Udemy Download Guide</a> - <a href="https://discord.gg/tMzrSxQ">Discord</a></li>
+</ul>
+<p><a href="https://www.discudemy.com/">discudemy</a>, <a href="https://bestcouponhunter.com/">bestcouponhunter</a>, <a href="https://baronip-coupons.blogspot.com/">BARONIP COUPONS</a>, <a href="https://freebiesglobal.com/">freebiesglobal</a>, <a href="https://www.onlinecourses.ooo/">onlinecourses</a>, <a href="https://cursosdev.com/">cursosdev</a>, <a href="https://100offdeal.online/">100offdeal</a>, <a href="https://t.me/udemyking1">UdemyKing</a>, <a href="https://t.me/udemycoursesfree">CourseArray</a>, <a href="https://gigacourse.com/">Giga Course</a>, <a href="https://udemy24.com/">Udemy 24</a>, <a href="https://www.howtofree.org/">Download Online Tutorials Free</a>, <a href="https://udemyfreecourses.org/">UdemyFreeCourses</a>, <a href="https://studybullet.com/">Study Bullet</a> / <a href="https://telegram.me/joinchat/AAAAAFdxBDqPv7ZzVoUASw">Telegram</a>, <a href="https://tutsnode.org/">TutsNode</a>, <a href="https://reddit.com/r/udemyfreebies">/r/udemyfreebies</a>, <a href="https://comidoc.net/">Online Courses Tracker</a>, <a href="https://www.techlinks.in/udemy-free-coupons">Techlinks</a>, <a href="https://www.real.discount/">Real.Discount</a>, <a href="https://www.onlinetutorials.org/">OnlineTutorials</a></p>
+<doc-anchor-target id="udemy-tg-channels">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#udemy-tg-channels">#</doc-anchor-trigger>
+        <span>Udemy TG Channels</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><a href="https://t.me/udemyforu">udemyforu</a></li>
+<li><a href="https://t.me/CGPERS">CGPERS</a></li>
+<li><a href="https://t.me/Udemy_Courses_Free_Daily">Udemy_Courses_Free_Daily</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="vue-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#vue-tools">#</doc-anchor-trigger>
+        <span>Vue Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://vuejs.org/">Vue.js</a></strong> - JS Framework</li>
+<li><a href="https://nuxt.com/">NuxtJS</a> - Vue Framework / <a href="https://github.com/nuxt/devtools">Dev Tools</a></li>
+<li><a href="https://arco.design/vue/en-US/docs/start">Arco Design</a> or <a href="https://www.naiveui.com/">Naive-UI</a> / <a href="https://github.com/tusen-ai/naive-ui">GitHub</a> - Vue 3 UI Components Library</li>
+<li><a href="https://vuejs.org/">Vuejs Dev Tools</a> - Add Vue 3 Debugging to Browser</li>
+<li><a href="https://github.com/vbenjs/vue-vben-admin">Vue vben admin</a> - Vue Admin</li>
+</ul>
+<hr>
+<doc-anchor-target id="website-creators">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#website-creators">#</doc-anchor-trigger>
+        <span>Website Creators</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://gohugo.io/">Hugo</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://vitepress.dev/">vitepress</a></strong></li>
+</ul>
+<p><a href="https://retype.com/">retype</a>, <a href="https://feather.wiki/">Feather Wiki</a>, <a href="https://soupault.app/">SouPalt</a>, <a href="https://github.com/charludo/barely">Barly</a>, <a href="https://www.getzola.org/">Zola</a>, <a href="https://jamstack.org/generators/">Jamstack Generators</a>, <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://devdojo.com/tails">Tails</a>, <a href="https://www.vvveb.com/">vveb</a>, <a href="https://potion.so/">Potion</a>, <a href="https://8b.com/">8b</a>, <a href="https://webflow.com/">WebFlow</a>, <a href="https://onuniverse.com/">Universe</a>, <a href="https://www.website.com/">Website.com</a>, <a href="https://grapedrop.com/">GrapeDrop</a>, <a href="https://specctr.com/cloud/home">Specctr</a>, <a href="https://astro.build/">Astro</a>, <a href="https://typedream.com/">TypeDream</a>, <a href="https://processwire.com/">Processwire</a>, <a href="https://sites.google.com/new">Google Sites</a>, <a href="https://www.angelfire.lycos.com/">AngelFire</a>, <a href="https://www.odoo.com/app/website">Odoo</a>, <a href="https://github.com/facebook/docusaurus">Docusaurus</a>, <a href="https://docsify.js.org/">Docsify</a></p>
+<doc-anchor-target id="simple-site-creators">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#simple-site-creators">#</doc-anchor-trigger>
+        <span>Simple Site Creators</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://straw.page/">Straw.Page</a>, <a href="https://www.own-free-website.com">Own Free Website</a>, <a href="https://itty.bitty.site/">itty.bitty</a>, <a href="https://build.mmm.page/">mmm</a>, <a href="https://cargo.site/">cargo</a>, <a href="https://jigsy.com/">Jigsy</a>, <a href="https://temper.one/">Temper</a>, <a href="https://neocities.org/">Neocities</a>, <a href="https://mobirise.com/">Mobirise</a>, <a href="https://www.silex.me/">Silex</a>, <a href="https://getpublii.com/">Publii</a>, <a href="https://11ty.dev/">Eleventy</a>, <a href="https://nekoweb.org/">nekoweb</a>, <a href="https://kinsta.com/static-site-hosting/">Kinsta</a>, <a href="https://getpelican.com/">Pelican</a></p>
+<hr>
+<doc-anchor-target id="website-templates">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#website-templates">#</doc-anchor-trigger>
+        <span>Website Templates</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://html5boilerplate.com/">Boilerplate</a> - Website Frontend Template HTML5</li>
+</ul>
+<p><a href="https://bootstrapmade.com/">Bootstrap</a>, <a href="https://themewagon.com/">TheMeWagon</a>, <a href="https://nicepage.com/website-templates">nicepage</a>, <a href="https://www.templatemo.com/">Templatemo</a>, <a href="https://www.tooplate.com/">Tooplate</a>, <a href="https://www.cssbed.com/">CSS Bed</a>, <a href="https://repth.neocities.org/theme">Repth Themes</a>, <a href="https://www.beercss.com/">beercss</a> / <a href="https://github.com/beercss/beercss">GitHub</a>, <a href="https://www.free-css.com/free-css-templates">free-css-templates</a>, <a href="https://www.zerotheme.com/">zerotheme</a>, <a href="https://html5up.net/">html5up</a>, <a href="https://templated.co/">templated</a>, <a href="https://www.html5xcss3.com/">html5xcss3</a></p>
+<hr>
+<doc-anchor-target id="wordpress-themes">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#wordpress-themes">#</doc-anchor-trigger>
+        <span>WordPress Themes</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://gpldl.com/">gpldl</a>, <a href="https://www.wplocker.com/">wplocker</a>, <a href="https://weadown.com/">Weadown</a>, <a href="https://rentry.co/FMHYBase64#wordpress-themes">Mega Drive</a>, <a href="https://babia.to/">babiato</a>, <a href="https://newtemplate.net/">newtemplate</a>, <a href="https://justfreewpthemes.com/">justfreewpthemes</a>, <a href="https://themesplugins.club/">themesplugins</a>, <a href="https://t.me/wpthemesandplugins">wpthemesandplugins</a></p>
+<hr>
+<doc-anchor-target id="youtube-movies">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#youtube-movies">#</doc-anchor-trigger>
+        <span>YouTube Movies</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://www.youtube.com/feed/storefront?bp=ogUCKAY%3D">Official YouTube Movies</a> - Chrome required</li>
+<li><a href="https://www.reddit.com/user/nbatman/m/streaming/">YT Movies Multireddit</a> - YouTube Streaming Subs</li>
+<li><a href="https://www.openculture.com/freemoviesonline">OpenCulture</a></li>
+<li><a href="https://rentry.co/YT-Movies">YouTube Streaming Channels</a></li>
+<li><a href="https://vole.wtf/voleflix/">Voleflix</a></li>
+<li><a href="https://videodictionary.kwebpia.net/?m=Full_Movies">Video Dictionary</a></li>
+<li><a href="https://moviesfoundonline.com/">MoviesFoundOnline</a></li>
+<li><a href="https://www.youtube.com/c/FREEMOVIESNOW/featured">FREEMOVIESNOW</a></li>
+<li><a href="https://www.freegreatmovies.com/">FreeGreatMovies</a></li>
+</ul>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../docs/sandbox/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Sandbox</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../docs/unsafesites/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Unsafesites</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Storage", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>

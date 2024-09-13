@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.779537605844">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.5.0">
+
+    <!-- Primary Meta Tags -->
+    <title>► System Tools | FreeMediaHeckYeah</title>
+    <meta name="title" content="► System Tools | FreeMediaHeckYeah">
+    <meta name="description" content="◄◄ Back to Wiki Index">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://fmhy.pages.dev/docs/system-tools/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fmhy.pages.dev/docs/system-tools/">
+    <meta property="og:title" content="► System Tools | FreeMediaHeckYeah">
+    <meta property="og:description" content="◄◄ Back to Wiki Index">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fmhy.pages.dev/docs/system-tools/">
+    <meta property="twitter:title" content="► System Tools | FreeMediaHeckYeah">
+    <meta property="twitter:description" content="◄◄ Back to Wiki Index">
+
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../static/favicon.ico" rel="icon">
+    <link href="../../resources/css/retype.css?v=3.5.0.779537605844" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.779537605844" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.779537605844" data-turbo-eval="false" defer></script>
+
+    <link rel="stylesheet" href="static/styles.css">
+
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/fmhy.ico">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/fmhy.ico">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">FMHY</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://redd.it/17f8msf">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discord</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy-search.streamlit.app/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Search</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Reddit</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/fmhy">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Github</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Updates</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/backups">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.46 1.137a1.748 1.748 0 0 1 1.08 0l8.25 2.675A1.75 1.75 0 0 1 22 5.476V10.5c0 6.19-3.77 10.705-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.771 21.204 2 16.69 2 10.5V5.476c0-.76.49-1.43 1.21-1.664Zm.617 1.426a.253.253 0 0 0-.154 0L3.673 5.24a.25.25 0 0 0-.173.237V10.5c0 5.461 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0c5.15-1.943 8.43-5.965 8.43-11.426V5.476a.25.25 0 0 0-.173-.237ZM13 12.232V15a1 1 0 0 1-2 0v-2.768a2 2 0 1 1 2 0Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Backups</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://redd.it/17f8msf">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discord</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy-search.streamlit.app/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Search</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Reddit</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/fmhy">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Github</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Updates</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/backups">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.46 1.137a1.748 1.748 0 0 1 1.08 0l8.25 2.675A1.75 1.75 0 0 1 22 5.476V10.5c0 6.19-3.77 10.705-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.771 21.204 2 16.69 2 10.5V5.476c0-.76.49-1.43 1.21-1.664Zm.617 1.426a.253.253 0 0 0-.154 0L3.673 5.24a.25.25 0 0 0-.173.237V10.5c0 5.461 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0c5.15-1.943 8.43-5.965 8.43-11.426V5.476a.25.25 0 0 0-.173-.237ZM13 12.232V15a1 1 0 0 1-2 0v-2.768a2 2 0 1 1 2 0Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Backups</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<hr>
+<hr>
+<p><strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/tools-index">◄◄ Back to Wiki Index</a></strong></p>
+<hr>
+<hr>
+<doc-anchor-target id="-system-tools" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-system-tools">#</doc-anchor-trigger>
+        <span>► System Tools</span>
+    </h1>
+</doc-anchor-target>
+<ul>
+<li><strong>Warning</strong> - It&#x27;s not recommended to use debloaters unless you know what you&#x27;re doing. Always research first, never just &quot;Apply All&quot; randomly.</li>
+</ul>
+<hr>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/awesome-windows11/windows11">Awesome Windows 11</a></strong> - Windows 11 Resources</li>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/BoringBoredom/PC-Optimization-Hub">PC-Optimization-Hub</a></strong> - System Optimization Resources</li>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools#wiki_.25B7_optimization_tools">Gaming Optimization</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://learn.microsoft.com/en-us/windows/powertoys/">PowerToys</a></strong> / <a href="https://github.com/lin-ycv/EverythingPowerToys">Search</a> or <a href="https://learn.microsoft.com/en-us/sysinternals/">Sysinternals</a> / <a href="https://apps.microsoft.com/store/detail/sysinternals-suite/9P7KNL5RWT25">Suite</a> - System Tools</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.cpuid.com/softwares/cpu-z.html">CPU-Z</a></strong>, <a href="https://github.com/lptstr/winfetch">winfetch</a>, <a href="https://github.com/Dr-Noob/cpufetch">CPU Fetch</a> or <a href="https://www.techpowerup.com/download/techpowerup-gpu-z/">GPU-Z</a> - System Information Tools</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://stefansundin.github.io/superf4/">SuperF4</a></strong> or <a href="https://github.com/sindresorhus/fkill-cli">FKill</a> - Process Killers</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.autohotkey.com/">AutoHotkey</a></strong> - Task Automation / <a href="https://discord.com/invite/Aat7KHmG7v">Discord</a> / <a href="https://www.ahkgen.com/">Script Gen</a> / <a href="https://github.com/ahkscript/awesome-AutoHotkey">Resources</a></li>
+<li><a href="https://www.autoitscript.com/">AutoIt</a> / <a href="https://github.com/J2TEAM/awesome-AutoIt">Resources</a>, <a href="https://learn.microsoft.com/en-us/power-automate/desktop-flows/install">Power Automate</a>, <a href="http://sikulix.com/">sikulix</a> or <a href="https://github.com/Cinchoo/ChoEazyCopy">ChoEazyCopy</a> - Task Automation</li>
+<li><a href="https://github.com/mikeroyal/Windows-11-Guide">Windows-11-Guide</a>, <a href="https://rentry.org/pastas#guides">Pastas</a>, <a href="https://www.elevenforum.com/tutorials/">Eleven Forums Guides</a> or <a href="https://www.tenforums.com/tutorials/">Ten Forums Guides</a> - Windows Guides</li>
+<li><a href="https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns">Autoruns</a> - Change Startup Programs</li>
+<li><a href="https://github.com/M2Team/NanaRun">NanaRun</a> - System Admin Tools</li>
+<li><a href="https://github.com/Fleex255/PolicyPlus">PolicyPlus</a> - Local Group Policy Editor</li>
+<li><a href="https://www.microsoft.com/en-us/p/powerplanswitcher/9nblggh556l3">PowerPlanSwitcher</a> - Quickly Change Power Schemes</li>
+<li><a href="https://www.splinterware.com/products/scheduler.html">Scheduler</a> or <a href="https://www.keyefficiency.com/">TaskRunner</a> - System Task Scheduler</li>
+<li><a href="https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer">Process Explorer</a>, <a href="https://www.alcpu.com/CoreTemp/">CoreTemp</a> or <a href="https://systeminformer.sourceforge.io/">System Informer</a> - Process Monitors</li>
+<li><a href="https://7-max.com/">7-Max</a> - Increase App Performance</li>
+<li><a href="https://github.com/zodiacon/TotalRegistry">RegExp</a>, <a href="https://github.com/phiresky/ripgrep-all">ripgrep-all</a> or <a href="https://registry-finder.com/">Registry-Finder</a> - Registry Explorers</li>
+<li><a href="https://winbindex.m417z.com/">WinbIndex</a> - Windows System Files / Binaries</li>
+<li><a href="https://github.com/abbodi1406/offlineinsiderenroll">OfflineInsiderEnroll</a> - Enable Windows Insider without Account</li>
+<li><a href="https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client">Google Assistant Desktop Client</a> or <a href="https://getleon.ai/">Leon</a> - AI Assistant</li>
+<li><a href="https://rhasspy.readthedocs.io/en/latest/">Rhasspy</a> - Voice Assistant</li>
+<li><a href="https://github.com/openrecall/openrecall">OpenRecall</a> or <a href="https://github.com/yuka-friends/Windrecorder/">Windrecorder</a> - Memory Search App / System Recorders</li>
+<li><a href="https://time.is/">Time.is</a> - Check Accuracy of System Clock</li>
+<li><a href="https://github.com/seerge/g-helper">G-Helper</a> - Armoury Crate Replacement</li>
+<li><a href="https://github.com/BartoszCichecki/LenovoLegionToolkit">LenovoLegionToolkit</a> - Lenovo Vantage Replacement</li>
+</ul>
+<hr>
+<doc-anchor-target id="-system-debloating">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-system-debloating">#</doc-anchor-trigger>
+        <span>▷ System Debloating</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://rentry.co/debloatguide">Debloat Guide</a></strong> - Windows Debloat Guide</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.bcuninstaller.com/">Bulk Crap Uninstaller</a></strong> or <a href="https://www.revouninstaller.com/products/revo-uninstaller-free/">Revo Uninstaller</a> - Bulk Uninstallation Tools</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.bleachbit.org/">BleachBit</a></strong> - Clean System Storage</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/Sophia-Community/SophiApp">SophiApp</a></strong> / <a href="https://github.com/farag2/Sophia-Script-for-Windows">Script</a> - Debloater</li>
+<li><a href="https://bitbucket.org/wvd-vegt/ghostbuster/src/master/">GhostBuster</a> or <a href="https://www.majorgeeks.com/files/details/device_cleanup_tool.html">Device Cleanup Tool</a> - Remove Non-Present Devices</li>
+<li><a href="https://github.com/Raphire/Win11Debloat">Win11Debloat</a> - Debloater</li>
+<li><a href="https://www.shouldiremoveit.com/">Should I Remove It?</a> - Program Removal Guide</li>
+</ul>
+<hr>
+<doc-anchor-target id="-system-tweaks">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-system-tweaks">#</doc-anchor-trigger>
+        <span>▷ System Tweaks</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/srwi/EverythingToolbar">EverythingToolbar</a></strong> or <a href="https://github.com/da-rth/yasb">yasb</a> - Tweaked Taskbars</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://open-shell.github.io/Open-Shell-Menu/">Open Shell</a></strong> - Tweak Start Menu</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://eartrumpet.app/">EarTrumpet</a></strong>, <a href="https://github.com/G-Stas/Volumey">Volumey</a> or <a href="https://github.com/irzyxa/Volume2">Volume2</a> - Tweak Volume Mixer</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/RamonUnch/AltSnap">AltSnap</a></strong> - Tweaked Windows Dragging</li>
+<li><a href="https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html">MajorGeeks Windows Tweaks</a>, <a href="https://winaero.com/">Winaero</a> or <a href="https://windhawk.net/">Windhawk</a> - System Tweaking Tools / <strong><a href="https://pastebin.com/vMYCiAGE">Warning</a></strong></li>
+<li><a href="https://forums.mydigitallife.net/threads/abbodi1406s-batch-scripts-repo.74197/">abbodi1406</a>, <a href="https://github.com/abbodi1406/BatUtil">BatUtil</a> or <a href="https://github.com/MScholtes/TechNet-Gallery">TechNet-Gallery</a> - System Scripts</li>
+<li><a href="https://win10widgets.com/">Win10 Widgets</a> or <a href="https://github.com/elkowar/eww">Eww</a> - Widgets for Windows</li>
+<li><a href="https://apps.microsoft.com/store/detail/wintoys/9P8LTPGCBZXD">Wintoys</a> - System App Tweaking</li>
+<li><a href="https://www.listary.com/">Listary</a>, <a href="https://www.flowlauncher.com/">FlowLauncher</a>, <a href="https://ueli.app/">Ueli</a> / <a href="https://github.com/oliverschwendener/ueli">GitHub</a> - Keystroke / App Launchers</li>
+<li><a href="https://github.com/kando-menu/kando">Kando</a> - App Launcher / Pie Menu / <a href="https://discord.gg/hZwbVSDkhy">Discord</a></li>
+<li><a href="https://github.com/zsims/hunt-and-peck/">Hunt and Peck</a> or <a href="https://cerebroapp.com/">Cerebro App</a> - Tweaked System Navigation</li>
+<li><a href="https://github.com/AlexanderPro/SmartSystemMenu">SmartSystemMenu</a> - Tweak System Menu</li>
+<li><a href="https://www.sordum.org/7615/easy-context-menu-v1-6/">EasyContextMenu</a> or <a href="https://nilesoft.org/">Nilesoft Shell</a> - Tweaked Context Menus</li>
+<li><a href="https://github.com/BluePointLilac/ContextMenuManager/blob/master/README-en.md">ContextMenuManager</a> - Customize Context Menu</li>
+<li><a href="https://github.com/GChuf/RCWM">RCWM</a> - Context Menu Tools</li>
+<li><a href="https://www.the-sz.com/products/spencer/">Spencer</a> or <a href="https://github.com/bonzibudd/Fluent-Metro">Fluent-Metro</a> - Classic Start Menu</li>
+<li><a href="https://ramensoftware.com/7-taskbar-tweaker">Taskbar Tweaker</a> - Taskbar Advanced Features</li>
+<li><a href="https://github.com/LuisThiamNye/ButteryTaskbar2">ButteryTaskbar</a> - Hide Taskbar When Start Menu is Closed</li>
+<li><a href="https://www.eusing.com/hidewindows/bosskey.htm">Taskbar Hide</a> - Easily Hide / Show Taskbar</li>
+<li><a href="https://sourceforge.net/projects/minimize-to-tray/">minimize-to-tray</a> - Minimize Windows to Tray</li>
+<li><a href="https://github.com/QL-Win/QuickLook">QuickLook</a> - macOS Quick Look for Windows</li>
+<li><a href="https://sourceforge.net/projects/sagethumbs/">SageThumbs</a> - Image Thumbnail Previews</li>
+<li><a href="https://github.com/SamsidParty/TopNotify">TopNotify</a> - Move Windows Notifications</li>
+<li><a href="https://github.com/Windos/BurntToast">BurntToast</a> - Create and Display Toast Notifications</li>
+<li><a href="https://github.com/lx-s/WinMute/">WinMute</a> - Automatically Mute PC</li>
+</ul>
+<hr>
+<doc-anchor-target id="-package-managers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-package-managers">#</doc-anchor-trigger>
+        <span>▷ Package Managers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://scoop.sh/">Scoop</a> or <a href="https://github.com/microsoft/winget-cli">winget-cli</a></strong> - CLI Package Managers</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong>WinGet Tools</strong> - <a href="https://github.com/jdhitsolutions/WingetTools">Tools</a> / <a href="https://winstall.app/">Repo Browser</a> / <a href="https://github.com/microsoft/winget-pkgs">Packages</a>, <a href="https://winget.run/">2</a> / <a href="https://github.com/topgrade-rs/topgrade">Automation</a> / <a href="https://github.com/rami3l/pacaptr">Pac-Man</a> / <a href="https://github.com/Romanitho/Winget-AutoUpdate">Auto Updates</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://ninite.com/">Ninite</a></strong> - Automatically Install / Update Popular Apps</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/marticliment/WingetUI">UniGetUI</a></strong> - GUI for Popular Package Managers</li>
+<li><a href="https://github.com/chocolatey/choco">Chocolatey</a> / <a href="https://github.com/chocolatey/ChocolateyGUI">GUI</a>, <a href="https://patchmypc.com/home-updater">Patch My PC</a> or <a href="https://ruckzuck.tools/">RuckZuck</a> - Package Managers</li>
+<li><a href="https://spinel.ovh/">Spinel</a> - Multi-Program Install Script Generator</li>
+<li><a href="https://www.silentinstall.org/">Silent Install</a> - Build Multi-Program Installers</li>
+<li><a href="https://0install.net/">0Install</a> - Decentralized Cross-Platform Package Manager</li>
+<li><a href="https://portableapps.com/download">portableapps</a> - Package Manager for Portable Apps</li>
+<li><a href="https://github.com/baulk/baulk">Baulk</a> - Minimalist Package Manager</li>
+<li><a href="https://launcher.nirsoft.net/">NirLauncher</a> - Portable Package Manager for NirSoft Utilities</li>
+</ul>
+<hr>
+<doc-anchor-target id="-terminal--cli">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-terminal--cli">#</doc-anchor-trigger>
+        <span>▷ Terminal / CLI</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://terminalsare.sexy/">terminals-are-sexy</a></strong> - Terminal Resources</li>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/agarrharr/awesome-cli-apps">Awesome CLI Apps</a></strong> or <a href="https://github.com/learn-anything/command-line-tools">Command Line Tools</a> - Command Line Resources</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/chrisant996/clink">Clink</a></strong> - Command Line Editing</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://ss64.com/">ss64</a></strong> - Command Line Reference Index</li>
+<li><a href="https://www.microsoft.com/store/productId/9N0DX20HK701">Windows Terminal</a> / <a href="https://github.com/microsoft/terminal/">2</a>, <a href="https://sw.kovidgoyal.net/kitty/">kitty</a>, <a href="https://github.com/SquitchYT/Tess">Tess</a>, <a href="https://github.com/Maximus5/ConEmu">ConEmu</a>, <a href="https://hyper.is/">Hyper</a>, <a href="https://tabby.sh/">Tabby</a>, <a href="https://mobaxterm.mobatek.net/">MobaXterm</a> or <a href="https://wezfurlong.org/wezterm/">WezTerm</a> - Windows Terminals</li>
+<li><a href="https://frippery.org/busybox/">BusyBox</a> - Unix Commands for Windows</li>
+<li><a href="https://www.nushell.sh/">Nushell</a> - Alt Shell</li>
+<li><a href="https://github.com/notwaldorf/tiny-care-terminal">Tiny Care Terminal</a> - Terminal Dashboard That Cares</li>
+<li><a href="https://github.com/aurora-0025/gradient-terminal">Gradient Terminal</a> - Display Terminal Output as Gradient</li>
+<li><a href="https://cmdchallenge.com/">Command Challenge</a> - Command Line Learning</li>
+<li><a href="https://github.com/alacritty/alacritty">Alacritty</a>, <a href="https://cmder.app">cmder</a>, <a href="https://github.com/felixse/FluentTerminal">Fluent Terminal</a>, <a href="https://tabby.sh/">Tabby</a>, <a href="https://github.com/KRTirtho/wives">Wives</a> or <a href="https://extraterm.org/">ExtraTerm</a> - Terminal Emulators</li>
+<li><a href="https://mintty.github.io/">Mintty</a> - Cygwin Terminal Emulator</li>
+<li><a href="https://www.getdnote.com/">GetDNote</a> - Command Line Notebook</li>
+<li><a href="https://github.com/powershell/powershell">PowerShell</a> - PC / Mac / Linux PowerShell</li>
+<li><a href="https://github.com/QuietusPlus/Write-Menu">Write-Menu</a> or <a href="https://github.com/chrisseroka/ps-menu">ps-menu</a> - PowerShell Console Menu</li>
+<li><a href="https://github.com/AveYo/LeanAndMean">LeanandMean</a> - Powershell Snippets / Use with Caution</li>
+<li><a href="https://github.com/fleschutz/PowerShell">PowerShell Scripts</a> or <a href="https://github.com/stevencohn/WindowsPowerShell">WindowsPowerShell</a> - PowerShell Scripts</li>
+<li><a href="https://github.com/PowerShell/PSReadLine">PSReadLine</a> - PowerShell Readline Implementation</li>
+<li><a href="https://github.com/GossiTheDog/SystemNightmare">SystemNightware</a> - Instant System Command Prompt</li>
+<li><a href="https://starship.rs/">Starship</a> - Cross-Shell Prompt</li>
+<li><a href="https://www.gnu.org/software/parallel/">GNU Parallel</a> - Execute Commands / Scripts in Parallel using Multiple Computers</li>
+<li><a href="https://github.com/gerardog/gsudo">GSudo</a> - Sudo Alternative for Windows</li>
+</ul>
+<hr>
+<doc-anchor-target id="-remote-desktop">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-remote-desktop">#</doc-anchor-trigger>
+        <span>▷ Remote Desktop</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://rustdesk.com/">RustDesk</a></strong> - FOSS Remote Desktop / <a href="https://github.com/rustdesk/rustdesk">GitHub</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://parsec.app/">Parsec</a></strong></li>
+<li><a href="https://www.realvnc.com/en/">RealVNC</a> - Max 3, Multi-OS Support</li>
+<li><a href="https://www.freerdp.com/">FreeRDP</a></li>
+<li><a href="https://remotly.com/">Remotly</a></li>
+<li><a href="https://aspia.org/">Aspia</a></li>
+<li><a href="https://remotedesktop.google.com/">ChromeRemoteDesktop</a></li>
+<li><a href="https://www.tightvnc.com/">TightVNC</a></li>
+<li><a href="https://www.remoteutilities.com/">remoteutilities</a></li>
+<li><a href="https://github.com/miroslavpejic85/p2p">p2p</a></li>
+<li><a href="https://uvnc.com/">UVNC</a></li>
+<li><a href="https://github.com/morrolinux/ChimeraDesk">ChimeraDesk</a></li>
+<li><a href="https://www.nomachine.com/">NoMachine</a></li>
+<li><a href="https://github.com/PhrozenIO/PowerRemoteDesktop">PowerRemoteDesktop</a></li>
+<li><a href="https://app.screego.net/">Screego</a> / <a href="https://github.com/screego/server/">GitHub</a></li>
+<li><a href="https://screensy.marijn.it/">Screensy</a> / <a href="https://github.com/screensy/screensy">GitHub</a></li>
+<li><a href="https://www.hoptodesk.com/">HopToDesk</a></li>
+<li><a href="https://www.coscreen.co/">CoScreen</a></li>
+<li><a href="https://tigervnc.org/">TigerVNC</a> - VNC</li>
+<li><a href="https://novnc.com/info.html">noVNC</a> - JavaScript VNC</li>
+<li><a href="https://www.inputdirector.com/">InputDirector</a> - Multi-Computer</li>
+<li><a href="https://github.com/debauchee/barrier">Barrier</a> - Multi-Computer</li>
+<li><a href="https://www.microsoft.com/en-us/garage/wall-of-fame/mouse-without-borders/">Mouse Without Borders</a> - Multi-Computer</li>
+<li><a href="https://github.com/slackhq/nebula">Nebula</a> - Multi-Computer</li>
+</ul>
+<hr>
+<doc-anchor-target id="-clipboard-managers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-clipboard-managers">#</doc-anchor-trigger>
+        <span>▷ Clipboard Managers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://ditto-cp.sourceforge.io/">Ditto</a></strong> - Clipboard Manager</li>
+<li><a href="https://github.com/crosspaste/crosspaste-desktop">CrossPaste</a> - Clipboard Manager</li>
+<li><a href="https://www.joejoesoft.com/vcms/97/">ArsClip</a> - Clipboard Manager</li>
+<li><a href="https://sourceforge.net/projects/clip-angel/">ClipAngel</a> - Clipboard Manager</li>
+<li><a href="https://hluk.github.io/CopyQ/">CopyQ</a> or <a href="https://kaustubhpatange.github.io/XClipper/">XClipper</a> - Clipboard Managers with Editing and Scripting Features</li>
+<li><a href="https://www.softwareok.com/?seite=Microsoft/MultiClipBoardSlots">MultiClipBoardSlots</a> - Extend Clipboard by 10 Memory Slots</li>
+<li><a href="https://xtra-clipboard.com/">Xtra Clipboard</a> - Chrome Clipboard Manager</li>
+<li><a href="https://ctrl.vi/">Control V</a> - Share Images in Your Clipboard via Secret URL</li>
+</ul>
+<hr>
+<doc-anchor-target id="-window-managers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-window-managers">#</doc-anchor-trigger>
+        <span>▷ Window Managers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/glzr-io/glazewm">GlazeWM</a></strong> - Tiling Window Manager Inspired by i3wm</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/LGUG2Z/komorebi">Komorebi</a> or <a href="https://workspacer.org/">WorkSpacer</a></strong> - Tiling Window Managers</li>
+<li><a href="https://github.com/dalyIsaac/Whim/">Whim</a> - Pluggable Dynamic Window Manager</li>
+<li><a href="https://github.com/prabirshrestha/dwm-win32">DWM</a> - Port of X11 dwm to Windows</li>
+<li><a href="https://github.com/Windows-Apps-Hub/UnitedSets">United Sets</a> - Group Windows Into Tabs</li>
+</ul>
+<hr>
+<doc-anchor-target id="-virtual-machines">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-virtual-machines">#</doc-anchor-trigger>
+        <span>▷ Virtual Machines</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_android_emulators">Android Emulators</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://rentry.co/FMHYBase64#vmware">VMware Workstation</a> or <a href="https://www.virtualbox.org/">VirtualBox</a></strong> / <a href="https://www.vbox.me/">Portable</a> - Virtual Machines</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://virt-manager.org/">Virt-Manager</a></strong> or <a href="https://www.vagrantup.com/">Vagrantup</a> - Virtual Machine Managers</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://hackintosh.com/">Hackintosh</a></strong>, <a href="https://www.emaculation.com/">Emaculation</a>, <a href="https://github.com/felixrieseberg/macintosh.js/">felixrieseberg</a> or <a href="https://github.com/notAperson535/OneClick-macOS-Simple-KVM">OneClick-macOS</a> - macOS Virtual Machines</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong>Hackintosh Tools</strong> - <a href="https://www.tonymacx86.com/">Guide</a> / <a href="https://chefkissinc.github.io/guide">AMD Guide</a> / <a href="https://github.com/mikigal/ryzen-hackintosh">Ryzen</a> / <a href="https://github.com/daliansky/XiaoMi-Pro-Hackintosh">XiaoMi</a></li>
+<li><a href="https://looking-glass.io/">Looking Glass</a> - App for Using Kernel-Based Virtual Machine Configured for VGA PCI Pass-Through</li>
+<li><a href="https://gitlab.com/qemu-project/qemu">Qemu</a>, <a href="https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/">Hyper-V</a> or <a href="https://community.denodo.com/test-drives/">Denodo Test</a> - Virtual Machines</li>
+<li><a href="https://www.osboxes.org/">OSBoxes</a> - Preinstalled Virtual Machine</li>
+<li><a href="https://computernewb.com/collab-vm/">CollabVM</a> - Online Virtual Machines</li>
+<li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=3243">Virtual PC</a> - Windows XP Virtual Machine</li>
+<li><a href="https://github.com/quickemu-project/quickemu">QuickEmu</a> or <a href="https://www.dexpot.de/">Dexpot</a> - Virtual Machine Creator</li>
+<li><a href="https://github.com/otya128/winevdm">winevdm</a> - 16-bit Windows on 64-bit Systems</li>
+<li><a href="https://github.com/jart/blink">Blink</a> - Linux Emulator for Windows</li>
+<li><a href="https://github.com/petersem/dockerholics">Dockerholics</a> - Docker Apps</li>
+<li><a href="https://webcatalog.io">WebCatalog</a> - Turn Sites into Desktop Apps</li>
+</ul>
+<hr>
+<doc-anchor-target id="-hardware-tools">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-hardware-tools">#</doc-anchor-trigger>
+        <span>► Hardware Tools</span>
+    </h1>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25B7_electronics">PC Building / Shopping</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.newegg.com/tools/power-supply-calculator/">PSU Calculator</a></strong> or <a href="https://outervision.com/power-supply-calculator">Power Supply Calculator</a> - Find Compatible Power Supplies</li>
+<li><a href="https://devicetests.com/">DeviceTests</a> - Multiple Device Tests</li>
+<li><a href="https://github.com/rcmaehl/NotCPUCores">NotCPUCores</a>, <a href="https://bitsum.com/parkcontrol/">ParkControl</a>, <a href="https://coderbag.com/product/quickcpu">QuickCPU</a> or <a href="https://bitsum.com/">Process Lasso</a> - CPU Optimizer</li>
+<li><a href="https://www.ozone3d.net/index_softwares.php">Ozone3D</a> - System Benchmarking</li>
+<li><a href="https://www.overclock.net/threads/memory-testing-with-testmem5-tm5-with-custom-configs.1751608/">Testmem5</a> - Memory Benchmarking</li>
+<li><a href="https://glenn.delahoy.com/snappy-driver-installer-origin">SDIO</a>, <a href="https://driverscollection.com/">Drivers Collection</a>, <a href="https://www.driverscape.com/">Driverscape</a> or <a href="https://github.com/lostindark/DriverStoreExplorer">DriverStoreExplorer</a> - Update / Install Missing Drivers</li>
+<li><a href="https://www.vogons.org/">VOGONS</a> - Vintage Computer Hardware Forum</li>
+</ul>
+<hr>
+<doc-anchor-target id="-hardware-monitors">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-hardware-monitors">#</doc-anchor-trigger>
+        <span>▷ Hardware Monitors</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.hwinfo.com/">HWiNFO</a></strong> - System Info &amp; Monitoring</li>
+<li><a href="https://github.com/AnalogJ/scrutiny">Scrutiny</a>, <a href="https://gsmartcontrol.shaduri.dev/">GSmartControl</a> or <a href="https://www.smartmontools.org/">smartmontools</a> - Hard Drive Monitors</li>
+<li><a href="https://gitlab.com/coolercontrol/coolercontrol">CoolerControl</a> - Cooling Device Monitor</li>
+<li><a href="https://github.com/tarcode-apps/BatteryMode">BatteryMode</a> - System Tray Battery Percentage / Managers</li>
+<li><a href="https://www.netdata.cloud/">Netdata</a> - Cloud-Based Monitoring</li>
+<li><a href="https://coderbag.com/product/hwradar">HWRadar</a> or <a href="https://www.cpuid.com/softwares/hwmonitor.html">HWMonitor</a> - Hardware Monitors</li>
+<li><a href="https://openhardwaremonitor.org/">Open Hardware Monitor</a> - Portable Hardware Monitor / <a href="https://github.com/openhardwaremonitor/openhardwaremonitor">GitHub</a></li>
+<li><a href="https://github.com/LibreHardwareMonitor/LibreHardwareMonitor">Libre Hardware Monitor</a> - Updated Fork of Open Hardware Monitor</li>
+<li><a href="https://getfancontrol.com/">FanControl</a> - Control PC Fans / <a href="https://github.com/Rem0o/FanControl.Releases">GitHub</a></li>
+<li><a href="https://github.com/ArcadeRenegade/SidebarDiagnostics">Sidebar Diagnostics</a> - Sidebar for Windows Desktop</li>
+<li><a href="https://github.com/zhongyang219/TrafficMonitor/">Traffic Monitor</a> - Network &amp; Hardware Monitor</li>
+<li><a href="https://github.com/ClementTsang/bottom">bottom</a> or <a href="https://nicolargo.github.io/glances/">Glances</a> - Terminal Hardware Monitors</li>
+</ul>
+<hr>
+<doc-anchor-target id="-gpu-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-gpu-tools">#</doc-anchor-trigger>
+        <span>▷ GPU Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/Syllo/nvtop">nvtop</a></strong> - GPU / Accelerator Process Monitor</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://gitlab.com/leinardi/gwe">GreenWithEnvy</a></strong> - Manage / Control NVIDIA Cards</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.techpowerup.com/download/techpowerup-nvcleanstall/">NVCleanInstall</a></strong> or <a href="https://forums.guru3d.com/threads/nvslimmer-nvidia-driver-slimming-utility.423072/">NVSlimmer</a> - NVIDIA Driver Packages</li>
+<li><a href="https://www.nvidia.com/en-us/software/nvidia-app/">NVIDIA App</a> - NVIDIA Driver Manager</li>
+<li><a href="https://github.com/ElPumpo/TinyNvidiaUpdateChecker">TinyNvidiaUpdateChecker</a> - NVIDIA GPU Update Checker</li>
+<li><a href="https://amernimezone.com/">Amernime Zone</a> - 3rd Party AMD Drivers</li>
+<li><a href="https://vintage3d.org/driver.php">Vintage3D</a> - First Gen 3D Drivers</li>
+<li><a href="https://github.com/Orbmu2k/nvidiaProfileInspector">nvidiaProfileInspector</a> - Modify / View Hidden NVIDIA Settings / <a href="https://youtu.be/XncmeD8khKY">Guide</a></li>
+<li><a href="https://rentry.co/AMDDebloat">AMDDebloat</a> or <a href="https://github.com/GSDragoon/RadeonSoftwareSlimmer">RadeonSoftwareSlimmer</a> - Debloat AMD Drivers</li>
+<li><a href="https://github.com/trulyspinach/SMCAMDProcessor">SMCAMDProcessor</a> - AMD Processor Power Management</li>
+<li><a href="https://github.com/GameTechDev/PresentMon">PresentMon</a> - GPU Benchmarking</li>
+<li><a href="https://github.com/jamesstringerparsec/Easy-GPU-PV">Easy-GPU-PV</a> - Easy GPU Paravirtualization</li>
+<li><a href="https://github.com/kwizatz88/GsyncSwitch">GsyncSwitch</a> - Switch G-Sync or HDR On / Off</li>
+<li><a href="https://www.techpowerup.com/download/techpowerup-throttlestop/">ThrottleStop</a> - Laptop CPU Monitor / Optimizer</li>
+<li><a href="https://amdaputuningutility.com/">Universal x86 Tuning Utility</a> - Laptop GPU Controller / <a href="https://github.com/JamesCJ60/Universal-x86-Tuning-Utility">GitHub</a></li>
+<li><a href="https://github.com/FlyGoat/RyzenAdj">RyzenAdj</a> - Ryzen Laptop GPU Controller</li>
+</ul>
+<hr>
+<doc-anchor-target id="-disk-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-disk-tools">#</doc-anchor-trigger>
+        <span>▷ Disk Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/okhosting/awesome-storage">Awesome Storage</a></strong> - File Storage Resources</li>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/simon987/awesome-datahoarding">Awesome DataHoarding</a></strong> - Data Hoarding Resources</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.diskanalyzer.com/">WizTree</a></strong> - Disk Usage Analyzer</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://crystalmark.info/en/software/crystaldiskmark/">CrystalDiskMark</a></strong> or <a href="https://ccsiobench.com/">CCISOBench</a> - Disk Benchmarking Tools</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://gparted.org/">GParted</a></strong>, <a href="https://rescuezilla.com/">Rescuezilla</a>, <a href="https://clonezilla.org/">CloneZilla</a>, <a href="https://www.partitionwizard.com/">Partition Wizard</a> or <a href="https://www.diskpart.com/">AOMEI</a> - Partition Managers</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.grc.com/validrive.htm">Validrive</a></strong> - Check True Storage Size of USB Devices</li>
+<li><a href="https://www.truenas.com/">TrueNAS</a> - Storage System</li>
+<li><a href="https://github.com/shundhammer/qdirstat">QDirStat</a> - Directory Statistics</li>
+<li><a href="https://crystalmark.info/en/software/crystaldiskinfo/">CrystalDiskInfo</a> - S.M.A.R.T. Data Analyzer</li>
+<li><a href="https://macrorit.com/partition-magic-manager/partition-expert-download.html">Macrorit Partition Expert</a> or <a href="https://diskovery.io/">Diskovery</a> - Disk Usage Analyzers</li>
+<li><a href="https://windirstat.net/">WinDirStat</a> - Disk Usage Analyzer / Cleanup Tool</li>
+<li><a href="https://github.com/dundee/gdu">Gdu</a> or <a href="https://lib.rs/crates/dua-cli">dua</a> - Disk Usage Analyzer with Parallel Processing</li>
+<li><a href="https://github.com/solidiquis/erdtree">Erdtree</a> - Cross-Platform Disk Usage Analyzer</li>
+<li><a href="https://pcmanager-en.microsoft.com/">PC Manager</a> or <a href="https://github.com/builtbybel/CleanmgrPlus">CleanmgrPlus</a> - Disk Managers / Cleanup</li>
+<li><a href="https://www.airlivedrive.com/en/">Air Live Drive</a> - Mount Cloud Drives as Local Disks</li>
+<li><a href="https://www.nsoftware.com/sftpdrive">SFTPDrive</a> - Mount SFTP Servers as Local Disks</li>
+</ul>
+<hr>
+<doc-anchor-target id="-monitor-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-monitor-tools">#</doc-anchor-trigger>
+        <span>▷ Monitor Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.displayfusion.com/">DisplayFusion</a></strong> or <a href="https://sourceforge.net/projects/dualmonitortool/">Dual Monitor Tool</a> - Dual Monitor Tools</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://justgetflux.com/">f.lux</a></strong>, <a href="https://github.com/Tyrrrz/LightBulb">LightBulb</a>, <a href="https://github.com/massaiTHEdog1/ScreenTemperature">ScreenTemperature</a> or <a href="https://www.skytopia.com/software/sunsetscreen/index.htm">SunsetScreen</a> - Adjust Display Color / Temperature</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/emoacht/Monitorian">Monitorian</a></strong>, <strong><a href="https://twinkletray.com/">Twinkle Tray</a></strong> / <a href="https://github.com/xanderfrangos/twinkle-tray">GitHub</a> or <a href="https://www.nelsonpires.com/software/dimmer">Dimmer</a> - Adjust Monitor Brightness</li>
+<li><a href="https://www.wagnardsoft.com/display-driver-uninstaller-ddu-">Display Driver Uninstaller</a>, <a href="https://www.guru3d.com/download/display-driver-uninstaller-download">2</a> - Display Driver Removal Tool / <a href="https://github.com/Wagnard/display-drivers-uninstaller">GitHub</a></li>
+<li><a href="https://www.eizo.be/monitor-test/">EIZO</a>, <a href="https://www.monitortests.com/">Monitor</a> or <a href="https://lcdtech.info/en/tests/">LCDTech</a> - Monitor Performance Tests</li>
+<li><a href="https://www.testufo.com/">TestUFO</a> - Monitor Framerate Test</li>
+<li><a href="https://github.com/mgth/LittleBigMouse">LittleBigMouse</a> - DPI Test</li>
+<li><a href="https://github.com/wonmor/Scalizer-Windows">Scalizer</a> - Auto DPI Scaling / <a href="https://youtu.be/f_3XWlmyat4">YouTube</a></li>
+<li><a href="https://rentry.co/ICM">ICM</a> or <a href="https://tftcentral.co.uk/articles/icc_profiles">ICC Profiles</a> - ICC Profiles and Monitor Calibration</li>
+<li><a href="https://www.tools.rodrigopolo.com/display_calc/">Display Calc</a> - Display Distance / Dimension Calculator</li>
+<li><a href="https://multimonitorcalculator.com/">Multi-Monitor Calculator</a> - Dual-Monitor Setup Planning / Tests</li>
+<li><a href="https://www.wide-gamut.com/">Wide Gamut</a> - Color Compatibility Test</li>
+<li><a href="https://www.whitescreen.online/">WhiteScreen</a> - Screen Color Test</li>
+<li><a href="https://lcdtech.info/en/tests/dead.pixel.htm">Dead.Pixel</a> - Dead Pixel Test</li>
+<li><a href="https://www.jscreenfix.com/">JScreenFix</a> - Repair Stuck Pixels</li>
+<li><a href="https://centerofmyscreen.com/">CenterOfMyScreen</a> - Find Center of Monitor</li>
+<li><a href="https://github.com/ruzrobert/ShowDesktopOneMonitor">ShowDesktopOneMonitor</a> - Show Desktop for Only One Monitor</li>
+<li><a href="https://deskreen.com/">Deskreen</a> / <a href="https://github.com/pavlobu/deskreen">GitHub</a> or <a href="https://www.spacedesk.net/">SpaceDesk</a> - Use Mobile Device as Monitor</li>
+<li><a href="https://github.com/mausimus/ShaderGlass">ShaderGlass</a> - Custom Screen Shaders</li>
+<li><a href="https://daltonlens.org/">DaltonLens</a> or <a href="https://www.toptal.com/designers/colorfilter">Toptal</a> - Color Blindness Filters</li>
+<li><a href="https://www.nvaccess.org/download/">NVDA</a> - Screen Reader for Blind Users / <a href="https://github.com/nvaccess/nvda">GitHub</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="-mouse--keyboard">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-mouse--keyboard">#</doc-anchor-trigger>
+        <span>▷ Mouse / Keyboard</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.reddit.com/r/MechanicalKeyboards/wiki/index">/r/MechanicalKeyboards Wiki</a></strong> - Mechanical Keyboard Resources</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://hotkeycheatsheet.com/">Hotkey Cheatsheet</a></strong>, <a href="https://usethekeyboard.com/">Use The Keyboard</a>, <a href="https://sourceforge.net/projects/hotkeyp/">HotkeyP</a>, <a href="https://gryder.org/software/clavier-plus/">Clavier++</a>, <a href="https://github.com/rbreaves/kinto">Kinto</a> or <a href="https://cheatkeys.com/cheatSheet">CheatKeys</a> - Keyboard Shortcuts / <a href="https://i.ibb.co/yNHRPfm/2147ec86baff.png">Image</a>, <a href="https://i.ibb.co/XyWn2qc/075be8840d12.png">2</a> / <a href="https://keycombiner.com/">Course</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://usevia.app/">VIA</a></strong> / <a href="https://github.com/the-via/app">GitHub</a>, <a href="https://github.com/randyrants/sharpkeys/">SharpKeys</a>, <a href="https://github.com/jtroo/kanata">Kanata</a>, <a href="https://get.vial.today/">Vial</a>, <a href="https://ergogen.xyz/">Ergogen</a> or <a href="https://github.com/NtQuerySystemInformation/CustomKeyboardLayoutPersistence">Persistence</a> - Custom Keyboard Layouts / Remapping</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://geekhack.org/">geekhack</a></strong> or <a href="https://www.keebtalk.com/">KeebTalk</a> - Keyboard Forums</li>
+<li><a href="https://www.highrez.co.uk/downloads/XMouseButtonControl.htm">X-Mouse Button Control</a> - Re-Map Mouse Buttons / Scroll Wheel</li>
+<li><a href="https://github.com/sw3103/movemouse/">MoveMouse</a> or <a href="https://github.com/arkane-systems/mousejiggler">MouseJiggler</a> - Simulate User Activity</li>
+<li><a href="https://github.com/a1xd/rawaccel">Raw Accel</a> - Mouse Acceleration Tool</li>
+<li><a href="https://www.tcbmi.com/strokeit/">StrokeIt</a> or <a href="https://www.strokesplus.net/">StrokesPlus</a> - Mouse Gestures</li>
+<li><a href="https://espanso.org/">Espanso</a> - Typing Shortcuts / <a href="https://github.com/espanso/espanso">GitHub</a></li>
+<li><a href="https://pit-ray.github.io/win-vind/">win-vind</a> - Vim Style Keybindings for Windows</li>
+<li><a href="https://github.com/mulaRahul/keyviz">KeyViz</a> - Keystroke Visualizer</li>
+<li><a href="https://whatpulse.org/">WhatPulse</a> - Mouse / Keyboard Usage Analyzer</li>
+<li><a href="https://github.com/kmonad/kmonad">Kmonad</a> - Keyboard Manager</li>
+<li><a href="https://github.com/hrvach/deskhop">Deskhop</a> - Quickly Switch Devices between Computers</li>
+<li><a href="https://github.com/erryox/Switchy">Switchy</a> - Switch Keyboard Languages with Button</li>
+<li><a href="https://wiki.keyboard.gay/">Is this good?</a> - Custom Keyboard Guides</li>
+<li><a href="https://dreymar.colemak.org/">DreyMaR&#x27;s</a> - Keyboard Tips and Resources</li>
+<li><a href="https://keyboard.university/">Keyboard University</a> or <a href="http://xahlee.info/kbd/keyboarding.html">KDB</a> - Mechanical Keyboard Building Guides</li>
+<li><a href="https://keyboardsimulator.xyz/">Keyboard Simulator</a> - Design &amp; Test Virtual Keyboards</li>
+<li><a href="https://en.key-test.ru/">Key Test</a> - Keyboard Tester</li>
+</ul>
+<hr>
+<doc-anchor-target id="-system-audio">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-system-audio">#</doc-anchor-trigger>
+        <span>▷ System Audio</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://equalizerapo.com/">Equalizer APO</a></strong>, <strong><a href="https://autoeq.app/">AutoEq</a></strong>, <a href="https://sourceforge.net/projects/peace-equalizer-apo-extension/">PeaceEqualizer</a> or <a href="https://www.fxsound.com/">FXSound</a> - Audio Equalizers</li>
+<li><a href="https://help.elgato.com/hc/en-us/articles/360044566172-Wave-Link-First-Time-Setup-for-Windows-10">Wave Link</a> or <a href="https://vb-audio.com/Voicemeeter/index.htm">VoiceMeeter</a> / <a href="https://vb-audio.com/Voicemeeter/banana.htm">Banana</a> - Audio Mixers / Multi-Device Playback</li>
+<li><a href="https://soundswitch.aaflalo.me/">SoundSwitch</a> - Switch Audio Device with Hotkey / <a href="https://github.com/Belphemur/SoundSwitch">GitHub</a></li>
+<li><a href="https://github.com/Plutoberth/SonyHeadphonesClient">SonyHeadphonesClient</a> - Sony Headphones Clone</li>
+<li><a href="https://www.audiocheck.net/">Audiocheck</a> - Audio Tests</li>
+<li><a href="https://github.com/spddl/LowAudioLatency/">LowAudioLatency</a> - Reduce Audio Latency</li>
+<li><a href="https://abx.digitalfeed.net/">DigitalFeed</a> - Lossless Audio Sound System Test</li>
+<li><a href="https://onlinemictest.com/">Online Mic Test</a> or <a href="https://webcammictest.com/check-mic.html">Check Mic</a> - Mic Test</li>
+<li><a href="https://mybrowseraddon.com/sound-meter.html">Sound Meter</a> or <a href="https://www.roomeqwizard.com">REW</a> - Measure Surrounding Sound Level</li>
+<li><a href="https://krisp.ai/">Krisp</a> or <a href="https://github.com/werman/noise-suppression-for-voice">noise-suppression-for-voice</a> - Noise Suppression Tools</li>
+<li><a href="https://ai-coustics.com/">AI-coustics</a> - Voice Clarity Enhancement AI</li>
+<li><a href="https://docs.kenp.io/">AirPods Dirty Secret</a> - AirPods Repair Directory</li>
+</ul>
+<hr>
+<doc-anchor-target id="-windows-isos">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-windows-isos">#</doc-anchor-trigger>
+        <span>► Windows ISOs</span>
+    </h1>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://gravesoft.dev/clean_install_windows">Clean Install Windows</a></strong> or <a href="https://rentry.co/Clean_Install">Clean Install</a> - Windows Clean Installation Guides</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://massgrave.dev/#Method_1_-_PowerShell">MAS</a></strong> - Windows Activation Scripts / <a href="https://github.com/massgravel/Microsoft-Activation-Scripts/">GitHub</a> / <a href="https://discord.gg/gjJEfq7ux8">Discord</a></li>
+<li><a href="https://os.click/en">OS.click</a>, <a href="https://forums.mydigitallife.net/">MyDigitalLife</a>, <a href="https://files.rg-adguard.net/">files.rg-adguard</a> or <a href="https://www.microsoft.com/en-us/software-download/">Microsoft SD</a> - Windows ISOs</li>
+<li><a href="https://www.oldschoolos.com/">Old School OS</a>, <a href="https://osvault.weebly.com/directory.html">OS Vault</a>, <a href="https://vetusware.com/">VETUSWARE</a> or <a href="https://winworldpc.com/">WinWorldPC</a> - Oldschool ISOs</li>
+<li><a href="https://github.com/pbatard/Fido">Fido</a> - ISO Powershell Script</li>
+<li><a href="https://awuctl.github.io/mvs/">MVS dump</a> - Verify ISO Legitimacy</li>
+<li><a href="https://coolstar.org/chromebook/windows-install.html">CoolStar</a> - Install Windows on Chromebook</li>
+</ul>
+<hr>
+<doc-anchor-target id="-usb--bootloaders">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-usb--bootloaders">#</doc-anchor-trigger>
+        <span>▷ USB / Bootloaders</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://rufus.ie/">Rufus</a></strong> - Create Bootable USB Drives</li>
+<li><a href="https://github.com/AveYo/MediaCreationTool.bat">MediaCreationTool</a> - Windows Deployment Automation</li>
+<li><a href="https://etcher.balena.io/">balenaEtcher</a> - Flash OS Image SD / USB / Non-Windows OS</li>
+<li><a href="https://github.com/CloverHackyColor/CloverBootloader/">CloverBootloader</a> or <a href="https://neosmart.net/EasyBCD/">EasyBCD</a> - Bootloaders / <a href="https://mackie100projects.altervista.org/">Config</a></li>
+<li><a href="https://www.hirensbootcd.org/">Hiren&#x27;s BootCD PE</a> or <a href="https://github.com/ChrisRfr/Win10XPE">Win10XPE</a> - Preinstallation Environments</li>
+</ul>
+<hr>
+<doc-anchor-target id="-windows-activation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-windows-activation">#</doc-anchor-trigger>
+        <span>▷ Windows Activation</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://massgrave.dev/#Method_1_-_PowerShell">MAS</a></strong> / <a href="https://github.com/massgravel/Microsoft-Activation-Scripts/">GitHub</a> / <a href="https://discord.gg/gjJEfq7ux8">Discord</a> - Windows Activation Scripts</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/abbodi1406/KMS_VL_ALL_AIO">KMS_VL_ALL_AIO</a></strong> - Offline Activator</li>
+<li><a href="https://github.com/Dir3ctr1x/EzWindSLIC">EzWindSLIC</a> - Vista / 7 / Server 2008</li>
+<li><a href="https://rentry.co/FMHYBase64#officertool-project">OfficeRTool</a> - Office 2016 Activator</li>
+</ul>
+<hr>
+<doc-anchor-target id="-windows-updates">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-windows-updates">#</doc-anchor-trigger>
+        <span>▷ Windows Updates</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.changewindows.org/timeline">ChangeWindows</a></strong> - Latest Windows Update Info</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/abbodi1406/vcredist">VCRedist</a></strong> - AIO Repack for Microsoft Visual C++ Redists</li>
+<li><a href="https://greatis.com/stopupdates10/">stopupdates10</a> or <a href="https://www.grc.com/incontrol.htm">InControl</a> - Enable / Disable Win 10/11 Updates / Can Cause Breakage</li>
+<li><a href="https://legacyupdate.net/">LegacyUpdate</a> - Fix Windows Updates for Legacy Editions</li>
+<li><a href="https://forums.mydigitallife.net/threads/bypass-windows-7-extended-security-updates-eligibility.80606">Extended Win 7 Updates</a> - Extended Windows 7 Updates</li>
+<li><a href="https://wureset.com/">WUReset</a> - Reset Windows Update Components</li>
+<li><a href="https://uupdump.net/">UUP Dump</a> - Download Unified Update Platform Files</li>
+<li><a href="https://ocxdump.com/">OcxDump</a> - .ocx Files</li>
+</ul>
+<hr>
+<doc-anchor-target id="-windows-repair">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-windows-repair">#</doc-anchor-trigger>
+        <span>▷ Windows Repair</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://www.magnumdb.com/">MagNumDB</a>, <a href="https://github.com/henrypp/errorlookup">ErrorLookup</a> or <a href="https://learn.microsoft.com/en-us/windows/win32/debug/system-error-code-lookup-tool">Microsoft Error Lookup</a> - Windows Debugging Tools</li>
+<li><a href="https://www.reddit.com/r/techsupport/">/r/TechSupport</a> / <a href="https://rtech.support/">Wiki</a> - Tech Support Subreddit / <a href="https://discord.gg/2EDwzWa">Discord</a></li>
+<li><a href="https://www.windowsphoneinfo.com/">Windows 10 Forums</a>, <a href="https://www.sevenforums.com/">SevenForums</a>, <a href="https://hardforum.com/">Hardforum</a>, <a href="https://vinafix.com/">VinaFix</a> or <a href="https://www.techsupportforum.com/">TechSupportForum</a> - Tech Support Forums</li>
+<li><a href="https://www.memtest.org/">MemTest</a> - Memory Diagnostic Tool</li>
+<li><a href="https://windows-repair-toolbox.com/">Windows Repair Toolbox</a> - Multi-Tool Repair App</li>
+<li><a href="https://medicatusb.com/">Medicat</a> - Computer Diagnostic / Recovery Toolkit</li>
+<li><a href="https://github.com/PhoenixPE/PhoenixPE">PhoenixPE</a> - Recovery Environment</li>
+<li><a href="https://openboarddata.org/">OpenBoardData</a> - Board Repair Data</li>
+<li><a href="https://github.com/janestreet/magic-trace">Magic Trace</a> - Diagnose Performance Issues using Intel Processor Trace</li>
+<li><a href="https://docs.google.com/document/d/1s43_3YGJIy3zs0ZIksoOmxgrDKnu4ZNhhnXW_NiJZ0I/edit">Intel BIOS Guide</a> - Intel BIOS Settings Explanation</li>
+<li><a href="https://aka.ms/GetPCHealthCheckApp">PC Health Check</a> or <a href="https://github.com/rcmaehl/WhyNotWin11">WhyNotWin11</a> - Identify why your PC isn&#x27;t Ready for Windows 11</li>
+</ul>
+<hr>
+<doc-anchor-target id="-customization">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-customization">#</doc-anchor-trigger>
+        <span>► Customization</span>
+    </h1>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.rainmeter.net/">Rainmeter</a></strong> - Desktop Customization</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong>Rainmeter Tools</strong> - <a href="https://visualskins.com/">Skins</a> / <a href="https://github.com/Jax-Core">Utilities</a>, <a href="https://www.deviantart.com/jaxoriginals">2</a> / <a href="https://www.droptopfour.com/">Menu Bar / App Launcher</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://openrgb.org/">OpenRGB</a></strong> / <a href="https://pastebin.com/tgY55J4n">Beta</a>, <strong><a href="https://kno.wled.ge/">WLED</a></strong>, <a href="https://www.project-aurora.com/">Aurora</a>, <a href="https://www.signalrgb.com/">SignalRGB</a>, <a href="https://github.com/liquidctl/liquidctl">LiquidCTL</a>, <a href="https://artemis-rgb.com/">Artemis</a>, <a href="https://rgbsync.com/">RBGSync</a> or <a href="https://github.com/nicolasdeory/firelight">FireLight</a> - Lighting Control</li>
+<li><a href="https://virtualcustoms.net/">VirtualCustoms</a> or <a href="https://discord.com/invite/8FFWAqdtc4">winthemers</a> - Customization Communities</li>
+<li><a href="https://www.xwidget.com/">XDesktopSoft</a> - Desktop Customization</li>
+<li><a href="https://tweaker.ramensoftware.com/">Taskbar Tweaker</a> or <a href="https://www.microsoft.com/en-us/p/nicetaskbar/9pkl2s93xwb5">NiceTaskbar</a> - Taskbar Customization Tools</li>
+<li><a href="https://github.com/nptr/msstyleEditor">msstyleEditor</a> or <a href="https://github.com/Abdelrhman-AK/WinPaletter">WinPaletter</a> - Windows Visual Style Editors</li>
+<li><a href="https://github.com/krlvm/BeautySearch">BeautySearch</a> - Windows 10 Search Appearance Tweaker</li>
+<li><a href="https://github.com/tgraupmann/ChromaDiscordApp">ChromaDiscordApp</a> - Discord System Lighting Control</li>
+<li><a href="https://mechvibes.com/">Mechvibes</a> or <a href="https://mechakeys.robolab.io/">MechaKeys</a> - Keyboard Sound Effects</li>
+<li><a href="https://github.com/OrangeJedi/Aerial">Aerial Screen Saver</a> - Apple TV Style Screensavers</li>
+<li><a href="https://electricsheep.org/">ElectricSheep</a> - Collaborative Usergenerated Screensaver</li>
+<li><a href="https://www.bryanbraun.com/after-dark-css/">After Dark CSS</a> - Browser Screensavers</li>
+<li><a href="https://github.com/Metabolix/HackBGRT">HackBGRT</a> - Change Windows Boot Logo</li>
+<li><a href="https://archive.org/details/cursormania">Cursor Mania Archive</a>, <a href="https://github.com/ful1e5/Bibata_Cursor">Bibata Cursor</a>, <a href="https://pastebin.com/BrAbMy4n">Cursors Pastebin</a> or <a href="http://rw-designer.com/cursor-library">rw-designer</a> - Cursors</li>
+<li><a href="https://github.com/antiden/macOS-cursors-for-Windows">macOS-cursors-for-Windows</a> - macOS Cursors for Windows</li>
+<li><a href="https://foldermarker.com/">FolderMarker</a> or <a href="https://www.gdzsoft.com/">CustomFolder</a> - Custom Folders &amp; Markers</li>
+<li><a href="https://github.com/sdushantha/recycle-bin-themes">Recycle Bin Themes</a> - Custom Recycle Bin Icons</li>
+<li><a href="https://www.marticliment.com/elevenclock/">ElevenClock</a> - Customize Windows 11 Clock</li>
+<li><a href="https://github.com/ALTaleX531/TranslucentFlyouts">TranslucentFlyouts</a> - Translucent Context Menus / <a href="https://github.com/Satanarious/TranslucentFlyoutsConfig">GUI</a></li>
+<li><a href="https://github.com/TranslucentTB/TranslucentTB">TranslucentTB</a> - Translucent Windows Taskbar</li>
+<li><a href="https://github.com/Maplespe/ExplorerBlurMica">ExplorerBlurMica</a> - Blur / Acrylic Effect for File Explorer</li>
+<li><a href="https://github.com/dremin/RetroBar">RetroBar</a> - Retro Classic Taskbars</li>
+<li><a href="https://www.startisback.com/">StartIsBack</a> or <a href="https://www.startallback.com/">StartAllBack</a> - Restore Classic Start Menu in Win 10/11 / <a href="https://rentry.co/FMHYBase64#start-back">Unlock</a></li>
+<li><a href="https://win98icons.alexmeub.com/">Win98Icons</a> - Classic Win98 Icons</li>
+<li><a href="https://github.com/niivu/7tsp-Icon-themes">7tsp-Icon-themes</a> - Custmon Icon Themes</li>
+<li><a href="https://apps.microsoft.com/store/detail/modernflyouts-preview/9MT60QV066RP">Modern Flyouts</a> - Modern Context Menus / <a href="https://github.com/ModernFlyouts-Community/ModernFlyouts">GitHub</a></li>
+<li><a href="https://github.com/torchgm/NewModernWinver">ModernWinver</a> or <a href="https://github.com/dongle-the-gadget/WinverUWP">WinverUWP</a> - Modern Windows About Page</li>
+</ul>
+<hr>
+<doc-anchor-target id="-custom-themes">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-custom-themes">#</doc-anchor-trigger>
+        <span>▷ Custom Themes</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/fosslife/awesome-ricing">Awesome Ricing</a></strong> or <a href="https://github.com/winthemers/wiki">Windows-Ricing</a> - Windows Ricing Resources</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://draculatheme.com/">Dracula</a></strong> / <a href="https://discord.com/invite/yDcFsrYuq9">Discord</a> or <strong><a href="https://catppuccin.com/">Catppuccin</a></strong> / <a href="https://discord.gg/r6Mdz5dpFc">Discord</a> - Custom App Themes</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://terminal.sexy/">terminal.sexy</a></strong>, <a href="https://terminalsplash.com/">TerminalSplash</a>, <a href="https://ethanschoonover.com/solarized">Solarized</a> or <a href="https://windowsterminalthemes.dev/">WindowsTerminalThemes</a> - Terminal Themes</li>
+<li><a href="https://github.com/niivu/Windows-10-themes">Windows 10 Themes</a>, <a href="https://github.com/niivu/Windows-11-themes">Windows 11 Themes</a> or <a href="https://vsthemes.org/en/">VSThemes</a> - Custom Windows Themes</li>
+<li><a href="https://www.ricing.chloechantelle.com/">Chloechantelle Guide</a> or <a href="https://ninjasr.heliohost.org/w/lb/windows">Heliohost Guide</a> - Windows Customization Guides</li>
+<li><a href="https://blackbox4windows.com/">Blackbox 4 Windows</a> - Custom Windows Shells / Widgets</li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_alternative_shells_for_Windows">Alternative Windows Shells Wiki</a> - Alt Windows Shells</li>
+<li><a href="https://windowscustomization.com/">WindowsCustomization</a>, <a href="https://www.wincustomize.com/">WinCustomize</a>, <a href="https://www.deviantart.com/tag/windows10">Win10 DeviantArt</a>, <a href="https://winclassic.boards.net/">WinClassic</a> or <a href="https://7themes.su/">7Themes</a> - Customization / Themes / Wallpapers</li>
+<li><a href="https://github.com/t1m0thyj/WinDynamicDesktop">WinDynamicDesktop</a> or <a href="https://apps.microsoft.com/detail/9nblggh1zbkw">Dynamic Theme</a> - Dynamic Desktop Themes</li>
+<li><a href="https://github.com/AutoDarkMode/Windows-Auto-Night-Mode">Auto Night Mode</a> - Dark / Light Mode Theme Switcher</li>
+<li><a href="https://github.com/namazso/SecureUxTheme">SecureUxTheme</a> or <a href="https://mhoefs.eu/software_uxtheme.php?ref=syssel&amp;lang=en">UltraUXThemePatcher</a> - Ux Theme Patcher</li>
+<li><a href="https://www.deviantart.com/devillnside/art/7TSP-GUI-2019-Edition-804769422">7TSP GUI</a> - Theme Source Patcher</li>
+<li><a href="https://winmoes.com/">Winmoes</a> - Anime Windows Themes / Wallpapers</li>
+<li><a href="https://deskto.ps/">Desktops</a> - OS Theme Examples</li>
+<li><a href="https://redd.it/pd5ha6">Macdows11</a> or <a href="https://github.com/Runixe786/Macified-Windows">Macified Windows</a> - Win 11 Mac Theme Guides</li>
+<li><a href="https://rosepinetheme.com/">Rosé Pine</a> / <a href="https://discord.gg/r6wf35KVJW">Discord</a>, <a href="https://github.com/daltonmenezes/aura-theme">Aura Theme</a>, <a href="https://windhawk.net/">Windhawk</a> or <a href="https://theme-park.dev/">theme.park</a> - Custom App Themes</li>
+<li><a href="https://forum.spacehey.com/topic?id=94545">Totally Awesome List</a> - Oldschool App Themes</li>
+<li><a href="https://github.com/krlvm/AccentColorizer">AccentColorizer</a> - Custom Windows Accent Color</li>
+<li><a href="https://github.com/MicaForEveryone/MicaForEveryone">MicaForEveryone</a> - System Backdrop Customization</li>
+<li><a href="https://github.com/zhongyang219/TrafficMonitor/">Traffic Monitor</a> - Network &amp; Hardware Monitor Themes</li>
+<li><a href="https://github.com/LazoCoder/Pokemon-Terminal">Pokemon Terminal</a> - Pokémon Terminal Themes</li>
+<li><a href="https://github.com/matafokka/ExcelDarkThemeFix">ExcelDarkThemeFix</a> - Fix Excel on Themed Windows</li>
+</ul>
+<hr>
+<doc-anchor-target id="-wallpapers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-wallpapers">#</doc-anchor-trigger>
+        <span>▷ Wallpapers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://wallhaven.cc/">wallhaven</a></strong> / <a href="https://github.com/eramdam/WallbaseDirectDownloader">Downloader</a> / <a href="https://github.com/luisflorido/wallhaven-desktop">Client</a> or <strong><a href="https://wall.alphacoders.com/">Wallpaper Abyss</a></strong> - Find Wallpapers</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.ghibli.jp/info/013772">Studio Ghibli Wallpapers</a></strong> or <a href="https://rentry.co/FMHYBase64#ghibli-upscaled">Ghibli Upscaled</a> - Studio Ghibli Wallpapers</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/jszczerbinsky/lwp">LWP</a></strong> - Move Wallpapers with Cursor</li>
+<li><a href="https://www.reddit.com/r/wallpaper/">/r/Wallpaper/</a> - Wallpapers Community</li>
+<li><a href="https://farbenfroh.io/">Faerber</a> - Edit Wallpapers to Match Color Scheme</li>
+<li><a href="https://www.dualmonitorbackgrounds.com/">DualMonitorBackgrounds</a> - Dual Monitor Wallpapers</li>
+<li><a href="https://www.pixeltrue.com/scenic-illustrations">Scenic Illustrations</a> - Landscape Wallpapers</li>
+<li><a href="https://coolbackgrounds.io/">CoolBackgrounds</a> or <a href="https://wallup.net/">wallup</a> - Customizable Wallpapers</li>
+<li><a href="https://simpledesktops.com/">Simple Desktops</a>, <a href="https://www.positrondream.com/">Positron Dream</a> or <a href="https://www.setaswall.com/">SetAsWall</a> - Minimalist Wallpapers</li>
+<li><a href="https://reddit.com/r/LivingBackgrounds">/r/LivingBackgrounds</a>, <a href="https://wallegend.net/en/">WALLegend</a> or <a href="https://moewalls.com/">MoeWalls</a> - Animated Wallpapers</li>
+<li><a href="https://github.com/SegoCode/AutoWall">AutoWall</a> - Turn Videos / GIFs to Live Wallpapers</li>
+<li><a href="https://screencaps.us/">Screencaps</a> or <a href="https://shot.cafe/">shot.cafe</a> - Movie / TV Wallpapers</li>
+<li><a href="https://anime-pictures.net/">Anime Pictures</a>, <a href="https://t.me/Anime_WallpapersHD/">Anime_WallpapersHD</a>, <a href="https://wallpaperwaifu.com/">WallpaperWaifu</a> or <a href="https://mylivewallpapers.com/">MyLiveWallpapers</a> - Anime Wallpapers</li>
+<li><a href="https://draculatheme.com/wallpaper">Dracula Wallpapers</a> - Dracula Wallpapers</li>
+<li><a href="https://www.wallpaperhub.app/">WallpaperHub</a> or <a href="https://drive.google.com/drive/folders/1-80cROdVY-GSwu9fGnJJyglcERKyJ-gP">Windows Wall Packs</a> / <a href="https://windowswallpaper.miraheze.org/wiki/Main_Page">2</a> - Windows Wallpapers</li>
+<li><a href="https://goo.gl/photos/HjY1hmo6p3jfFz8a7">Mac Walls</a>, <a href="https://photos.google.com/share/AF1QipNNQyeVrqxBdNmBkq9ILswizuj-RYJFNt5GlxJZ90Y6hx0okrVSLKSnmFFbX7j5Mg?key=RV8tSXVJVGdfS1RIQUI0Q3RZZVhlTmw0WmhFZ2V3">2</a> - Apple Wallpapers</li>
+<li><a href="https://basicappleguy.com/basicappleblog/category/Wallpaper">BasicAppleBlog</a> - Custom Apple Wallpapers</li>
+<li><a href="https://www.xbox.com/en-us/wallpapers/">Xbox Wallpapers</a> - Xbox Wallpapers</li>
+<li><a href="https://github.com/D3Ext/aesthetic-wallpapers/">Aesthetic Wallpapers</a> - Curated List of Wallpapers from Different Sources</li>
+<li><a href="https://wallpapertip.com/">Wallpaper Tip</a>, <a href="https://wallspic.com/">WallsPic</a>, <a href="https://www.wallpaperflare.com/">WallpaperFlare</a>, <a href="https://hdqwalls.com/">HDQwalls</a> or <a href="https://www.uhdpaper.com/">UHD Wallpaper</a> - Misc Wallpapers</li>
+<li><a href="https://t.me/G_Walls">G_Walls</a> or <a href="https://t.me/pengwyn">pengwyn</a> - Telegram Wallpaper Channels</li>
+</ul>
+<hr>
+<doc-anchor-target id="-wallpaper-managers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-wallpaper-managers">#</doc-anchor-trigger>
+        <span>▷ Wallpaper Managers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://rentry.co/FMHYBase64#wallpaper-engine">Wallpaper Engine</a></strong> / <a href="https://github.com/TheRioMiner/Wallpaper-Engine-Pkg-to-Zip">PKG to Zip</a> / <a href="https://www.wallpaperengine.space/collections">Collections</a>, <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2801058904">2</a> / <a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_steam_workshop_downloaders">Workshop DL</a> - Wallpaper Manager</li>
+<li><a href="https://www.rocksdanister.com/lively/">Lively</a> or <a href="https://screen-play.app/">ScreenPlay</a> - Live Wallpaper Manager</li>
+<li><a href="https://apps.microsoft.com/store/detail/backiee-wallpaper-studio-10/9WZDNCRFHZCD">backiee</a> - Wallpaper Manager</li>
+<li><a href="https://github.com/hhannine/superpaper">SuperPaper</a> - Cross-Platform Multi-Monitor Wallpaper Manager</li>
+<li><a href="https://johnsad.ventures/software/backgroundswitcher/">Background Switcher</a> - Multi-Host Wallpaper Switcher</li>
+<li><a href="https://awesome-wallpaper.com/">Awesome Wallpaper</a> - Show System Information on Wallpaper</li>
+</ul>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../docs/videopiracyguide/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">► Streaming Sites</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../docs/text-tools/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">► Text Tools</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "► System Tools", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>

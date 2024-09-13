@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.779537605844">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.5.0">
+
+    <!-- Primary Meta Tags -->
+    <title>► Video Tools | FreeMediaHeckYeah</title>
+    <meta name="title" content="► Video Tools | FreeMediaHeckYeah">
+    <meta name="description" content="◄◄ Back to Wiki Index">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://fmhy.pages.dev/docs/video-tools/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fmhy.pages.dev/docs/video-tools/">
+    <meta property="og:title" content="► Video Tools | FreeMediaHeckYeah">
+    <meta property="og:description" content="◄◄ Back to Wiki Index">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fmhy.pages.dev/docs/video-tools/">
+    <meta property="twitter:title" content="► Video Tools | FreeMediaHeckYeah">
+    <meta property="twitter:description" content="◄◄ Back to Wiki Index">
+
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../static/favicon.ico" rel="icon">
+    <link href="../../resources/css/retype.css?v=3.5.0.779537605844" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.779537605844" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.779537605844" data-turbo-eval="false" defer></script>
+
+    <link rel="stylesheet" href="static/styles.css">
+
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/fmhy.ico">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/fmhy.ico">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">FMHY</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://redd.it/17f8msf">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discord</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy-search.streamlit.app/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Search</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Reddit</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/fmhy">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Github</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Updates</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/backups">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.46 1.137a1.748 1.748 0 0 1 1.08 0l8.25 2.675A1.75 1.75 0 0 1 22 5.476V10.5c0 6.19-3.77 10.705-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.771 21.204 2 16.69 2 10.5V5.476c0-.76.49-1.43 1.21-1.664Zm.617 1.426a.253.253 0 0 0-.154 0L3.673 5.24a.25.25 0 0 0-.173.237V10.5c0 5.461 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0c5.15-1.943 8.43-5.965 8.43-11.426V5.476a.25.25 0 0 0-.173-.237ZM13 12.232V15a1 1 0 0 1-2 0v-2.768a2 2 0 1 1 2 0Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Backups</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://redd.it/17f8msf">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discord</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fmhy-search.streamlit.app/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Search</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Reddit</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/fmhy">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Github</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Updates</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/backups">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.46 1.137a1.748 1.748 0 0 1 1.08 0l8.25 2.675A1.75 1.75 0 0 1 22 5.476V10.5c0 6.19-3.77 10.705-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.771 21.204 2 16.69 2 10.5V5.476c0-.76.49-1.43 1.21-1.664Zm.617 1.426a.253.253 0 0 0-.154 0L3.673 5.24a.25.25 0 0 0-.173.237V10.5c0 5.461 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0c5.15-1.943 8.43-5.965 8.43-11.426V5.476a.25.25 0 0 0-.173-.237ZM13 12.232V15a1 1 0 0 1-2 0v-2.768a2 2 0 1 1 2 0Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Backups</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<hr>
+<hr>
+<p><strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/tools-index">◄◄ Back to Wiki Index</a></strong></p>
+<hr>
+<hr>
+<doc-anchor-target id="-video-tools" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-video-tools">#</doc-anchor-trigger>
+        <span>► Video Tools</span>
+    </h1>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai#wiki_.25BA_video_generation">AI Video Generators</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/AaronFeng753/Waifu2x-Extension-GUI">Waifu2x GUI</a></strong>, <a href="https://github.com/k4yt3x/video2x">Video2x</a>, <a href="https://github.com/mafiosnik777/enhancr">Enhancr</a> or <a href="https://github.com/akai-katto/dandere2x">Dandere2x</a> - Video Upscalers</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/hacksider/Deep-Live-Cam">Deep-Live-Cam</a></strong>, <a href="https://github.com/Hillobar/Rope">Rope</a>, <a href="https://github.com/neuralchen/SimSwap">SimSwap</a>, <a href="https://github.com/C0untFloyd/roop-unleashed">Roop Unleashed</a> or <a href="https://github.com/s0md3v/roop">Roop</a> - Video Face Swap Tools</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://playphrase.me/">PlayPhrase</a></strong>, <a href="https://clip.cafe/">clip.cafe</a>, <a href="https://clipbase.xyz/">ClipBase</a>, <a href="https://filmot.com/">Filmot</a> or <a href="https://yarn.co/">Yarn</a> / <a href="https://getyarn.io/">2</a> - Internet Clip Quote Search</li>
+<li><a href="https://forum.videohelp.com/">VideoHelp Forum</a> - All Things Media / Video</li>
+<li><a href="https://github.com/amietn/vcsi">VCSI</a> - Create Video Contact Sheets / Thumbnails</li>
+<li><a href="https://github.com/Netflix/vmaf">VMAF</a> - Video Quality Assessment</li>
+<li><a href="https://replicate.com/nateraw/video-llava">Video Llava</a> - Video Description AI</li>
+<li><a href="https://www.videosmaller.com/">VideoSmaller</a>, <a href="https://www.youcompress.com/">YouCompress</a>, <a href="https://compress-video-online.com/">Compress Video Online</a>, <a href="https://8mb.video/">8mb.video</a>, <a href="https://tools.rotato.app/">Rotato</a> or <a href="https://www.mp4compress.com/">MP4Compress</a> - Video Compressors</li>
+<li><a href="https://github.com/0x90d/videoduplicatefinder">videoduplicatefinder</a> - Duplicate Video Finder</li>
+<li><a href="https://www.majorgeeks.com/files/details/imgburn.html">ImgBurn</a>, <a href="https://www.dvdstyler.org/en/">DVDStyler</a>, <a href="https://www.deepburner.com/">DeepBurner</a> or <a href="https://www.alcohol-soft.com/">Alcohol Soft</a> - CD / DVD Burning</li>
+<li><a href="https://www.makemkv.com/">MakeMKV</a> - Create MKV From Blu-ray / DVD / <a href="https://rentry.co/FMHYBase64#makemkv-beta">Beta Keys</a></li>
+<li><a href="https://vidcoder.net/">VidCoder</a> or <a href="http://dvddecrypter.org.uk/">DVDDecrypter</a> - DVD / Blu-ray Ripping</li>
+<li><a href="https://www.rationalqm.us/dgdemux/dgdemux.html">DGDemux</a> - Blu-Ray/UHD Disk Demuxer</li>
+<li><a href="https://www.videohelp.com/software/PgcDemux">PgcDemux</a> - DVD Disk Demuxer</li>
+<li><a href="https://github.com/yaboy58/BatchGuy">BatchGuy</a> - Blu-Ray Ripping</li>
+<li><a href="https://github.com/oyvindln/vhs-decode">VHS Decode</a> - VHS Decoder</li>
+<li><a href="https://vidclue.com/">VidClue</a> - Short Form Video Inspiration</li>
+</ul>
+<hr>
+<doc-anchor-target id="-video-file-hosts">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-video-file-hosts">#</doc-anchor-trigger>
+        <span>▷ Video File Hosts</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><strong>Note</strong> - Most file hosts remove files after inactivity, while some delete them regardless. Check each host if you&#x27;re concerned about file expiry.</li>
+</ul>
+<hr>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://upstream.to/">UpStream</a></strong> - 10GB / 30 Days / Account Required</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://doodstream.com/">DoodStream</a></strong> - 5GB / 60 Days / Account Required</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://litterbox.catbox.moe/">Litterbox</a></strong> - 1GB / Temporary</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://catbox.moe/">Catbox</a></strong> - 200MB / Forever</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://gofile.io/">Gofile</a></strong> - Unlimited / 10 Days</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://send.cm/">Send.cm</a></strong> - 100GB / 15 Days</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://pixeldrain.com/">Pixeldrain</a></strong> - 20GB / 120 Days / <a href="https://discord.gg/TWKGvYAFvX">Discord</a></li>
+<li><a href="https://voe.sx/">VOE</a> - Unlimited / 60 Days / 720p / Account Required</li>
+<li><a href="https://mixdrop.ag/">MixDrop</a> - Unlimited / 60 Days / 720p / Account Required</li>
+<li><a href="https://fex.net/">FEX.NET</a> - 100GB / 10GB Guest / 7 Days</li>
+<li><a href="https://www.hexupload.net/">Hexupload</a> or <a href="https://anontransfer.com/">AnonTransfer</a> - 15GB / 30 Days</li>
+<li><a href="https://fastupload.io/en">Fastupload.io</a> - 10GB / 30 Days (60 Days with Account)</li>
+<li><a href="https://vidoza.net/">Vidoza</a> - 15GB / 15 Days / Account Required</li>
+<li><a href="https://streamtape.com/">Streamtape</a> - 15GB / Account Required / <a href="https://streamtape.to/">.to</a></li>
+<li><a href="https://dubz.co/">Dubz</a> - 200MB / Forever</li>
+<li><a href="https://streamable.com/">Streamable</a> - 250MB / 2 Days (90 Days with Account)</li>
+<li><a href="https://webmshare.com/">webmshare</a> - WebM &amp; GIF Hosting / 20MB / Forever</li>
+<li><a href="https://videy.co/">Videy</a> - MP4 Only</li>
+<li><a href="https://sr.ht/%7Ethecashewtrader/minv/">minv</a> - Self-Hosted</li>
+</ul>
+<hr>
+<doc-anchor-target id="-screen-recording">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-screen-recording">#</doc-anchor-trigger>
+        <span>▷ Screen Recording</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://obsproject.com/">OBS</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://gifcap.dev/">gifcap</a></strong> / <a href="https://github.com/joaomoreno/gifcap">GitHub</a>, <a href="https://github.com/dergachev/screengif">screengif</a> or <a href="https://www.cockos.com/licecap/">licecap</a> - Turn Screencasts into GIFs</li>
+<li><a href="https://shinobi.video/">Shinobi</a> - Network Video Recorder</li>
+<li><a href="https://www.mythtv.org/">MythTV</a> - Digital Video Recorder (DVR)</li>
+<li><a href="https://tldv.io/">tldv</a> or <a href="https://github.com/kastldratza/zoomrec">ZoomRec</a> - Record Google Meets / Zoom Calls</li>
+<li><a href="https://ffmpeg.org/">FFmpeg</a></li>
+<li><a href="https://lukasbach.github.io/vileo/">Vileo</a></li>
+<li><a href="https://shar.ec/">Shar.ec</a></li>
+<li><a href="https://github.com/akon47/ScreenRecorder">Screen Recorder</a></li>
+<li><a href="https://screen-rec.vercel.app/">ScreenREC</a></li>
+<li><a href="https://recorder.kazcap.com/">KazCap</a></li>
+<li><a href="https://recordscreen.io/">RecordScreen</a></li>
+<li><a href="https://github.com/vkohaupt/vokoscreenNG">vokoscreenNG</a></li>
+<li><a href="https://github.com/MarcAnt01/Fluent-Screen-Recorder">Fluent Screen Recorder</a></li>
+<li><a href="https://toolbox.googleapps.com/apps/screen_recorder/">Google Screen Recorder</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="-convert--encode">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-convert--encode">#</doc-anchor-trigger>
+        <span>▷ Convert / Encode</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://handbrake.fr/">HandBrake</a></strong> - Video Encoding Software / <a href="https://www.rapidseedbox.com/blog/guide-to-mastering-handbrake">Guide</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/FFmpeg/FFmpeg">FFmpeg</a></strong> or <a href="https://axiomui.github.io/">Axiomui</a> - Multimedia Processors / Converters</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong>FFmpeg Tools</strong> - <a href="https://github.com/BtbN/FFmpeg-Builds">Autobuild</a>, <a href="https://github.com/m-ab-s/media-autobuild_suite">2</a> / <a href="https://github.com/leandromoreira/ffmpeg-libav-tutorial">Guide</a>, <a href="https://ffmpeg.guide/">2</a> / <a href="https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730">Cheat Sheet</a> / <a href="https://alfg.dev/ffmpeg-commander/">Commands</a>, <a href="https://evanhahn.github.io/ffmpeg-buddy/">2</a> / <a href="https://argorar.github.io/WebMConverter/">WebM Converter</a> / <a href="https://github.com/4ndrs/PureMPV">Info Copy</a> / <a href="https://ffmpeg.lav.io/">Preview Filters</a> / <a href="https://github.com/gstrenge/llmpeg">AI Commands</a>, <a href="https://github.com/TejasQ/idli">2</a> / <a href="https://ffmpeg-batch.sourceforge.io/">Bulk Convert</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.shutterencoder.com/">Shutter Encoder</a></strong> - Video Encoding Software / <a href="https://github.com/paulpacifico/shutter-encoder">GitHub</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://mkvtoolnix.download/">MKVToolNix</a></strong> - MKV Editing Tools</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://sometimes-archives-things.github.io/archived-things/">archived-things</a></strong>, <a href="https://encoding-guide.neocities.org/">The Encoding Guide</a> or <a href="https://silentaperture.gitlab.io/mdbook-guide/">Silentaperture</a> - Video Encoding Guides</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://nullish.cat/blog/disc-rip">Disc Rip</a></strong> - Disc Ripping Guide / <a href="https://rentry.org/disc-rip">Mirror</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://rentry.co/Remuxing">Basics to the Art of Remuxing</a></strong> - Learn How to Remux Videos</li>
+<li><a href="https://www.newgrounds.com/wiki/creator-resources/flash-resources/swivel">Swivel</a> - SWF to Video Converter</li>
+<li><a href="https://forum.doom9.org/showthread.php?t=183479">DDVT</a> - Dolby Vision RPU Demuxing / Injecting / Editing</li>
+<li><a href="https://github.com/yaser01/mkv-muxing-batch-gui">MKV Muxing Batch GUI</a> - Mux Videos</li>
+<li><a href="https://www.xmedia-recode.de/en/">XMedia Recode</a> - Video Conversion</li>
+<li><a href="https://github.com/staxrip/staxrip/">staxrip</a> - Video Encoding</li>
+<li><a href="https://github.com/Anime4000/IFME">IFME</a> - Video Encoding</li>
+<li><a href="https://www.voukoder.org/">Voukoder</a> - Video Encoding Plugin</li>
+<li><a href="https://fastflix.org/">FastFlix</a> - Video Conversion / <a href="https://github.com/cdgriffith/FastFlix">GitHub</a></li>
+<li><a href="https://github.com/Alkl58/NotEnoughAV1Encodes">NEAV1E</a> or <a href="https://github.com/master-of-zen/Av1an">Av1an</a> - AV1 Encoding</li>
+<li><a href="https://winnydows.com/en/">Winnydows</a> - Video Conversion Software</li>
+<li><a href="https://github.com/mdhiggins/sickbeard_mp4_automator">sickbeard_mp4_automator</a> - Automate Video Processing</li>
+<li><a href="https://vc.germanov.dev/">Video Express Converter</a> or <a href="https://restream.io/tools">Restream Tools</a> - Online Video Conversion</li>
+<li><a href="https://converter.sevenbytes.com/">Seven Converter</a> - Video Conversion / <a href="https://github.com/SevenbytesSoftware/SevenConverter">GitHub</a></li>
+<li><a href="https://github.com/n00mkrad/nmkoder">nmkoder</a> - Media Encoding And Muxing</li>
+<li><a href="https://videoconverter.com/">VideoConverter</a> - Online Video Conversion</li>
+<li><a href="https://www.selur.de/">selur</a> - Video Encoding</li>
+<li><a href="https://github.com/fraunhoferhhi/vvenc">vvenc</a>, <a href="https://github.com/fraunhoferhhi/vvdec">vvdec</a> or <a href="https://github.com/MartinEesmaa/VVCEasy">VVCEasy</a> - VVC Encode / Decode</li>
+</ul>
+<hr>
+<doc-anchor-target id="-live-streaming">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-live-streaming">#</doc-anchor-trigger>
+        <span>▷ Live Streaming</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/juancarlospaco/awesome-streaming-tools">Awesome Streaming</a></strong> or <a href="https://streamerfreebies.com/">StreamerFreebies</a> - Live Streaming Resources</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://obsproject.com/">OBS</a></strong> - Live Stream Manager</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong>OBS Tools</strong> - <a href="https://github.com/miaulightouch/obs-virtual-cam">Virtual Cam</a> / <a href="https://discord.gg/CTT">Tweaks</a> / <a href="https://github.com/exeldro/obs-shaderfilter/">Effects</a> / <a href="https://github.com/ThoNohT/NohBoard">Keyboard Visualiser</a> / <a href="https://github.com/occ-ai/obs-backgroundremoval">Background Remover</a> / <a href="https://github.com/Kounex/obs_blade">Phone Controller</a> / <a href="https://obsproject.com/forum/resources/jrdockie-save-and-load-window-and-dock-layouts.1955/">Dock Layouts</a> / <a href="https://github.com/GRVYDEV/Project-Lightspeed">WebRTC Server</a> / <a href="https://ko-fi.com/s/0b5bd4536d">Plugin Updater</a> / <a href="https://www.nvidia.com/en-us/geforce/guides/broadcasting-guide/">Guide</a></li>
+<li><a href="https://streamelements.com/">Stream Elements</a> - Streaming Service Manager</li>
+<li><a href="https://github.com/stream-labs/desktop">Streamlabs-OBS</a> - Live Stream Manager</li>
+<li><a href="https://streamlabs.com/">SteamLabs</a> - Live Stream Manager</li>
+<li><a href="https://restream.io/">Restream</a> - Live Stream Manager</li>
+<li><a href="https://fbx.gg/">FBX</a> - Live Stream Manager</li>
+<li><a href="https://www.xsplit.com/">XSplit</a> - Live Stream Manager</li>
+<li><a href="https://twitchat.fr/">TwitchChat</a> - Live Stream Manager / <a href="https://discord.com/invite/fmqD2xUYvP">Discord</a></li>
+<li><a href="https://vdo.ninja/">VDO Ninja</a> - Live Stream Colab Tool</li>
+<li><a href="https://github.com/MrBrax/LiveStreamDVR">LiveStreamDVR</a> / <a href="https://github.com/MrBrax/twitch-vod-chat">Display Chat</a> - Live Stream Recorders</li>
+<li><a href="https://owncast.online/">Owncast</a>, <a href="https://github.com/datarhei/restreamer">Restreamer</a> or <a href="https://openstreamingplatform.com/">OpenStreamingPlatform</a> - Self-Hosted Live Streaming</li>
+<li><a href="https://www.wdflat.com/">WDFlat</a> - Stream Elements</li>
+<li><a href="https://twelve47studios.com/">Twelve47Studios</a> - Stream Overlays</li>
+<li><a href="https://github.com/strem-app/strem">Strem</a> - Stream Automation</li>
+<li><a href="https://github.com/PubPub-zz/ppInk/">ppInk</a>, <a href="https://github.com/geovens/gInk">glnk</a>, <a href="https://annotatescreen.com/">Annotate Screen</a> or <a href="https://github.com/antfu/live-draw">Live Draw</a> - Screen Annotation</li>
+<li><a href="https://songify.overcode.tv/">Songify</a> - Current Playing Song App</li>
+<li><a href="https://stream-pi.com/">StreamPi</a> or <a href="https://github.com/willianrod/ODeck">ODeck</a> - ElGato Streamdeck Alternatives</li>
+<li><a href="https://github.com/wbt5/real-url">real-url</a> - Copy Live Stream URLs</li>
+<li><a href="https://github.com/xenova/chat-downloader">Chat-Downloader</a> - Retrieve Chat Messages from Livestreams</li>
+</ul>
+<hr>
+<doc-anchor-target id="-vtuber-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-vtuber-tools">#</doc-anchor-trigger>
+        <span>▷ VTuber Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://kekuwi.github.io/Runa-Archive">Runa&#x27;s Archive</a></strong> - VTuber Resources / <a href="https://discord.com/invite/GdfHVZ6Z33">Discord</a></li>
+<li><a href="https://gist.github.com/emilianavt/cbf4d6de6f7fb01a42d4cce922795794">Best VTuber</a> - VTuber Resources</li>
+<li><a href="https://vtresources.carrd.co/">VTResources</a> - VTuber Resources</li>
+<li><a href="https://discord.gg/acU3dFRtvC">VTuber Assets</a> - VTuber Resources</li>
+<li><a href="https://kyuppin.itch.io/vtuber-kit">VTuber Kit</a> - VTuber App</li>
+<li><a href="https://inochi2d.com/">Inochi2D</a> - VTuber App / <a href="https://discord.com/invite/abnxwN6r9v">Discord</a></li>
+<li><a href="https://denchisoft.com/">Vtube Studio</a> - VTuber App</li>
+<li><a href="https://3d.kalidoface.com/">Kalidoface 3D</a>, <a href="https://vroid.com/en/studio">VRoid</a>, <a href="https://www.animaze.us/">Animaze</a> or <a href="https://girkovarpa.itch.io/transtube">TransTube</a> - VTuber Characters</li>
+<li><a href="https://github.com/alievk/avatarify-python">avatarify-python</a> or <a href="https://olmewe.itch.io/veadotube-mini">veadotube</a> - Video Call Avatars</li>
+<li><a href="https://vtuber-style-logos.vercel.app/">VTuberized Logos</a> - VTuber Style Logos</li>
+</ul>
+<hr>
+<doc-anchor-target id="-subtitle-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-subtitle-tools">#</doc-anchor-trigger>
+        <span>▷ <a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_subtitles">Subtitle Tools</a></span>
+    </h2>
+</doc-anchor-target>
+<hr>
+<doc-anchor-target id="-video-players">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-video-players">#</doc-anchor-trigger>
+        <span>► Video Players</span>
+    </h1>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/krzemienski/awesome-video">Awesome Video</a></strong> - Video Streaming Resources</li>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://www.videohelp.com/software/sections/video-players?orderby=Rating">Video Help</a></strong> - Video Player Index</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/clsid2/mpc-hc/">MPC-HC</a></strong>, <a href="https://mpc-qt.github.io/">MPC-QT</a> or <a href="https://sourceforge.net/projects/mpcbe/">MPC-BE</a> - Video Player / <a href="https://www.free-codecs.com/guides/how_to_stream_videos_with_mpc-hc.htm">YT-DL Support</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://mpv.io/">MPV</a></strong> / <a href="https://mpv-net.github.io/mpv.net-web-site/">GUI</a>, <a href="https://github.com/422658476/MPV-EASY-Player">MPV-EASY-Player</a> - Video Player / <a href="https://github.com/mpv-player/mpv/wiki/Applications-using-mpv">Frontends</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.videolan.org/">VLC</a></strong> - Video Player</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/huynhsontung/Screenbox">Screenbox</a></strong> - Video Player</li>
+<li><a href="https://www.codecguide.com/">Video Player Codecs</a></li>
+<li><a href="http://www.awesomevideoplayer.com/">AVPlayer</a> or <a href="https://github.com/vzhd1701/gridplayer">GridPlayer</a> - Multi-Video Players</li>
+<li><a href="https://www.splayer.org/">SPlayer</a> - Video Player with Smart Translation</li>
+<li><a href="https://potplayer.daum.net/">Pot Player</a> - Video Player / <a href="https://github.com/TwitchPotPlayer/TwitchPotPlayer">Twitch Addon</a> / <a href="https://chromewebstore.google.com/detail/potplayer-youtube-shortcu/cfdpeaefecdlkdlgdpjjllmhlnckcodp">YouTube Addon</a></li>
+<li><a href="https://github.com/tsl0922/ImPlay">ImPlay</a> - Video Player</li>
+<li><a href="https://www.smplayer.info/">SMPlayer</a> / <a href="https://sourceforge.net/projects/smplayer/">2</a> - Video Player / <a href="https://www.smtube.org/">YouTube</a></li>
+<li><a href="https://www.idruf.com/">uView</a> - Video Player</li>
+<li><a href="https://github.com/Rise-Software/Rise-Media-Player">Rise Media Player</a> - Video Player</li>
+<li><a href="https://github.com/SuRGeoNix/Flyleaf">Flyleaf</a> - Video Player</li>
+<li><a href="https://github.com/coslyk/moonplayer">MoonPlayer</a> - Video Player</li>
+<li><a href="https://kikoplay.fun/">KikoPlay</a> - Video Player</li>
+<li><a href="https://plyr.io/">Plyr</a> - Online HTML5, YouTube and Vimeo Player / <a href="https://github.com/sampotts/plyr">GitHub</a></li>
+<li><a href="https://github.com/LionelJouin/PiP-Tool">PiP-Tool</a> - Use Picture-in-Picture on All Videos</li>
+<li><a href="https://playvideos.pages.dev/">PlayVideo</a> - GDrive Video Players</li>
+<li><a href="https://omega.gg/MotionMonkey/">MotionMonkey</a> - Stream Online Videos in Player</li>
+<li><a href="https://streamlink.github.io/">StreamLink</a> - Extract Videos from Sites to Players / <a href="https://github.com/2bc4/streamlink-ttvlol">Twitch Adblock</a></li>
+<li><a href="https://github.com/tor4kichi/Hohoema">Hohoema</a> - Nico Nico Video Player</li>
+<li><a href="https://polsy.org.uk/">polsy.org.uk</a> - Alt Players for Video Sites</li>
+</ul>
+<hr>
+<doc-anchor-target id="-stream-sync">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-stream-sync">#</doc-anchor-trigger>
+        <span>▷ Stream Sync</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://syncplay.pl/">SyncPlay</a></strong> - App</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://w2g.tv/">Watch2Gether</a></strong> - Online Player</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/Semro/syncwatch">SyncWatch</a></strong> - Online Extension</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://kosmi.io/">Kosmi</a></strong> - Online Player</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://neko.m1k1o.net/">neko</a></strong> / <a href="https://github.com/m1k1o/neko">GitHub</a> - Docker Virtual Browser</li>
+<li><a href="https://hyperbeam.com/">HyperBeam</a> / <a href="https://greasyfork.org/en/scripts/457795">VIP</a> - Virtual Computer Embed</li>
+<li><a href="https://trast.live/">Trast</a>,  <a href="https://opentogethertube.com/">OpenTogetherTube</a>, <a href="https://turtletv.app/">TurtleTV</a> or <a href="https://twoseven.xyz/">twoseven</a> - Online Player</li>
+<li><a href="https://bear.cat/">bear.cat</a> - Online Virtual Machine / Allows NSFW</li>
+<li><a href="https://getmetastream.com/">Metastream</a> - Online Extension</li>
+<li><a href="https://caracal.club/">Caracal Club</a> - Online Video Player</li>
+<li><a href="https://cytu.be/">CyTube</a> - Online Video Player</li>
+<li><a href="https://2gether.video/en-us/">VideoTogether</a> - App</li>
+<li><a href="https://baked.live/">baked.live</a> - Online Video Player</li>
+<li><a href="https://rave.io/">Rave.io</a> - Online Extension</li>
+<li><a href="https://github.com/zorchenhimer/MovieNight">MovieNight</a> / <a href="https://discord.gg/F2VSgjJ">Discord</a> - Docker</li>
+<li><a href="https://www.watchparty.me/">WatchParty</a> - Online / Virtual Browser</li>
+<li><a href="https://kast.gg/">Kast</a> - Screen Share</li>
+<li><a href="https://ba.net/screen/">Screen Share Party</a> - Online Screen Share</li>
+</ul>
+<hr>
+<doc-anchor-target id="-mpv-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-mpv-tools">#</doc-anchor-trigger>
+        <span>▷ MPV Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_mpv_shaders">MPV Shaders</a></strong></li>
+<li><a href="http://thewiki.moe/tutorials/mpv/">MPV Config Guide</a>, <a href="https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/">2</a>, <a href="https://kokomins.wordpress.com/2019/10/14/">3</a>, <a href="https://hooke007-github-io.translate.goog/unofficial/index.html?_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en-US&amp;_x_tr_pto=wapp">4</a></li>
+<li><a href="https://github.com/cyl0/ModernX">ModernX</a>, <a href="https://github.com/Zren/mpv-osc-tethys">tethys</a> or <a href="https://github.com/tomasklaen/uosc">uosc</a> - Alt User Interfaces</li>
+<li><a href="https://github.com/open-dynaMIX/simple-mpv-webui">Simple MPV WebUI</a> - WebUI Controller</li>
+<li><a href="https://gitlab.com/carmanaught/mpvcontextmenu">MPV Context Menu</a></li>
+<li><a href="https://github.com/mpv-player/mpv/wiki/User-Scripts">MPV Scripts</a> - Userscripts</li>
+<li><a href="https://github.com/Ajatt-Tools/videoclip">VideoClip</a>, <a href="https://github.com/f0e/mpv-cut">2</a> - Clip Tool</li>
+<li><a href="https://github.com/ekisu/mpv-webm">MPV WebM</a> - WebM Tool</li>
+<li><a href="https://greasyfork.org/en/scripts/416271">Play With MPV</a> or <a href="https://github.com/woodruffw/ff2mpv">ff2mpv</a> - Open Videos with MPV</li>
+<li><a href="https://github.com/noctuid/mpv-webtorrent-hook">MPV WebTorrent Hook</a> - Torrent Streamimg</li>
+<li><a href="https://github.com/joaquintorres/autosubsync-mpv">AutoSubSync MPV</a> - Sub Sync</li>
+<li><a href="https://github.com/po5/mpv_sponsorblock">MPV SponsorBlock</a>, <a href="https://codeberg.org/jouni/mpv_sponsorblock_minimal">2</a> - SponsorBlock for MPV</li>
+<li><a href="https://github.com/po5/thumbfast">ThumbFast</a> - MPV Thumbnails</li>
+</ul>
+<hr>
+<doc-anchor-target id="-vlc-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-vlc-tools">#</doc-anchor-trigger>
+        <span>▷ VLC Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/mfkl/awesome-vlc">Awesome VLC</a></strong> - VLC Resources</li>
+<li><a href="https://github.com/exebetche/vlsub">VLSub</a> - Sub Downloader</li>
+<li><a href="https://rentry.co/VLC-skin">VLC Skin</a> - VLC Skins</li>
+<li><a href="https://redd.it/os6f1q">VLC Slow Seek Fix</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="-media-servers">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-media-servers">#</doc-anchor-trigger>
+        <span>► Media Servers</span>
+    </h1>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://redd.it/hbwnb2">Auto Download Tool Index</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.plex.tv/">Plex</a></strong> - Media Server</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://jellyfin.org/">Jellyfin</a></strong> - Media Server</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://kodi.tv/">Kodi</a></strong> - Media Server</li>
+<li><a href="https://trash-guides.info/">TRaSH Guides</a> / <a href="https://discord.com/invite/4K2kdvwzFh">Discord</a> or <a href="https://redd.it/pqsomd">The Complete Guide</a> - Server Setup Guides</li>
+<li><a href="https://github.com/shyonae/selfhosted-anime/wiki">Self-hosted Anime</a> - Anime Server Setup Guides</li>
+<li><a href="https://github.com/Prowlarr/Prowlarr">Prowlarr</a>, <a href="https://flexget.com/">FlexGet</a> or <a href="https://reddit.com/r/softwarr">/r/softwarr</a> - Autodownload Tools</li>
+<li><a href="https://github.com/causefx/Organizr">Organizr</a>, <a href="https://github.com/aleksilassila/reiverr">Reiverr</a> or <a href="https://github.com/ajnart/homarr">Homarr</a> - Media Server Managers</li>
+<li><a href="https://github.com/sachinsenal0x64/fixarr">Fixarr</a> - Media Server File Renamer</li>
+<li><a href="https://github.com/sebgl/htpc-download-box">HTPC Download Box</a> - Media Server Automation</li>
+<li><a href="https://emby.media/">Emby</a> - Media Server</li>
+<li><a href="https://www.universalmediaserver.com/">Universal Media Server</a> - Media Server</li>
+<li><a href="https://osmc.tv/">OSMC</a> - Media Server</li>
+<li><a href="https://github.com/kanishka-linux/kawaii-player">Kawaii-Player</a> - Media Server</li>
+<li><a href="https://github.com/streamaserver/streama">Streama</a> - Media Server</li>
+<li><a href="https://gerbera.io/">Gerbera</a> - Media Server</li>
+<li><a href="https://github.com/ridhwaans/homehost">Homehost</a> - Media Server</li>
+<li><a href="https://github.com/Dusk-Labs/dim">Dim</a> - Media Server</li>
+<li><a href="https://github.com/zoriya/Kyoo">Kyoo</a> - Media Server</li>
+<li><a href="https://github.com/ZorrillosDev/watchit-app">WatchIt</a> - Media Server</li>
+<li><a href="https://nmaier.github.io/simpleDLNA/">SimpleDLNA</a> - Media Server</li>
+<li><a href="https://github.com/ChocolateApp/Chocolate">Chocolate</a> - Media Server</li>
+<li><a href="https://seanime.rahim.app/">SeaAnime</a> - Anime Server</li>
+<li><a href="https://github.com/Eleven-am/frames">Frames</a> - GDrive Server</li>
+<li><a href="https://r-htpc.github.io/wiki/">HTPC</a> - Home Theater PC guides / <a href="https://www.reddit.com/r/htpc/">Subreddit</a></li>
+<li><a href="https://msx.benzac.de/info/">MSX</a> - Web App</li>
+<li><a href="https://ersatztv.org/">ErsatzTV</a> or <a href="https://github.com/vexorian/dizquetv">dizqueTV</a> - Live Channel Media Servers</li>
+<li><a href="https://ytdl-sub.readthedocs.io/">YTDL-Sub</a> - Add YouTube Channels to Media Servers</li>
+<li><a href="https://github.com/xteve-project/xTeVe">xTeVe</a> - Plex / Emby M3U Proxy</li>
+<li><a href="https://github.com/Cloudbox/autoscan">Autoscan</a> - Real-Time Plex &amp; Emby File Changes</li>
+<li><a href="https://github.com/Ombi-app/Ombi">Ombi</a> - Plex / Emby User Request Management</li>
+</ul>
+<hr>
+<doc-anchor-target id="-plex-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-plex-tools">#</doc-anchor-trigger>
+        <span>▷ Plex Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://www.plxplainers.xyz/">Plxplainers</a> or <a href="https://redd.it/ma1hlm">Reddit Guide</a> - Plex Setup Guides</li>
+<li><a href="https://tautulli.com/">Tautulli</a> - Server Monitor</li>
+<li><a href="https://normantheidiot.neocities.org/superplex/">SuperPlex</a> - Plex Plugins</li>
+<li><a href="https://github.com/pannal/Kitana">Kitana</a> - Plugin Frontend</li>
+<li><a href="https://github.com/plexdrive/plexdrive">PlexDrive</a> or <a href="https://docs.ultra.cc/books/rclone/page/rclone-vfs-and-mergerfs-setup">mergerfs</a> - Mount GDrive</li>
+<li><a href="https://synclounge.tv/">SyncLounce</a> - Media Sync</li>
+<li><a href="https://github.com/DEFENDORe/pseudotv">PseudoTV</a> - Create TV Channels</li>
+<li><a href="https://overseerr.dev/">Overseerr</a> - User Requests / <a href="https://chromewebstore.google.com/detail/overseerr-assistant/hopnjiadheaagfhpipecoamoegijhnij">IMDb Extension</a></li>
+<li><a href="https://www.pastatool.com/">Pasta Tool</a> - Audio / Sub Changer</li>
+<li><a href="https://github.com/itsToggle/plex_debrid">Plex Debrid</a> - Debrid for Plex</li>
+</ul>
+<hr>
+<doc-anchor-target id="-jellyfin-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-jellyfin-tools">#</doc-anchor-trigger>
+        <span>▷ Jellyfin Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/awesome-jellyfin/awesome-jellyfin">Awesome Jellyfin</a></strong> - Jellyfin Resources</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/prayag17/Blink">Blink</a></strong> or <a href="https://github.com/jellyfin/jellyfin-media-player">jellyfin-media-player</a> - Desktop Clients</li>
+<li><a href="https://www.reddit.com/r/JellyfinShare/">/r/JellyfinShare</a> - Jellyfin Server Sharing</li>
+<li><a href="https://forum.jellyfin.org/">Jellyfin Forum</a> - Official Jellyfin Forum</li>
+<li><a href="https://github.com/jellyfin/jellyfin-vue">Jellyfin Vue</a> - Jellyfin Web Client</li>
+<li><a href="https://www.fuzzygrim.com/posts/media-server">Jellyfin Setup Guide</a></li>
+<li><a href="https://youtu.be/F85qMyBeiDI">Jellyfin Customization Guide</a></li>
+<li><a href="https://jellyfin.org/docs/general/clients/css-customization/#community-themes">Jellyfin Themes</a></li>
+<li><a href="https://github.com/Fallenbagel/jellyseerr">Jellyseerr</a> - User Requests</li>
+<li><a href="https://github.com/jellyfin-archive/jellyfin-plugin-anime">jellyfin-plugin-anime</a> - Anime Plugin</li>
+<li><a href="https://github.com/Radiicall/jellyfin-rpc">Jellyfin RPC</a> - Jellyfin Discord Rich Presence</li>
+</ul>
+<hr>
+<doc-anchor-target id="-kodi-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-kodi-tools">#</doc-anchor-trigger>
+        <span>▷ Kodi Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://elementum.surge.sh/">Elementum</a></strong> - Torrent Streaming / Trakt Sync / Similar to Stremio + Torrentio</li>
+<li><a href="https://rumble.com/c/EverythingKodi">EverythingKodi</a> - Kodi Addon Tutorials</li>
+<li><a href="https://kodiapps.com/builds-chart">Kodi Builds Chart</a></li>
+<li><a href="https://www.reddit.com/r/Addons4Kodi/">r/Addons4Kodi</a> / <a href="https://kinkeadtech.com/best-kodi-streaming-addons/">Tracker</a> / <a href="https://kodiapps.com/addons-chart">Trending</a> - Kodi Addons</li>
+<li><a href="https://github.com/Skaytacium/synko">Synko</a> - Kodi Stream Sync</li>
+<li><a href="https://github.com/croneter/PlexKodiConnect">Plex Kodi Connect</a> - Plex Connect</li>
+<li><a href="https://quasar.surge.sh/">quasar</a> - Torrent Plugin</li>
+<li><a href="https://kodi.wiki/view/Add-on:PVR_IPTV_Simple_Client">IPTV Client</a></li>
+<li><a href="https://simkl.com/">Simkl</a> - Media Tracker</li>
+<li><a href="https://github.com/komet/mediaelch">mediaelch</a> - Media Manager</li>
+</ul>
+<hr>
+<doc-anchor-target id="-video-download">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-video-download">#</doc-anchor-trigger>
+        <span>► Video Download</span>
+    </h1>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25B7_youtube_downloaders">YouTube Video Downloaders</a></strong></li>
+<li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25B7_twitch_downloaders">Twitch Video Downloaders</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/yt-dlp/yt-dlp">YT-DLP</a></strong> or <a href="https://github.com/ytdl-patched/ytdl-patched">YTDL-PATCHED</a> - YouTube Downloader / <a href="https://discord.gg/H5MNcFW63r">Discord</a> / <a href="https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-YouTube-DL-Scripts-Collection">Commands</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://cobalt.tools/">cobalt</a></strong> - Multi-Site / Online / <a href="https://instances.hyper.lol/">Instances</a></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://9xbuddy.com/">9xbuddy</a></strong>, <a href="https://9xbuddy.online/">2</a>, <a href="https://9xbuddy.in/">3</a> - Multi-Site / Online</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/iawia002/lux">Lux</a></strong> - Multi-Site / CLI</li>
+<li><a href="https://fetchv.net/">FetchV</a> or <a href="https://mpmux.com/">MPMux</a> - Extensions</li>
+<li><a href="https://discord.gg/SYyvPxVyyW">CD(R)M-Project</a> - StreamFab Downloading Discord</li>
+<li><a href="https://www.tubeoffline.com/">TubeOffline</a> - Multi-Site / Online</li>
+<li><a href="https://www.videofk.com/">VideoFK</a> - Multi-Site / Online</li>
+<li><a href="https://you-get.org/">you-get</a> - Multi-Site / CLI</li>
+<li><a href="https://github.com/KurtBestor/Hitomi-Downloader">Hitomi Downloader</a> - Multi-Site / Software</li>
+<li><a href="https://yout.com/">Yout</a> - Multi-Site / Online</li>
+<li><a href="https://github.com/AAndyProgram/SCrawler">SCrawler</a> - Multi-Site / Software / <a href="https://discord.gg/uFNUXvFFmg">Discord</a></li>
+<li><a href="https://myfavett.com/">myfaveTT</a>, <a href="https://snaptik.app/">SnapTik</a> or <a href="https://github.com/Dinoosauro/tiktok-to-ytdlp">tiktok-to-ytdlp</a> - TikTok</li>
+<li><a href="https://threadsdownloader.com/">Threads Downloader</a> - Threads</li>
+<li><a href="https://pincase.xyz/">PinCase</a> - Pinterest / Online</li>
+<li><a href="https://github.com/puemos/hls-downloader">hls-downloader</a>, <a href="https://webextension.org/listing/hls-downloader.html">hls extension</a> or <a href="https://www.hlsloader.com/">hlsloader</a> - HLS Downloaders</li>
+<li><a href="https://getwvkeys.cc/">GetWVKeys</a> - Send Widevine Requests / <a href="https://github.com/GetWVKeys/">GitHub</a></li>
+</ul>
+<hr>
+<doc-anchor-target id="-video-editing">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-video-editing">#</doc-anchor-trigger>
+        <span>► Video Editing</span>
+    </h1>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/Baiyuetribe/paper2gui/blob/main/README_en.md">Paper2GUI</a></strong> - AI Video Tools Index</li>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://www.reddit.com/r/VideoEditing/wiki/codecsandcontainers">Codecs and Containers</a></strong> or <a href="https://www.free-codecs.com/">Free-Codecs</a> - Video Editing Codecs</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://eycndy.co/">Eyecandy</a></strong> - Visual Technique Examples</li>
+<li><a href="https://www.motionfactory.io/">MotionFactory</a> - Video Editing Workflow Manager</li>
+<li><a href="https://forum.videohelp.com/forums/2-Video">VideoHelp Forum</a> - Video Editing Forums</li>
+<li><a href="https://movies.blainesville.com/p/wmm-60-on-windows-7.html">Blaine&#x27;s Movie Maker Blog</a> - Windows Movie Maker Tutorials</li>
+</ul>
+<hr>
+<doc-anchor-target id="-video-editors">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-video-editors">#</doc-anchor-trigger>
+        <span>▷ Video Editors</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.blackmagicdesign.com/products/davinciresolve">DaVinci Resolve</a></strong> - Video Editor</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://shotcut.org/">Shotcut</a></strong> - Video Editor</li>
+<li><a href="https://auto-editor.com/">Auto-Editor</a> - CLI Editor</li>
+<li><a href="https://zulko.github.io/moviepy/">MoviePy</a> - Python Editor</li>
+<li><a href="https://github.com/dfaker/WebmGenerator">Webm Generator</a> - Webm Editor</li>
+<li><a href="http://avisynth.nl/index.php/Main_Page">avisynth</a> or <a href="https://www.vapoursynth.com/">VapourSynth</a> - Video Processors</li>
+<li><a href="https://store.steampowered.com/app/1840/Source_Filmmaker/">Source Filmmaker</a> - Steam Movie-Making Tool / <a href="https://sfmlab.com/">Resources</a></li>
+<li><a href="https://github.com/AcademySoftwareFoundation/OpenRV">OpenRV</a> or <a href="https://www.dneg.com/xstudio/">xSTUDIO</a> - Image / Sequence Playback Review</li>
+<li><a href="https://www.remotion.dev/">Remotion</a> - Video Editor</li>
+<li><a href="https://www.olivevideoeditor.org/">Olive</a> - Video Editor</li>
+<li><a href="https://sourceforge.net/projects/vdfiltermod/">VirtualDub2</a> - Video Editor</li>
+<li><a href="https://github.com/mifi/lossless-cut">LosslessCut</a> - Video Editor</li>
+<li><a href="https://www.ezvid.com/">EZVid</a> - Video Editor</li>
+<li><a href="https://www.openshot.org/">OpenShot</a> - Video Editor</li>
+<li><a href="https://kdenlive.org/en/">kdenlive</a> - Video Editor</li>
+<li><a href="https://lwks.com/">Lightworks</a> - Video Editor</li>
+<li><a href="https://www.videosoftdev.com/">VSDC</a> - Video Editor</li>
+<li><a href="https://avidemux.sourceforge.net/">avidemux</a> - Video Editor</li>
+<li><a href="https://www.pitivi.org/">Pitivi</a> - Video Editor</li>
+<li><a href="https://www.visla.us/">Visla</a> - Video Editor</li>
+<li><a href="https://www.majorgeeks.com/files/details/windows_movie_maker.html">Windows Movie Maker</a>, <a href="https://archive.org/details/mm26enu_202002">2</a>, <a href="https://archive.org/details/MM2.1And2.6_201903">3</a> - Video Editor</li>
+<li><a href="https://www.topazlabs.com/topaz-video-ai">Video Enhance AI</a> - Video Enhancement Tool</li>
+<li><a href="https://gyroflow.xyz/">Gyroflow</a> - Video Stabilization / <a href="https://github.com/gyroflow/gyroflow">GitHub</a></li>
+<li><a href="https://nmkd.itch.io/flowframes">Flowframes</a> / <a href="https://kemono.party/patreon/user/19695417">Beta</a> or <a href="https://www.svp-team.com/">SVP</a> / <a href="https://www.svp-team.com/wiki/Manual:SVPcode">Guide</a> - Video Interpolation / Increase FPS</li>
+<li><a href="https://colab.research.google.com/github/jantic/DeOldify/blob/master/VideoColorizerColab.ipynb">VideoColorizerColab</a> - Video Colorization Colab</li>
+<li><a href="https://opencolorio.org/">OpenColorIO</a> - Video Color Manager</li>
+<li><a href="https://freshluts.com/">FreshLUTs</a> - Free LUTs (Color Filters)</li>
+<li><a href="http://fixounet.free.fr/avidemux/">Avidemux</a> - Cut / Filter / Encode</li>
+<li><a href="https://github.com/couleur-tweak-tips/suckless-cut">suckless-cut</a> or <a href="https://github.com/ozmartian/vidcutter">vidcutter</a> - Cut / Trim Videos</li>
+<li><a href="https://www.opus.pro/">Opus</a> - Clip Creator</li>
+<li><a href="https://github.com/f0e/blur">blur</a> or <a href="https://github.com/couleur-tweak-tips/smoothie-rs">Smoothie</a> - Add Motion Blur to Videos / <a href="https://youtu.be/16-KU4r3BcA">Tutorial</a></li>
+<li><a href="https://github.com/sczhou/ProPainter">ProPainter</a> - Video Inpainting</li>
+<li><a href="https://app.kurku.tech/">Kurku</a> or <a href="https://freemocap.org/">FreeMoCap</a> - Motion Tracking Tools</li>
+<li><a href="https://www.vseeface.icu/">VSeeFace</a> - Face / Hand Tracking VRM</li>
+</ul>
+<hr>
+<doc-anchor-target id="-online-editors">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-online-editors">#</doc-anchor-trigger>
+        <span>▷ Online Editors</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://pikimov.com/">Pikimov</a></strong></li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://mastershot.app/">Mastershot</a></strong></li>
+<li><a href="https://videoinu.com/">VideoInu</a></li>
+<li><a href="https://clideo.com/">Clideo</a></li>
+<li><a href="https://www.kapwing.com/">Kapwing</a></li>
+<li><a href="https://panzoid.com/">Panzoid</a></li>
+<li><a href="https://convert2video.com/">Convert2Video</a></li>
+<li><a href="https://omniclip.app/">Omniclip</a> / <a href="https://github.com/aegir-assembly/omni-clip">GitHub</a></li>
+<li><a href="https://video-cutter-js.com/">Video Cutter</a></li>
+<li><a href="https://vididoo.vercel.app/">Vididoo</a></li>
+<li><a href="https://www.videotoolbox.com/">VideoToolbox</a></li>
+<li><a href="https://videocandy.com/">VideoCandy</a></li>
+<li><a href="https://vidmix.app/">vidmix</a></li>
+<li><a href="https://bwasti.github.io/mebm/">mebm</a></li>
+<li><a href="https://www.video2edit.com/">Video2Edit</a></li>
+<li><a href="https://crop-video.com/">Crop Video</a> - Crop Videos</li>
+<li><a href="https://loopvid.kastden.org/">LoopVid</a> - Loop Videos</li>
+<li><a href="https://crossfade.io/">Crossfade</a> - Video and Audio Crossfading</li>
+<li><a href="https://www.videolouder.com/">VidLouder</a> - Increase Video Volume</li>
+</ul>
+<hr>
+<doc-anchor-target id="-vfx-sites">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-vfx-sites">#</doc-anchor-trigger>
+        <span>▷ VFX Sites</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://footagecrate.com/">FootageCrate</a></li>
+<li><a href="https://freevideoeffect.com/">FreeVideoEffect</a></li>
+<li><a href="https://www.videocopilot.net/">VideoCoPilot</a></li>
+<li><a href="https://www.vfxmed.com/">VFXmed</a></li>
+<li><a href="https://t.me/flex_cg_vfx">flex_cg_vfx</a></li>
+<li><a href="https://www.downloadpirate.com/">Download Pirate</a> - <strong>Use Adblock / Avoid Fake Download Buttons</strong> / <a href="https://discord.gg/ucTvVtBz9Z">Discord</a></li>
+<li><a href="https://www.shareae.com/">ShareAE</a> - After Effects</li>
+<li><a href="https://hunterae.com/">HunterAE</a> - After Effects</li>
+<li><a href="https://t.me/visual_effects_pack">Visual Effects Pack</a> - After Effects</li>
+<li><a href="https://aeriver.com/">AERiver</a> - After Effects</li>
+<li><a href="https://msrtc-maharashtra.in/">MSRTC</a> - After Effects / <a href="https://t.me/aftereffectsplugins01">Telegram</a></li>
+<li><a href="https://aedownloadpro.com/">AEDownloadPro</a> - After Effects</li>
+<li><a href="https://intro-hd.net/">Intro HD</a> - After Effects</li>
+<li><a href="https://rentry.co/FMHYBase64#adobe-after-effects-collection">Adobe After Effects Collection</a> - After Effects</li>
+</ul>
+<hr>
+<doc-anchor-target id="-animation-tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-animation-tools">#</doc-anchor-trigger>
+        <span>▷ Animation Tools</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://www.newgrounds.com/wiki/creator-resources/">Creator Resources</a></strong> - Art &amp; Animation Resource Index</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.unrealengine.com/">Unreal Engine</a></strong>, <a href="https://openmoonray.org/">MoonRay</a>, <a href="https://t.me/cgsoftbox">cgsoftbox</a>, <a href="https://www.sketchup.com/">SketchUp</a> or <a href="https://www.twinmotion.com/en-US">Twinmotion</a> - 3D Creation Tools</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.immersity.ai/">Immersity AI</a></strong> - 2D Image to 3D Animation Tool</li>
+<li><a href="https://opentoonz.github.io/e/">OpenToonz</a>, <a href="https://www.wickeditor.com/editor/">Wick Editor</a>, <a href="https://calcium-chan.itch.io/clipnote">Clipnote Studio</a> or <a href="https://www.pencil2d.org/">Pencil2D</a> - Animation Tools</li>
+<li><a href="https://www.animaker.com/">Animaker</a> - Animated Video Creator</li>
+<li><a href="https://t.me/CG_Hacker">CG_Hacker</a>, <a href="https://t.me/cg_tuts">cg_tuts</a> or <a href="https://t.me/cgreferenceshub">cgreferenceshub</a> - CG Tutorials</li>
+<li><a href="https://www.amv101.com/">AMV101</a> - Animated Music Video-Making Guides</li>
+<li><a href="https://quixel.com/megascans">Mega Scans</a> - 3D Scans</li>
+<li><a href="https://quixel.com/mixer">Mixer</a> - 3D Texture Creation Tool</li>
+<li><a href="https://planetside.co.uk/">PlanetSide</a> - CG Environment Generator</li>
+<li><a href="https://t.me/cgplugdump">cgplugdump</a> - CG Software Plugins</li>
+<li><a href="https://physicallybased.info/">Physically Based</a> - RGB Values of Elements</li>
+<li><a href="https://github.com/AnimeEffectsDevs/AnimeEffects">AnimeEffects</a>, <a href="https://maurycyliebner.github.io/">enve</a>, <a href="https://www.expressivesuite.com/">Expressive</a>, <a href="https://cavalry.scenegroup.co/">Cavalry</a>, <a href="https://tupitube.com/">TupiTube</a> or <a href="https://www.synfig.org/">Synfig</a> - 2D Animation Tools</li>
+<li><a href="https://scribblediffusion.com/">ScribbleDiffusion</a> - Turn Doodles into Artwork</li>
+<li><a href="https://monstermash.zone/">MonsterMash</a> - Sketch-Based Modeling &amp; Animation Tool</li>
+<li><a href="https://wonderunit.com/storyboarder/">Storyboarder</a> - Quickly Visualize &amp; Test Animations / <a href="https://github.com/wonderunit/storyboarder">GitHub</a></li>
+<li><a href="https://luxcorerender.org/">LuxCoreRender</a> - Rendering Engine</li>
+<li><a href="https://morevnaproject.org/renderchan/">RenderChan</a> - 2D Animation Render Manager</li>
+<li><a href="https://mandelbulber.com/">Mandelbulber</a> or <a href="https://github.com/3Dickulus/FragM">FragM</a> - Fractal Rendering Software / <a href="https://mb3d.overwhale.com/">3D</a></li>
+<li><a href="https://jwildfire.overwhale.com/">JWildfire</a>, <a href="https://github.com/bezo97/IFSRenderer">IFSRenderer</a> or <a href="http://fractorium.com/">Fractorium</a> - Flame Fractal Rendering Software</li>
+<li><a href="https://bestsnip.com/animation/">BestSnip</a>, <a href="https://sketchmachine.net/">Sketch Machine</a>, <a href="https://plask.ai/">Plask</a> or <a href="https://rive.app/">Rive</a> - Online Animation Tools</li>
+<li><a href="https://libresprite.github.io/">LibreSprite</a>, <a href="https://makham.itch.io/pixel-composer">Pixel Compresor</a>, <a href="https://emad.itch.io/jpixel">JPixel</a> or <a href="https://encelo.itch.io/spookyghost">SpookyGhost</a> - Pixel Art Animation Tools</li>
+<li><a href="https://sketch.metademolab.com/">Animated Drawings</a>, <a href="https://fairanimateddrawings.com/site/home">FAIR Animated Drawings</a> or <a href="https://motorpen.com/">MotorPen</a> - Animate Drawings</li>
+<li><a href="https://flipanim.com/">FlipAnim</a> - Create Animated Flipbooks</li>
+<li><a href="https://viggle.ai/">Viggle</a> / <a href="https://discord.com/invite/viggle">Discord</a> or <a href="https://picrew.me/">Picrew</a> - Animated Character Creators</li>
+<li><a href="https://www.mixamo.com/">Mixamo</a> or <a href="https://cascadeur.com/">Cascadeur</a> - 3D Character Animation Tools</li>
+<li><a href="https://github.com/open-mmlab/mmhuman3d">MMHuman3D</a> - 3D Human Model Creator</li>
+<li><a href="https://github.com/saba99/Talking_Face_Avatar">Talking Face Avatar</a> - Talking Avatar Generator</li>
+<li><a href="https://youtube.com/playlist?list=PLav47HAVZMjnTFVZL-aImCQIC0uLZtNCz">Blender Open Movies</a> - CGI Assets</li>
+</ul>
+<hr>
+<doc-anchor-target id="-stock-videos">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-stock-videos">#</doc-anchor-trigger>
+        <span>▷ Stock Videos</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://github.com/neutraltone/awesome-stock-resources#videos">Awesome Stock Resources</a></strong> or <strong><a href="https://cutestockfootage.com/free/video">CuteStockFootage</a></strong> - Stock Video Indexes</li>
+<li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.vidsplay.com/">VidsPlay</a></strong> - Stock Videos</li>
+<li><a href="https://4kmedia.org/">4K Media</a> - 4K Stock Videos</li>
+<li><a href="https://dareful.com/">Dareful</a> - 4K Stock Videos</li>
+<li><a href="https://www.monzoom.com/">Monzoom</a> - 4K Stock Videos</li>
+<li><a href="https://www.beachfrontbroll.com/">BeachFrontBroll</a> - Stock Videos</li>
+<li><a href="https://www.videvo.net/">Videvo</a> - Stock Videos</li>
+<li><a href="https://www.veed.io/videos">veed.io</a> - Stock Videos</li>
+<li><a href="https://mitchmartinez.com/free-4k-red-epic-stock-footage/">MitchMartinez</a> - Stock Videos</li>
+<li><a href="https://mixkit.co/">MixKit</a> - Stock Videos</li>
+<li><a href="https://ineedfx.com/">ineedfx</a> - Stock Videos</li>
+<li><a href="https://www.motionplaces.com/">MotionPlaces</a> - Worldwide Stock Videos</li>
+<li><a href="https://dronestock.com/">DroneStock</a> - Drone Video Footage</li>
+<li><a href="https://movietools.info/">MovieTools</a> - Video Loops</li>
+</ul>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../docs/torrentpiracyguide/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">► Torrent Sites</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../docs/feedback/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Feedback</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "► Video Tools", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
