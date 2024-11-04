@@ -15,6 +15,8 @@
 * ↪️ **[Google Piracy Groups](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_google_piracy_discussion_groups)**
 * ⭐ **[Directory Lister](https://directorylister.com/)** - Open Directory Explorer
 * ⭐ **[EyeDex](https://www.eyedex.org/)**, [ODCrawler](https://odcrawler.xyz/), [ODS](https://sites.google.com/view/l33tech/tools/ods) or [mmnt](https://www.mmnt.net/) - Open Directory Search Engines
+* ⭐ **[Soulseek](https://slsknet.org/)** or [Nicotine+](https://nicotine-plus.org/) - File Sharing App / [Stats](https://github.com/mrusse/Slsk-Upload-Stats-Tracker) / [Server App](https://github.com/slskd/slskd)
+* [eMule Plus](https://sourceforge.net/projects/emuleplus/) - File Sharing App
 * [mega.archive (Discord)](https://discord.gg/R3zEZUPp3Q) / [Chat](https://discord.gg/ZRhpUtzvkC) - Megadrive Archive
 * [GDrive Server](https://telegra.ph/GDrive-Server-Direct-Links-06-28)
 * [Napalm FTP](https://www.searchftps.net/), [Mamont](https://www.mmnt.ru/int/) or [Search-22](https://search-22.com/ftp-search-tools) - FTP Search
@@ -23,7 +25,7 @@
 * [Open Directory Downloader](https://github.com/KoalaBear84/OpenDirectoryDownloader) - Open Directory Indexer
 * [Pastebin CSE](https://cse.google.com/cse?cx=0cd79b819f26af9d0) - Search Pastebin Directories
 * [CD.TextFiles](http://cd.textfiles.com/) - CD Text File Archive
-* [Defacto2](https://defacto2.net/home) - Scene / Sub-Scene Database
+* [Defacto2](https://defacto2.net/) - Scene / Sub-Scene Database
 
 ***
 
@@ -46,33 +48,27 @@
 * [psychodownloads](https://psychodownloads.com/) - Video / Audio / ROMs / Books / Magazines / NSFW
 * [Merlin Warez](https://merlinwz.com/) - Video / Audio / Books / Audiobooks / Comics / Magazines
 * [Sbenny's Forum](https://forum.sbenny.com/) - Video / Audio / ROMs / Books / [Discord](https://discord.gg/kf9FKQx)
-* [CyberPhoenix](http://www.cyberphoenix.org/forum/) - Video / Audio / ROMs / Books / Magazines / Comics
 * [dreamteamdownloads1](https://www.dreamteamdownloads1.com/index.php) - Video / Audio / ROMs / Books / Magazines
 * [DownDuck](https://www.downduck.com/) - Video / Audio / Books / Magazines
 * [AllYouLike](https://allyoulike.org/) - Video / Audio Books / Magazines / ROMs / Comics / NSFW
 * [DDLValley](https://www.ddlvalley.me/) - Video / Audio / ROMs / Books / Comics / Magazines / [Forum](https://forum.ddlvalley.me/)
 * [MaxRelease](https://max-rls.com/) - Video / Audio / Magazines
 * [AyakaLounge](https://ayakalounge.me/) - Video / Audio / ROMs
-* [2DDL](https://2ddl.it/) - Video / Audio / Books / Comics / Magazines
-* [WarezLover](https://warezlover.xyz/) - Video / Audio / ROMs / Books / Magazines
+* [1DDL](https://1ddl.org/) - Video / Audio / Books / Comics / Magazines
 * [TFPDL](https://tfpdl.se/), [2](https://tfpdl.to/) - Video / Magazines / NSFW
 * [WarezLoad](https://warezload.net/index.php) - Video / Audio / Books
 * [Katz DDL](https://katzddl.net/) - Video / Audio / Books / NSFW
-* [FreshWAP](https://www.freshwap.us/), [2](https://freshwap.cc/) - Video / Audio / Books / Magazines
 * [BadshahUploads](https://badshahuploads.xyz/) - Video / Audio / Books / Leech Required
-* [FrostClick](https://www.frostclick.com/wp/) - Video / Audio / Books
 * [Leaker](https://leaker.me/) - Video / Audio
 * [TehParadox](https://www.tehparadox.net/) - Video / Audio / Books / Magazines / ROMs
 * [wJungle](https://wjungle.net/) - Video / Audio / Books / NSFW
 * [PuZo](https://www.puzo.org/) - Video / Audio / Books / Audiobooks / NSFW
-* [Warez-Serbia](https://www.warez-serbia.com/) - Video / Audio / Books / Magazines / NSFW
 * [Warez Heaven](https://www.warezheaven.com/index.php) - Video / Audio / ROMs / Books / NSFW
 * [Download.ir](https://download.ir/) - Video / ROMs
 * [SceneSource](https://www.scnsrc.me/), [2](https://www.scenesource.me/) - Video / Audio / ROMs / Books
 * [Amader Forum](https://amaderforum.net/) - Video / Books / NSFW
 * [Download For All](https://dl4all.org/), [2](https://dl4all.biz/) - Video / Audio / Books / Magazines
 * [ddlspot](https://www.ddlspot.com/) - Video / Audio
-* [Uploadgig](https://uploadgig.me/) - Video / Audio / Books / Audiobooks / Magazines / NSFW
 * [Warez-World](https://warez-world.org/) - Video / Audio / Books / Magazines / NSFW
 * [0DayDDL](https://0dayddl.com/) - Video / Audio / Books / Magazines
 * [Downturk.net](https://www.downturk.net/) - Video / Audio / Books
@@ -133,6 +129,7 @@
 
 ***
 
+* 🌐 **[Adobe Alternatives](https://github.com/KenneyNL/Adobe-Alternatives)** - Adobe Software Alternative Index
 * ↪️ **[Windows ISOs / Activation](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/system-tools#wiki_.25BA_windows_isos)**
 * ⭐ **[CRACKSurl](https://cracksurl.com/)** / [Telegram](https://t.me/cracksurldotcom)
 * ⭐ **[LRepacks](https://lrepacks.net/)**
@@ -140,61 +137,70 @@
 * ⭐ **[soft98](https://soft98.ir/)** - Use [translator](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/)
 * ⭐ **[Nsane Forums](https://www.nsaneforums.com/)** - Signup Required
 * ⭐ **[Software CSE](https://cse.google.com/cse?cx=ae17d0c72fa6cbcd4)** - Multi-Site Software Search
+* ⭐ **[AlternativeTo](https://alternativeto.net/)** - Crowdsourced Recommendations
 * [AIOWares](https://www.aiowares.com/)
 * [TheMicroTech](https://programs.themicrotech.net/)
 * [DownloadHa](https://www.downloadha.com/) - Use [translator](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/)
 * [Patoghu](https://patoghu.com/) - Use [translator](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/)
-* [Softlay](https://www.softlay.com/downloads/)
 * [Mutaz](https://www.mutaz.pro/)
 * [Heidoc](https://www.heidoc.net/joomla/)
+* [Softlay](https://www.softlay.com/downloads/)
 * [AsanDL](http://asandl.com/) - Use [translator](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/)
 * [RetroSystemRevival](https://retrosystemsrevival.blogspot.com/)
 * [Libreware](https://t.me/Libreware) or [Xetrin RePacks](https://t.me/repacks_by_xetrin) - Telegram Channels
 * [Rarewares](https://www.rarewares.org/) - Rare Software
 * [PLC4Me](https://plc4me.com/) - Automation Software
 * [Software Heritage](https://www.softwareheritage.org/) - Software Source Code Archive
-* [Team V.R releases](https://codec.kyiv.ua/releases.html) - Professional Video, Audio & Adobe Software / Plugins
+* [Team V.R releases](https://codec.kyiv.ua/) - Professional Video, Audio & Adobe Software / Plugins
 * [WLSetup-All](https://rentry.co/FMHYBase64#wlsetup-all) - Windows Live Essentials 2012 Archive
 * [GenP](https://www.reddit.com/r/GenP/wiki/index), [2](https://genpguides.github.io/) - Adobe Software Patcher / [Discord](https://discord.gg/BVBh2XVn9s)
 * [ZXPInstaller](https://zxpinstaller.com/) - Adobe Extension Installer
+
+
+***
+
+## ▷ FOSS Sites
+
+* 🌐 **[Awesome Open Source](https://awesomeopensource.com/)**, [Awesome Useful Projects](https://github.com/Furthir/awesome-useful-projects) or [Awesome OSS](https://github.com/RunaCapital/awesome-oss-alternatives) - FOSS Indexes
+* ↪️ **[Git Project Indexes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_git_projects)**
+* [SourceForge](https://sourceforge.net/)- FOSS Repositories
+* [OSSSoftware](https://osssoftware.org/) - FOSS Directory
+* [Fossies](https://fossies.org/) - FOSS Directory
+* [Gadgeteer](https://gadgeteer.co.za/opensourcesoftware/) - FOSS Directory
+* [FossHub](https://www.fosshub.com/) - FOSS Directory
+* [OSS Gallery](https://oss.gallery/) - FOSS Directory
+* [Opensource Builders](https://opensource.builders/) - FOSS Alt Search
+* [OpenAlternative](https://openalternative.co/) - FOSS Alt Search
+* [opensourcealternative.to](https://www.opensourcealternative.to/) - FOSS Alt Search
+* [Free Software Directory](https://directory.fsf.org/wiki/Main_Page) - FOSS Wikis
+* [FOSS Wiki](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software/Categories) - FOSS Wikis
 
 ***
 
 ## ▷ Freeware Sites
 
-* 🌐 **[Awesome Open Source](https://awesomeopensource.com/)**, [OpenAlternative](https://openalternative.co/), [Opensource Builders](https://opensource.builders/), [OSSSoftware](https://osssoftware.org/), [OSS Gallery](https://oss.gallery/), [Awesome OSS](https://github.com/RunaCapital/awesome-oss-alternatives), [Gadgeteer](https://gadgeteer.co.za/opensourcesoftware/) or [FossHub](https://www.fosshub.com/) - FOSS Indexes
-* 🌐 **[Awesome Free Software](https://github.com/johnjago/awesome-free-software)**, [Windows Ultimate Collection](https://xdaforums.com/t/windows-ultimate-collection-guides.4507867/), [Free Lunch](https://github.com/auctors/free-lunch), [MajorGeeks](https://www.majorgeeks.com/content/page/top_freeware_picks.html) or [TinyApps](https://tinyapps.org/) - Freeware Indexes
-* 🌐 **[Awesome Selfhosted](https://awesome-selfhosted.net/)**, [2](https://gitlab.com/awesome-selfhosted/awesome-selfhosted) or [Selfh.st](https://selfh.st/apps/) - Self-Hosted Software Indexes
+* 🌐 **[Awesome Free Software](https://github.com/johnjago/awesome-free-software)**, [Windows Ultimate Collection](https://xdaforums.com/t/windows-ultimate-collection-guides.4507867/) or [Free Lunch](https://github.com/auctors/free-lunch) - Freeware Indexes
+* 🌐 **[Awesome Selfhosted](https://awesome-selfhosted.net/)** / [2](https://gitlab.com/awesome-selfhosted/awesome-selfhosted) / [3](https://gist.github.com/kvnxiao/27c14760cbec35b4e312e34c856b51a8) or [Selfh.st](https://selfh.st/apps/) - Self-Hosted Software Indexes
 * 🌐 **[Awesome Python Applications](https://github.com/mahmoud/awesome-python-applications)** - Python App Index
-* ↪️ **[Git Project Indexes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_git_projects)**
 * ↪️ **[Software Package Managers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/system-tools#wiki_.25B7_package_managers)**
 * ⭐ **[FluentStore](https://github.com/yoshiask/FluentStore)** - Microsoft Store Frontend
 * ⭐ **[store.rg](https://store.rg-adguard.net/)** - Paid Microsoft Store Link Generator / [Guide](https://rentry.co/paidAppsMsStore)
-* [SourceForge](https://sourceforge.net/)- FOSS Repositories
-* [Fossies](https://fossies.org/all.html) - FOSS Archive
-* [Free Software Directory](https://directory.fsf.org/wiki/Main_Page) or [FOSS Wiki](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software/Categories) - FOSS Wikis
-* [Softpedia](https://www.softpedia.com/), [Realityripple](https://realityripple.com/), [OlderGeeks](https://oldergeeks.com/), [FilePuma](https://www.filepuma.com/), [FileEagle](https://www.fileeagle.com/), [LO4D](https://www.lo4d.com/), [GRC](https://www.grc.com/freepopular.htm), [Uwe Sieber's Homepage](https://www.uwe-sieber.de/english.html) or [Software Informer](https://software.informer.com/) - Freeware
+* [MajorGeeks](https://www.majorgeeks.com/content/page/top_freeware_picks.html) - Freeware Downloads
+* [Softpedia](https://www.softpedia.com/) - Freeware Directory
+* [Realityripple](https://realityripple.com/) - Freeware Directory
+* [OlderGeeks](https://oldergeeks.com/) - Freeware Directory
+* [FilePuma](https://www.filepuma.com/) - Freeware Directory
+* [FileEagle](https://www.fileeagle.com/) - Freeware Directory
+* [LO4D](https://www.lo4d.com/) - Freeware Directory
+* [GRC](https://www.grc.com/freepopular.htm) - Freeware Directory
+* [Uwe Sieber](https://www.uwe-sieber.de/english.html) - Freeware Directory
+* [Software Informer](https://software.informer.com/) - Freeware Directory
 * [PortableApps.com](https://portableapps.com/), [Portapps](https://portapps.io/) or [PortableAppZ](https://portableappz.blogspot.com/) - Portable Apps
 * [Nirsoft](https://www.nirsoft.net/), [Windows-Utilities](https://orga.cat/windows-utilities), [OS Vault](https://osvault.weebly.com/directory.html) or [WinTools](https://www.wintools.info/) - Windows Software
-* [UWP Community](https://uwpcommunity.com/) - Universal Windows Programs / [Discord](https://discord.gg/eBHZSKG)
-* [RaymondFreeSoftware](https://t.me/raymondfreesoftware) - Telegram
 * [Suckless](https://suckless.org/) - Simple Software Archive
-* [OldVersion](http://www.oldversion.com/) - Old Versions of Software
-* [WinWorldPC](https://winworldpc.com/) - Abandonware / Operating Systems
 * [VETUSWARE](https://vetusware.com/) - Abandonware / Operating Systems / Games
-* [MS-DOS Index](http://www.lanet.lv/simtel.net/msdos/index-msdos.html) - MS-DOS Software
-* [The Vintage Software Collection](https://rentry.co/fmhybase64#the-vintage-software-collection) or [SCiZE's Classic Warez Collection](https://scenelist.org/) - Retro Software
-* [BelowAverage](https://belowaverage.org/) - I.T. Software
-
-***
-
-## ▷ Alt Software Sites
-
-* ⭐ **[AlternativeTo](https://alternativeto.net/)** - Crowdsourced Recommendations
-* [Adobe Alternatives](https://github.com/KenneyNL/Adobe-Alternatives) - Adobe Software Alternative Index
-* [SaaSHub](https://www.saashub.com/), [Alternative.me](https://alternative.me/), [ListAlternative](https://www.listalternative.com/), [Alternative Internet](https://github.com/redecentralize/alternative-internet) or [Appmus](https://appmus.com/) - Alt Software Indexes
-* [SimilarSiteSearch](https://www.similarsitesearch.com/), [Sitelike.org](https://www.sitelike.org/), [TopAlter.com](https://topalter.com/) or [SitesLike](https://www.siteslike.com/) - Similar Site Lists
-* [opensourcealternative.to](https://www.opensourcealternative.to/) - Open-Source Alternatives
+* [OldVersion](http://www.oldversion.com/) - Old Versions of Software
+* [Vintage Software Collection](https://rentry.co/fmhybase64#the-vintage-software-collection) or [SCiZE's Classic Warez](https://scenelist.org/) - Retro Software
 
 ***
 
@@ -203,15 +209,6 @@
 ***
 
 ## ▷ [Mac Software](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_software_sites2)
-
-***
-
-# ► File Sharing Apps
-
-* ⭐ **[Soulseek](https://slsknet.org/)** or [Nicotine+](https://nicotine-plus.org/) - File Sharing App / [Stats](https://github.com/mrusse/Slsk-Upload-Stats-Tracker) / [Server App](https://github.com/slskd/slskd)
-* [DC++](https://dcplusplus.sourceforge.io/index.html) - File Sharing App / [Hubs](https://dchublists.com/), [2](https://dchublist.org/), [3](https://dchublist.biz/)
-* [Fopnu](https://fopnu.com/), [Shareaza](https://shareaza.sourceforge.net/) or [eMule Plus](https://sourceforge.net/projects/emuleplus/) - File Sharing App
-* [WinMX](https://patch.winmxconex.com/) - File Sharing App / [Forum](https://forum.winmxworld.com/)
 
 ***
 

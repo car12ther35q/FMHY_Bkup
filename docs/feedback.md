@@ -15,8 +15,6 @@ Anonymous comments, taken from reddit, discord, twitter, and our feedback system
 
 ***
 
-* *"Before finding this, I've been searching google myself and have experienced viruses, fake info, and just bad advice. But the amazing guides and links on FMHY really make it so much safer and simpler to find the things I need. I'm sort of the tech person in my family, so it saves me from so much testing and work."*
-
 * *"Your sources have allowed me to give my father whatever shows or movies he asks for. Old stuff from when he was younger and all that. Stuff I wouldn't be able to access otherwise. It means a lot since he had heart surgery in Feb 2020 and cant really do much anymore, so its one of the few ways he can keep himself busy. Thank you."*
 
 * *"That's why I love FMHY so much. Before id spend hours and hours every day trying to hunt useful websites for myself."*
@@ -25,11 +23,17 @@ Anonymous comments, taken from reddit, discord, twitter, and our feedback system
 
 * *"No bullshit, and has all the info I need to gain free access to media."*
 
+* *"You have saved me in so many ways that it could not fit here in terms of the amount of text. I'm from a poor "third world" country and a portal like this allows me endless things that I simply can't afford! Keep up the good spirit and I wish you all the best from the bottom of my heart!"*
+
 * *"Y'all have helped not only me but my friends through college and the pandemic in ways you all probably don't even realize."*
 
 * *"thank you so much for this effort, guys, you are amazing, I stopped searching on google for stuff and got addicted to your website, keep going :)"*
 
 * *"Literally, when I need something, all I need to do is check here first! thank you for being here, for being access to everyone and anyone, I really really appreciate it!"*
+
+* *"Me and my friends call your site the keys to the internet, its kinda amazing."*
+
+* *"Thanks to FMHY, I was able to find a piece of software that upped my efficiency at work three-fold. Literal life-saver. Thank you!"*
 
 * *"Great site! It's so useful, I now know about a lot more apps and such. Definitely made my life easier!"*
 
@@ -38,6 +42,8 @@ Anonymous comments, taken from reddit, discord, twitter, and our feedback system
 * *"Amazing stuff. Spent almost whole day browsing this and I got introduced to tons of great software. Thank you!!"*
 
 * *"I love FMHY's wiki, to the point I can't use the internet without it."*
+
+* *"Before finding this, I've been searching google myself and have experienced viruses, fake info, and just bad advice. But the amazing guides and links on FMHY really make it so much safer and simpler to find the things I need. I'm sort of the tech person in my family, so it saves me from so much testing and work."*
 
 * *"This wiki is one of the best out there, seriously. Keep up the great work!"*
 

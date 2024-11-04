@@ -59,8 +59,8 @@
 ## ▷ File Archivers
 
 * 🌐 **[SuperCompression](https://supercompression.org/)** - File Compression Resources
-* ⭐ **[7-Zip](https://www.7-zip.org/)** - File Archiver
 * ⭐ **[NanaZip](https://github.com/M2Team/NanaZip)** - File Archiver
+* ⭐ **[7-Zip](https://www.7-zip.org/)** - File Archiver
 * ⭐ **[PeaZip](https://peazip.github.io/)** - Cross Platform File Archiver
 * ⭐ **[CompactGUI](https://github.com/IridiumIO/CompactGUI)** or [Compactor](https://github.com/Freaky/Compactor) - Transparent Compression
 * [Fileforums](https://fileforums.com/) or [Encode](https://encode.su/) - Data Compression Forums
@@ -216,10 +216,12 @@
 
 * ⭐ **[Sejda](https://www.sejda.com/)**, [ILovePDF](https://www.ilovepdf.com/), [DigiPDF](https://digipdf.app/?lang=en_US), [PDF2Go](https://www.pdf2go.com/) or [SimplePDF](https://simplepdf.eu/) - Online PDF Toolkits
 * ⭐ **[PDFGear](https://www.pdfgear.com/)**, **[PDF24](https://www.pdf24.org/)**, [xPDFReader](https://www.xpdfreader.com/), [PDF Arranger](https://github.com/pdfarranger/pdfarranger), [PrivatePDF](https://photown.github.io/private-pdf/), [PDFBox](https://pdfbox.apache.org/) or [OpenPDF](https://github.com/LibrePDF/OpenPDF) - Offline PDF Toolkits
+* [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - Self-Hosted PDF Toolkit
 * [PDFGrep](https://pdfgrep.org/) - PDF Text Search
 * [View-only PDF](https://rentry.co/cm4b7) - Download View-Only PDF on GDrive
 * [online2pdf](https://online2pdf.com/) or [2PDFConverter](https://www.2pdfconverter.com/) - Convert Files to PDF
 * [PDFconvert](https://docupub.com/pdfconvert/) - PDF File Converters
+* [PDFEncrypt](https://pdfencrypt.net/) - PDF File Encryption
 * [Marker](https://github.com/VikParuchuri/marker) - PDF to Markdown
 * [PDFCrowd](https://pdfcrowd.com/), [TailWindPDF](https://tailwindpdf.com/) or [wkhtmltopdf](https://wkhtmltopdf.org/) - HTML to PDF / Image Converter
 * [Issuu](https://issuu.com/) - Convert PDF Files to Webpages, Flipbooks, Brochures & More / [Downloader](https://docdownloader.com/), [2](https://issuudownload.com/)
@@ -258,12 +260,13 @@
 * [Filebin](https://filebin.net/) - Unlimited / 6 Days / [Warning](https://pastebin.com/W0j4VDAN)
 * [file.kiwi](https://file.kiwi/) - Unlimited / [File Expiry Explanation](https://file.kiwi/en/price)
 * [FEX.NET](https://fex.net/) - 100GB / 7 Days
+* [eDisk](https://www.edisk.cz/) - 20GB / 30 Days
+* [Easyupload.io](https://easyupload.io/) - 100GB / 30 Days
 * [SwissTransfer](https://www.swisstransfer.com/) - 50GB / 30 Days / 250 Downloads
 * [BowFile](https://bowfile.com/) - 20GB / 20 Days
 * [Hexupload](https://www.hexupload.net/) or [AnonTransfer](https://anontransfer.com/) - 15GB / 30 Days
 * [FileLu](https://filelu.com/) - 15GB / 1 Day (Unlimited with Account) / [Note](https://pastebin.com/Rr9ZqD2F)
 * [Fastupload.io](https://fastupload.io/en) - 10GB / 30 Days (60 Days with Account)
-* [eDisk](https://www.edisk.cz/) or [Easyupload.io](https://easyupload.io/) - 10GB / 30 Days
 * [Drop Download](https://drop.download/) - 10GB / 30 Days / Account Required
 * [DesiUpload](https://desiupload.co/) - 10GB / 15 Days (15GB / 30 Days with Account)
 * [GrosFichiers](https://www.grosfichiers.com/) - 10GB / 14 Days
@@ -295,24 +298,24 @@
 
 * ⭐ **[ToffeeShare](https://toffeeshare.com/)**
 * ⭐ **[Blaze](https://blaze.vercel.app/)** / [GitHub](https://github.com/blenderskool/blaze)
-* ⭐ **[LocalSend](https://localsend.org/)** - Phone / Desktop Transfer / [Discord](https://discord.com/invite/GSRWmQNP87) / [GitHub](https://github.com/localsend/localsend)
-* ⭐ **[wormhole](https://wormhole.app/)**
+* ⭐ **[LocalSend](https://localsend.org/)** - Desktop / Mobile Transfer / [Discord](https://discord.com/invite/GSRWmQNP87) / [GitHub](https://github.com/localsend/localsend)
 * ⭐ **[justbeamit](https://justbeamit.com/)**
 * ⭐ **[spacedrop](https://spacedrop.app/)**
+* [wormhole](https://wormhole.app/)
 * [KDEConnect](https://kdeconnect.kde.org/)
-* [Warpinator](https://github.com/linuxmint/warpinator) - Phone / Desktop Transfer
-* [QRServ](https://play.google.com/store/apps/details?id=dev.uint.qrserv) - Phone / Desktop Transfer / [GitHub](https://github.com/uintdev/qrserv)
+* [Warpinator](https://github.com/linuxmint/warpinator) - Desktop / Mobile Transfer
+* [QRServ](https://play.google.com/store/apps/details?id=dev.uint.qrserv) - Desktop / Mobile Transfer / [GitHub](https://github.com/uintdev/qrserv)
+* [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole) - Desktop / Mobile Transfer
+* [croc](https://github.com/schollz/croc) - Desktop / Mobile Transfer / [GUI](https://github.com/howeyc/crocgui)
 * [pairdrop](https://pairdrop.net/) / [GitHub](https://github.com/schlagmichdoch/pairdrop)
 * [Snapdrop](https://snapdrop.net/) / [GitHub](https://github.com/SnapDrop/snapdrop)
 * [sharedrop](https://www.sharedrop.io/)
 * [new.space](https://new.space/)
 * [file.pizza](https://file.pizza/)
 * [Transfernow](https://www.transfernow.net/en)
-* [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole)
 * [onionshare](https://onionshare.org/)
 * [Horizon Send](https://send.hrzn.cool/)
 * [WinSCP](https://winscp.net/eng/index.php)
-* [croc](https://github.com/schollz/croc) / [GUI](https://github.com/howeyc/crocgui)
 * [landrop](https://landrop.app/)
 * [Surge](https://getsurge.io/)
 * [saladroom](https://saladroom.net/)
@@ -341,7 +344,7 @@
 * [ffsend](https://github.com/timvisee/ffsend)
 * [File.love](https://file.love/)
 * [IPFS](https://ipfs.tech/) or [kubo](https://github.com/ipfs/kubo) - P2P Hypermedia Protocol
-* IPFS Tools - [Resources](https://github.com/ipfs/awesome-ipfs) / [Extension](https://github.com/ipfs/ipfs-companion) / [Desktop](https://github.com/ipfs/ipfs-desktop) / [IPFS Cluster](https://ipfscluster.io/)
+* IPFS Tools - [Resources](https://awesome.ipfs.tech/), [2](https://github.com/ipfs/awesome-ipfs) / [Extension](https://github.com/ipfs/ipfs-companion) / [Desktop](https://github.com/ipfs/ipfs-desktop) / [IPFS Cluster](https://ipfscluster.io/)
 
 ***
 
@@ -351,7 +354,7 @@
 
 ***
 
-* ⭐ **[Cloud Storage Comparisons](https://eylenburg.github.io/cloud_comparison.htm)** - Compare Cloud Storage Polices
+* ⭐ **[Cloud Storage Comparisons](https://eylenburg.github.io/cloud_comparison.htm)** - Compare Cloud Storage Policies
 * ⭐ **[GDrive](https://drive.google.com/)** - 15GB Free / ~$3 for 1TB
 * ⭐ **[mega](https://mega.nz/)** - 20GB Free / ~$4.50 for 1TB / [GitHub](https://github.com/meganz)
 * ⭐ **[disk.yandex](https://disk.yandex.com/)** - 5GB Free / $2 for 1TB
@@ -362,12 +365,11 @@
 * [mediafire](https://www.mediafire.com/) - 10GB Free / $5 for 1TB
 * [icedrive](https://icedrive.net/) - 10GB Free / $5 for 1TB
 * [PCloud](https://www.pcloud.com/) - 10GB Free / ~$4 for 1TB
-* [Proton Drive](https://proton.me/drive) - 5GB Free / ~$23 for 3TB
+* [Proton Drive](https://proton.me/drive) - 2GB Free / ~$23 for 3TB
 * [JumpShare](https://jumpshare.com/) - 2GB Free / $8.25 for 1TB
 * [CyberFile](https://cyberfile.me/) - 10GB Free
 * [MrOwl](https://www.mrowl.com/) - 10GB Free / ~$16 for 1TB
 * [Blomp](https://www.blomp.com/) - 20GB Free / ~$3 for 2TB
-* [internxt](https://internxt.com/) - 10GB Free / ~4 for 1TB
 * [Akira Box](https://akirabox.com/) - 20GB Free
 * [1Cloud File](https://1cloudfile.com/) - 10GB Free
 * [OneDriveFly](https://github.com/Tai7sy/OneDriveFly) - OneDrive Indexes
@@ -415,9 +417,9 @@
 
 ## ▷ Mega Tools
 
-* ⭐ **[Mega-to-Google-Drive](https://github.com/menukaonline/Mega-to-Google-Drive)** - Transfer Files from Mega to GDrive
 * ⭐ **[Megabasterd](https://github.com/tonikelope/megabasterd)** - MEGA Quota Bypass / [Note](https://pastebin.com/BpS2mwKX)
 * ⭐ **[Mega_account_generator](https://github.com/qtchaos/py_mega_account_generator)** - Unlimited Upload Size
 * ⭐ **[MegaDoctor](https://github.com/tonikelope/megadoctor)** - Mega Upload Manager
 * [MEGASync](https://mega.io/desktop) or [MegaCMD](https://mega.io/cmd) - Mega Apps
 * [Mega Gen](https://rentry.co/FMHYBase64#mega-gen) - Mega Account Generator
+* [Mega-to-Google-Drive](https://github.com/menukaonline/Mega-to-Google-Drive) - Transfer Files from Mega to GDrive
