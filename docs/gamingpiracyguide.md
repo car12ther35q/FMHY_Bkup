@@ -16,35 +16,37 @@
 * 🌐 **[Wotaku](https://wotaku.wiki/games)** - Otaku Games Index / [Discord](https://discord.gg/vShRGx8ZBC)
 * 🌐 **[EverythingMoe](https://everythingmoe.com/?nsfw=true#section-game)** - Otaku Games Index / [Discord](https://discord.gg/GuueaDgKdS)
 * ↪️ **[Scene Release Trackers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_scene_release_trackers)**
-* ⭐ **[GamesDrive](https://gamesdrive.net/)** - Download / [Divolt](https://gamesdrive.divolt.xyz/) / [Discord](https://discord.gg/wXdNEhf73x) / [Telegram](https://t.me/+qkrAOiq7k7ozNzRk)
-* ⭐ **[CS.RIN.RU](https://cs.rin.ru/forum)** - Download / Forum / [Status](https://csrinstaff.writeas.com/) / [Enhancement Mod](https://github.com/SubZeroPL/cs-rin-ru-enhanced-mod) / [Steam Buttons](https://github.com/Altansar69/CS.RIN.RU-Enhanced-external) / [.onion](http://csrinrutkb3tshptdctl5lyei4et35itl22qvk5ktdcat6aeavy6nhid.onion/forum)
-* ⭐ **[SteamRIP](https://steamrip.com/)** - Download / Torrent / Pre-Installs / [Discord](https://discord.gg/WkyjpA3Ua9) / pw: 1234 or steamrip.com
-* ⭐ **[Torrminatorr](https://forum.torrminatorr.com/)** - Download
+* ⭐ **[CS.RIN.RU](https://cs.rin.ru/forum)** - Download / Forum / Account Required / [Status](https://csrinstaff.writeas.com/) / [Enhancement Mod](https://github.com/SubZeroPL/cs-rin-ru-enhanced-mod) / [Steam Buttons](https://github.com/Altansar69/CS.RIN.RU-Enhanced-external) / [.onion](http://csrinrutkb3tshptdctl5lyei4et35itl22qvk5ktdcat6aeavy6nhid.onion/forum)
 * ⭐ **[GOG Games](https://gog-games.to/)** - Download / [.onion](http://goggamespyi7b6ybpnpnlwhb4md6owgbijfsuj6z5hesqt3yfyz42rad.onion/)
+* ⭐ **[SteamRIP](https://steamrip.com/)** - Download / Torrent / Pre-Installs / [Discord](https://discord.gg/WkyjpA3Ua9) / pw: 1234 or steamrip.com
 * ⭐ **[AnkerGames](https://ankergames.net/)** - Download / Pre-Installs / [Discord](https://discord.gg/nnMnGzDbwg)
-* ⭐ **[Ova Games](https://www.ovagames.com/)** - Download / [Bypass All Shortlinks Required](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_redirect_bypass)
-* ⭐ **[Online Fix](https://online-fix.me/)** - Download / Torrent / Multiplayer / [Discord](https://discord.gg/yExgFYncMD)
+* ⭐ **[Online Fix](https://online-fix.me/)** - Download / Torrent / Multiplayer / [Discord](https://discord.gg/yExgFYncMD) / [Telegram](https://t.me/onlinefix)
+* ⭐ **[GamesDrive](https://gamesdrive.net/)** - Download / [Discord](https://discord.gg/wXdNEhf73x) / [Telegram](https://t.me/+qkrAOiq7k7ozNzRk)
 * ⭐ **[GameBounty](https://gamebounty.world/)** - Download / [Discord](https://discord.gg/6msDMndrkD)
+* ⭐ **[Ova Games](https://www.ovagames.com/)** - Download / [Redirect Bypass Required](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_redirect_bypass)
+* ⭐ **[Torrminatorr](https://forum.torrminatorr.com/)** - Download / Forum / Account Required
 * ⭐ **[SteamGG](https://steamgg.net/)** - Download / Pre-Installs / [Subreddit](https://www.reddit.com/r/OfficialSteamGG/) / [Discord](https://discord.gg/Rw6AT3hZZE) 
 * ⭐ **[FreeToGame](https://www.freetogame.com/games)**, [Acid Play](https://acid-play.com/) or [/v/'s Recommended](https://vsrecommendedgames.fandom.com/wiki/Freeware_Games) - F2P Games / [Trackers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25BA_free_stuff)
 * ⭐ **[Game Download CSE](https://cse.google.com/cse?cx=006516753008110874046:cbjowp5sdqg)**, [Game Torrent CSE](https://cse.google.com/cse?cx=006516753008110874046:pobnsujblyx), [Rezi Search](https://rezi.one/), [Rave Search](https://idleendeavor.github.io/gamesearch/) / [2](https://ravegamesearch.pages.dev/) or [/r/PiratedGames CSE](https://cse.google.com/cse?cx=20c2a3e5f702049aa) - Multi-Site Search Engines
 * [g4u](https://g4u.to/) - Download / pw: 404
+* [UnionCrax](https://union-crax.xyz/) - Download / [Discord](https://discord.gg/dkVame6BQS)
 * [appnetica](https://appnetica.com/) - Download / Torrent / Pre-Installs
 * [AtopGames](https://atopgames.com/) - Download / Pre-Installs / [Discord](https://discord.gg/KSG9Tg2s7b)
 * [Reloaded Steam](https://reloadedsteam.com/) - Download / Pre-Installs / [Discord](https://discord.gg/XqMpBdVWvK)
 * [Games4U](https://games4u.org/) - Download
 * [Rexa Games](https://rexagames.com/) - Download / Pre-Installs / [Discord](https://discord.gg/6KWStFYSTj)
+* [Cr4ckPass](https://cr4ckpass.online/) - Download
 * [GetFreeGames](https://getfreegames.net/) - Download / [Discord](https://discord.gg/Pc5TtEzk7k)
 * [GLoad](https://gload.to/) - Download
-* [UndergroundGames](https://undergroundgames.net/) - Download / Torrent / Pre-Installs
+* [SteamUnderground](https://steamunderground.net/) - Download / Torrent / Pre-Installs / [Discord](https://discord.gg/ZjrNBhmhPz)
 * [World of PC Games](https://worldofpcgames.com/) - Download / Pre-Installs / [Site Info](https://rentry.org/ikc3x8bt) / Use Adblocker
-* [Leeching Hell](http://www.leechinghell.pw/) - Download
 * [AWTDG](https://awtdg.site/) - Download / [Discord](https://discord.gg/kApRXRjJ7A)
 * [CG Games](https://www.cg-gamespc.com/) - Download
 * [GamePCFull](https://gamepcfull.com/) - Download
+* [Leeching Hell](http://www.leechinghell.pw/) - Download
 * [IWannaPlay](https://sites.google.com/view/iwannaplay/список-игр) - Download / Telegram Required
-* [Vran's Piracy](https://rentry.co/vranpirated) - Download / [Discord](https://discord.gg/bnHNVgTCkb)
 * [IRC Games](https://redd.it/x804wg) - Download Games via IRC
+* [ROM Heaven CSF](https://romheaven.com/csf), [2](https://romheaven.su) - Download Clean Files
 
 ***
 
@@ -61,12 +63,12 @@
 * ⭐ **[Gnarly Repacks](https://rentry.co/FMHYBase64#gnarly_repacks)** - Download / Password: gnarly
 * [Xatab Repacks](https://byxatab.com/) - Torrent
 * [ScOOt3r Repacks (Discord)](https://discord.gg/xe3Fys8Upy) - Download / Torrent
-* [DigitalZone](https://digitalzone.vercel.app/), [2](https://god0654.github.io/DigitalZone/) - Download / Portable Repacks / [Discord](https://discord.gg/ja3v2z26Sj)
+* [DigitalZone](https://digital-zone.xyz/) - Download / Portable Repacks / [Discord](https://discord.gg/ja3v2z26Sj)
 * [Elamigos](https://elamigos.site/) - Download
+* [DODI Repacks](https://rentry.co/FMHYBase64#dodi) - Torrent / [Lootlink Bypass](https://rentry.co/lootlink) / [Lootlink Autocomplete](https://greasyfork.org/en/scripts/487969) / [Warning](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#dodi-warning) / [Discord](https://discord.gg/D9WU7C9FSE)
 * [Tiny-Repacks](https://www.tiny-repacks.win) - Torrent
-* [DODI Repacks](https://dodi-repacks.download/), [2](https://dodi-repacks.site/) - Torrent / [Opera Bypass](https://rentry.co/lootlink) / [Warning](https://pastebin.com/n5xS3v6k) / [Discord](https://discord.gg/D9WU7C9FSE)
-* [FreeGOGPCGames](https://freegogpcgames.com/) - GOG Games Torrent Uploads / [Hash Note](https://pastebin.com/pNMj3nay), [2](https://i.ibb.co/XbF2dv1/image.png)
-* [Magipack](https://www.magipack.games), [CollectionChamber](https://collectionchamber.blogspot.com/) or [ClassicPCGames](https://archive.org/details/classicpcgames) - Retro PC Games
+* [FreeGOGPCGames](https://freegogpcgames.com/) - GOG Games Torrent Uploads / [Hash Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#freegogpcgames-note), [2](https://i.ibb.co/XbF2dv1/image.png)
+* [Magipack](https://www.magipack.games), [Old-Games](https://www.old-games.ru/), [CollectionChamber](https://collectionchamber.blogspot.com/) or [ClassicPCGames](https://archive.org/details/classicpcgames) - Retro PC Games
 * [~archive](https://websites.umich.edu/~archive/) - Retro PC / Mac Games
 
 ***
@@ -77,7 +79,6 @@
 * ⭐ **[ARMGDDN Browser](https://cs.rin.ru/forum/viewtopic.php?f=14&t=140593)** - VR Games / [Telegram](https://t.me/ARMGDDNGames)
 * [r/QuestPiracy](https://www.reddit.com/r/QuestPiracy/) - Oculus Quest Piracy
 * [SideQuest](https://sidequestvr.com/) - VR Sideloading Platform
-* [VRFavs](https://www.vrfavs.com/) - Virtual Reality Resources
 * [VRCArena](https://www.vrcarena.com/) - Resources for Social VR Games
 * [UEVR](https://uevr.io/) - Convert Unreal Engine Games to VR
 * [Oculess](https://github.com/basti564/Oculess) - Remove Oculus Quest Account Requirements & Telemetry
@@ -92,6 +93,7 @@
 * ⭐ **[AbandonwareGames](https://abandonwaregames.net/)** - Abandonware
 * [Flashtro](https://flashtro.com/) - Abandonware
 * [Zombs-Lair](https://www.zombs-lair.com/) - Abandonware
+* [OldGamesDownload](https://oldgamesdownload.com/) - Abandonware
 * [Old-Games.com](https://www.old-games.com/) - Abandonware
 * [VETUSWARE](https://vetusware.com/category/Games/) - Abandonware
 * [Japanese PC Compendium](https://japanesepccompendium.blogspot.com/) - Retro Japanese PC Games
@@ -106,15 +108,18 @@
 ## ▷ Remakes / Ports
 
 * 🌐 **[OSGL](https://trilarion.github.io/opensourcegames/)**, [Awesome Open Source Games](https://github.com/michelpereira/awesome-open-source-games) or [LibreGameWiki](https://libregamewiki.org/List_of_games) - Open-Source Games
+* 🌐 **[Galaxy of Games](https://galaxyofgames.neocities.org/)** - PC Ports, Decompilations, Remakes, Fan Games and more
 * 🌐 **[Awesome Game Remakes](https://github.com/radek-sprta/awesome-game-remakes)** or [Game Clones](https://osgameclones.com/) - Open-Source Remakes
 * 🌐 **[Awesome Terminal Games](https://ligurio.github.io/awesome-ttygames/)** - ASCII Terminal Games
 * 🌐 **[Kliktopia](https://kliktopia.org/)** - Klik Games
 * ⭐ **[OpenRCT2](https://openrct2.io/)**, [2](https://openrct2.org/) - Open-Source RollerCoaster Tycoon 2
 * [Luanti](https://www.luanti.org/) / [GitHub](https://github.com/luanti-org) or [Classicube](https://www.classicube.net/) - Open-Source Minecraft Alternatives
+* [Locomalito](https://locomalito.com/) - Classic Game Remakes
 * [OpenFortress](https://openfortress.fun/) - Team Fortress 2 Mod
 * [TF2 Classic](https://tf2classic.com/) - Team Fortress 2 Classic Mod
 * [RisingHub](https://risinghub.net/) - Battlefield Heroes Revival Project
-* [OpenRA](https://openra.net/) - Command & Conquer Recreation
+* [Chrono Divide](https://rentry.co/FMHYBase64#chrono-divide) or [OpenRA](https://openra.net/) - Command & Conquer Recreations / Ports
+* [Beyond All Reason](https://www.beyondallreason.info/) - Open-Source Total Annihilation / Supreme Commander / [Discord](https://discord.gg/beyond-all-reason) / [GitHub](https://github.com/beyond-all-reason)
 * [DFWorkshop](https://www.dfworkshop.net/) - Daggerfall Unity Engine Port
 * [OpenMW](https://openmw.org/en/) - Morrowind Remake / [GitHub](https://github.com/OpenMW/openmw) / [Multiplayer](https://github.com/TES3MP/TES3MP)
 * [ECWolf](https://maniacsvault.net/ecwolf/) - Wolfenstein 3D, Spear of Destiny & Super 3D Noah's Ark Port
@@ -129,25 +134,26 @@
 * [Streets of Rage Remake](https://sorr.forumotion.net/t838-new-streets-of-rage-remake-v5-2-download-and-info) - Streets of Rage Remake
 * [OpenSA](https://github.com/Dzierzan/OpenSA) - Swarm Assault Recreation / [OpenRA Required](https://www.moddb.com/mods/opensa) / [Non OpenRA Version](https://dzierzan.itch.io/opensa)
 * [TeamForever](https://teamforeveronline.wixsite.com/home) - Sonic 1 & 2 Enhanced / [S1F Mods](https://gamebanana.com/games/10601) / [S2A Mods](https://gamebanana.com/games/15019) / [YouTube](https://www.youtube.com/@teamforeverdev) / [Tumblr](https://www.tumblr.com/teamforever)
-* [Sonic 3 A.I.R.](https://sonic3air.org/) - Sonic 3 & Knuckles Enhanced / [Mods](https://gamebanana.com/games/6878) / [Discord](https://dc.railgun.works/s3air) / [GitHub](https://github.com/Eukaryot/sonic3air)
+* [Sonic 3 A.I.R.](https://sonic3air.org/) - Sonic 3 & Knuckles Enhanced / [Mods](https://gamebanana.com/games/6878), [2](https://sonic3air.boards.net/board/6/mod-releases) / [Discord](https://dc.railgun.works/s3air) / [GitHub](https://github.com/Eukaryot/sonic3air)
 * [EDuke32](https://www.eduke32.com/) - Duke Nukem 3D Source Port
 * [NBlood](https://github.com/nukeykt/NBlood) - Reverse-Engineered Duke Nukem Ports
 * [SP Tarkov](https://www.sp-tarkov.com/) - Escape From Tarkov Single Player Mod
 * [doukutsu-rs](https://github.com/doukutsu-rs/doukutsu-rs) - Open-Source Cave Story
 * [Arx Libertatis](https://arx-libertatis.org/) - Arx Fatalis PC Port
 * [Mars 3D](https://mars3d-game.wixsite.com/index) - Mars 3D Translation & Remake
-* [Unciv](https://github.com/yairm210/Unciv) - Civ V Remake
+* [Unciv](https://github.com/yairm210/Unciv) - Civilization V Remake
+* [⁠FreeCiv](https://www.freeciv.org/ ) - Civilization Remake / [GitHub](https://github.com/freeciv)
 * [OpenTTD](https://www.openttd.org/) - Transport Tycoon Remake
 * [CannonBall](https://github.com/djyt/cannonball) - OutRun Remake / [Video](https://youtu.be/t-93kDC8Vac)
-* [Pokemon Auto Chess](https://pokemon-auto-chess.com/) - Pokemon Style Teamfight Tactics / [Discord](https://discord.gg/6JMS7tr) / [GitHub](https://github.com/keldaanCommunity/pokemonAutoChess)
 * [EDOPro](https://projectignis.github.io/) - Yu-Gi-Oh! TCG Fangame
 * [OpenNox](https://github.com/noxworld-dev/opennox) - Nox Revival Project
 * [Pixel Gun X](https://discord.com/invite/8796Fs9tZm) - Pixel Gun 3D Revival Project Discord
-* [Infinity Blade PC](https://archive.org/details/infinity-blade-pc) - Infinity Blade PC Port
+* [Infinity Blade PC](https://rentry.co/FMHYBase64#ib-pc-port) - Infinity Blade PC Port / [Subreddit](https://www.reddit.com/r/infinityblade) / [Discord](https://discord.gg/GfX3pmC)
 * [Pac-Man](https://github.com/masonicGIT/pacman) - Pac-Man with Added Features
 * [SpaceCadetPinball](https://github.com/k4zmu2a/SpaceCadetPinball) - Space Cadet Pinball / [Android](https://github.com/fexed/Pinball-on-Android)
 * [Visual Pinball](https://github.com/vpinball/vpinball) - Pinball Table Editor / Simulator / [Tables](https://www.vpforums.org/)
-* [YARC-Official](https://github.com/YARC-Official) - Rock Band Clone / [Launcher](https://github.com/YARC-Official/YARC-Launcher/releases)
+* [YARC-Official](https://github.com/YARC-Official) - Rock Band Clone / [Launcher](https://github.com/YARC-Official/YARC-Launcher/releases) / [Discord](https://discord.gg/sqpu4R552r)
+* [Clone Hero](https://clonehero.net/) - Guitar Hero Clone / [Setlists](https://rentry.co/FMHYBase64#setlists), [2](https://customsongscentral.com/), [3](https://rentry.co/FMHYBase64#frif-drive) / [Wii Controller Support](https://github.com/Meowmaritus/WiitarThing) / [Custom Client](https://clonehero.scorespy.online)
 * [ITGmania](https://www.itgmania.com/) - DDR Clone
 * [beatoraja](https://mocha-repository.info/) - BMS Player as Alternative to IIDX / [beatoraja English Guide](https://github.com/wcko87/beatoraja-english-guide/wiki)
 * [Unnamed SDVX clone](https://github.com/Drewol/unnamed-sdvx-clone) - Sound Voltex Clone
@@ -164,20 +170,19 @@
 ## ▷ Special Interest
 
 * ⭐ **[itch.io](https://itch.io/games/new-and-popular/featured/free)**, [Killed By A Pixel](https://frankforce.com/all-games/), [Gamdie](https://gamdie.com/), [Indie Rentry](https://rentry.org/hhtxv7ud), [DigiPen](https://games.digipen.edu/) or [Game Jolt](https://gamejolt.com/games?price=free) - Indie Games
-* ⭐ **itch.io Tools** - [Downloader](https://github.com/Emersont1/itchio) / [Desktop](https://github.com/itchio/itch) / [Auto-Claim](https://github.com/Smart123s/ItchClaim)
+* ⭐ **itch.io Tools** - [Downloader](https://github.com/Emersont1/itchio) / [Desktop](https://github.com/itchio/itch) / [Mobile](https://sr.ht/~gardenapple/mitch/) / [Auto-Claim](https://github.com/Smart123s/ItchClaim)
 * [Alpha Beta Gamer](https://alphabetagamer.com/) - Play Games in Alpha / Beta Testing
 * [RPG Maker Games](https://rpgmaker.net/games/) - Games made via RPG Maker
-* [Locomalito](https://locomalito.com/) - Classic Game Remakes
 * [Pygame](https://www.pygame.org/tags/all) - Python Games ⁠
 * [Necromanthus](https://necromanthus.com/) - 3D Shockwave Games
 * [LemmaSoft](https://lemmasoft.renai.us/) - Visual Novel Games / [Discord](https://discord.gg/6ckxWYm)
 * [vgperson](https://vgperson.com/games/) - Simple Japanese Games
 * [Ninja Kiwi Archive](https://ninjakiwi.com/archive) - Ninja Kiwi / Bloons Archive
 * [SAGE](https://sagexpo.org/) - Sonic Fan Games / [Discord](https://discord.sonicfangameshq.com/)
-* [Clone Hero](https://clonehero.net/) - Guitar Hero Clone / [Setlists](https://rentry.co/FMHYBase64#setlists), [2](https://customsongscentral.com/), [3](https://rentry.co/FMHYBase64#frif-drive) / [Wii Controller Support](https://github.com/Meowmaritus/WiitarThing) / [Custom Client](https://clonehero.scorespy.online)
 * [DoujinStyle](https://doujinstyle.com) - Doujin Games / [Discord](https://discord.com/invite/z2QDFdA)
 * [MoriyaShrine](https://moriyashrine.org/) - Touhou Games
 * [Planet Casio](https://www.planet-casio.com/Fr/programmes/jeux-casio.php) or [Cemetech](https://cemetech.net/) - Calculator Games
+* [GamesOnPDF](https://github.com/rarelygoeshere/GamesOnPDF) - PDF Games
 * [GrimReaper's Scene ISO Collection](https://archive.org/details/@waffess) - ISO Collection
 * [Redump Forum](http://forum.redump.org/) - Disc Preservation Project
 * [/r/CrackSupport](https://reddit.com/r/CrackSupport) - Cracking Discussion / [Matrix](https://matrix.to/#/!MFNtxvVWElrFNHWWRm:nitro.chat?via=nitro.chat&via=envs.net&via=matrix.org) / [Guilded](https://guilded.gg/crackwatch) / [FAQ](https://rentry.co/cracksupport)
@@ -202,12 +207,13 @@
 * 🌐 **[Multiplayer Emulation](https://emulation.gametechwiki.com/index.php/Netplay)** - Multiplayer Emulation Tools
 * ↪️ **[Android Emulators](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_android_emulators)**
 * ⭐ **[Recommended Emulator Specs](https://emulation.gametechwiki.com/index.php/Computer_specs)**
-* ⭐ **[Emulator BIOS Files](https://emulation.gametechwiki.com/index.php/Emulator_files)** / **[Firmware Files](https://rentry.co/FMHYBase64#console-firmware)** / [2](https://rentry.co/FMHYBase64#sigmapatches)
+* ⭐ **[Emulator BIOS Files](https://rentry.co/FMHYBase64#emulator-files)** / **[Firmware Files](https://rentry.co/FMHYBase64#console-firmware)** / [2](https://rentry.co/FMHYBase64#sigmapatches)
 * ⭐ **[RetroAchievements](https://retroachievements.org/)** - Achievements for Emulators
 * ⭐ **[Dolphin Guide](https://github.com/shiiion/dolphin/wiki/Performance-Guide)** - Dolphin Setup Guide
 * ⭐ **[Cemu Guide](https://cemu.cfw.guide/)** or [/r/CemuPiracy Tutorial](https://www.reddit.com/r/CemuPiracy/wiki/tutorial/) - WiiU / BOTW Setup Guides
 * ⭐ **[Switch Emu Guide](https://github.com/Abd-007/Switch-Emulators-Guide)** or [Ryujinx Guide](https://docs.google.com/document/d/1prxOJaE4WhPeYNHW17W5UaWZxDgB8e5wNHxt2O4FKvs/) - Switch Emulator Setup Guides
 * ⭐ **[RAZE](https://github.com/ZDoom/Raze)** or [BuildGDX](https://m210.duke4.net/) / [Discord](https://discord.gg/zZw2eq3n7G) - Oldschool Shooter Engine
+* [RetroCatalog](https://retrocatalog.com/) or [Handheld Emulation Compatibility](https://docs.google.com/spreadsheets/d/1irg60f9qsZOkhp0cwOU7Cy4rJQeyusEUzTNQzhoTYTU/) - Handheld Emulation Compatibility / Info
 * [TOSEC](https://rentry.co/FMHYBase64#tosec) - The Old School Emulation Center
 * [Xbox Emulation Hub](https://discord.com/invite/7pcAbZzpXj) - Xbox Emulation Discord
 * [MouseInjector](https://github.com/garungorp/MouseInjectorDolphinDuck) - Add Mouse Support to Emulators
@@ -237,15 +243,17 @@
 * ⭐ **[No-Intro](https://rentry.co/FMHYBase64#no-intro)** - ROMs
 * ⭐ **[ROM Heaven](https://romheaven.com/)**, [2](https://romheaven.su) - ROMs
 * ⭐ **[CrocDB](https://crocdb.net/)** - Emulators / ROMs
-* ⭐ **[CDRomance](https://cdromance.org/)** - ROMs / [Discord](https://cdromance.org/discord)
+* ⭐ **[RetroGameTalk](https://retrogametalk.com/)** - ROMs / [Discord](https://cdromance.org/discord)
 * ⭐ **[WiiUDownloader](https://github.com/Xpl0itU/WiiUDownloader)**, [WiiUSBHelper](https://github.com/FailedShack/USBHelperInstaller/releases) or [JNUSTool](https://gbatemp.net/threads/jnustool-nusgrabber-and-cdecrypt-combined.413179/) - ROMs / Wii U
 * ⭐ **[Skraper](https://www.skraper.net/)** - ROM Cover / Metadata Scraper
 * [ROMhacking](https://www.romhacking.net/) or [Reality Incorporated](https://sites.google.com/view/bonmarioinc/rom-hacks/released-rom-hacks) - ROM Fan Translations
 * [/r/ROMs](https://www.reddit.com/r/ROMs/) - Discussion Sub
 * [Vimms Lair](https://vimm.net/) - Emulators / ROMs
+* [AliceISO](https://alice.al/) - ROMs
 * [Gnarly Repacks](https://rentry.co/FMHYBase64#gnarly_repacks) - ROMs / Emulator Repacks
 * [ROM-Collections](https://rentry.co/FMHYBase64#rom-collections) - ROMs
 * [WowROMs](https://wowroms.com/en) - ROMs
+* [Retro Game Champion](https://www.retrogamechampion.com/) - Retro Game ROMs, Magazines, Music & more
 * [Edge Emulation](https://edgeemu.net/) - ROMs
 * [Zophar's Domain](https://www.zophar.net/) - Emulators / ROM Mods
 * [TheRomDepot](https://theromdepot.com/) - ROMs
@@ -260,7 +268,6 @@
 * [Emu-Land](https://www.emu-land.net/en) - Emulators / ROMs
 * [HexRom](https://hexrom.com/) - Emulators / ROMs
 * [GameGinie](https://gameginie.com/) - Emulators / ROMs
-* [Technosagar](https://roms.technosagar.com/) - ROMs
 * [The Old Computer](https://www.theoldcomputer.com/) - Emulators / ROMs
 * [Emulator Games](https://www.emulatorgames.net/) or [FreeROMsDownload](https://myretro.games/) - Emulators / ROMs
 * [Emuparadise](https://www.emuparadise.me/) - Emulators / ROMs / [Forum](https://www.epforums.org/) / [Workaround Script](https://web.archive.org/web/20230115181306/https://gist.github.com/byzantium225/484101c7846ce18e514b7b10bf4815c2)
@@ -277,7 +284,6 @@
 * [RetroZone](https://retrozone.co/) - ROMs
 * [NGR](https://www.nextgenroms.com/) - ROMs
 * [FantasyAnime](https://fantasyanime.com/) - ROMs
-* [OldGamesDownload](https://oldgamesdownload.com/) - ROMs
 * [Ziperto](https://ziperto.com/) - ROMs / Avoid [Fake](https://ibb.co/wWJbkX6) Buttons
 * [Rom Magnet Links](https://emulation.gametechwiki.com/index.php/ROM_%26_ISO_Sites#BitTorrent) - ROMs / Torrent
 * [ROM CSE](https://cse.google.com/cse?cx=f47f68e49301a07ac) / [CSE 2](https://cse.google.com/cse?cx=744926a50bd7eb010) - Multi-Site ROM Search
@@ -289,7 +295,7 @@
 * [3DS ROMS](https://3dsroms.org), [taodung](https://taodung.com/) or [hShop](https://hshop.erista.me/) - ROMs / 3DS
 * [NoPayStation](https://nopaystation.com/) - ROMs / Playstation Consoles
 * [SuperPSX](https://www.superpsx.com/) - ROMs / PS3 / PS4
-* [PKGPS4](https://www.pkgps4.click/) - ROMs / PS4
+* [PKGPS4](https://www.pkgps4.click/) or [Game-2u PS4](https://game-2u.com/Category/game/ps4) / [Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#game-2u-ps4-note) - ROMs / PS4
 * [/r/PkgLinks1](https://www.reddit.com/r/PkgLinks1/) - PS1 / PS2 Games for Modded PS4
 * [PSVitaVPK](https://psvitavpk.com/) - ROMs / PSP
 * [xbarchive](https://github.com/codemasterv/xbarchive) - ROMs / Xbox Consoles
@@ -309,7 +315,6 @@
 * [OOTMM](https://ootmm.com/) - Randomize + Merge Ocarina of Time with Majora's Mask
 * [Super Mario Bros Crossover](https://archive.org/details/SuperMarioCrossoverOffline) - Play SMB with Alternative Characters
 * [perfect_dark](https://github.com/fgsfdsfgs/perfect_dark), [2](https://github.com/n64decomp/perfect_dark) - Perfect Dark Decompilation
-* [sm64](https://github.com/n64decomp/sm64) - Super Mario 64 Decompilation / [GUI](https://sm64pc.info/sm64pcbuilder2/) / [Discord](https://discord.gg/DuYH3Fh)
 * [Mega Man Maker](https://megamanmaker.com/) - Create Mega Man Levels
 * [Dan's Palace](https://discord.gg/RqQeZwrP8k) - Android / PSVita PC Game Ports Discord / [Telegram](https://t.me/danspalace)
 * [wide-snes](https://github.com/VitorVilela7/wide-snes) - Widescreen Super Mario World
@@ -317,7 +322,7 @@
 * [Dat-O-Matic](https://datomatic.no-intro.org/index.php) - ROM Datasets
 * [NSWDB](https://www.nswdb.com) - Switch Release Tracker
 * [RomStation](https://www.romstation.fr/) - ROM Downloader / Manager / Multiplayer
-* [RomPatcher](https://www.marcrobledo.com/RomPatcher.js/), [Hack64 Patcher](https://hack64.net/tools/patcher.php) or [FFF6Hacking Patcher](https://www.ff6hacking.com/patcher/) - Online ROM Patchers
+* [RomPatcher](https://www.marcrobledo.com/RomPatcher.js/), [Rom Patcher JS](https://www.romhacking.net/patch/), [Hack64 Patcher](https://hack64.net/tools/patcher.php) or [FFF6Hacking Patcher](https://www.ff6hacking.com/patcher/) - Online ROM Patchers
 
 ***
 
@@ -328,7 +333,6 @@
 * ⭐ **[Telemelt](https://telemelt.com/)** - Multiplayer Browser Emulator
 * ⭐ **[PSX Party](https://psxparty.kosmi.io/)** - Multiplayer Playstation Browser Emulator
 * [PS1FUN](https://www.ps1fun.com/) - PS1 Browser Emulator
-* [LYR9C](https://lyr9c.weebly.com/gba-games.html) - GBA Browser Emulator
 * [LetsPlayGB](https://www.letsplaygb.com/) - Game Boy Browser Emulator
 * [SNESFun](https://www.snesfun.com/) - SNES Browser Emulator
 * [8bbit](https://www.8bbit.com/) or [Play NES](https://www.playnesonline.com/) - NES Browser Emulators
@@ -346,7 +350,7 @@
 * [SMBGames](https://smbgames.be/) - Super Mario Browser Emulator
 * [SMWGames](https://www.smwgames.com/) - Modded Super Mario World Browser Emulators
 * [Jelly Mario](https://jellymar.io/) - Jelly Super Mario
-* [SMBX2](http://codehaus.wohlsoft.ru/index.php) - Super Mario Enhancement Mod / [Video](https://youtu.be/15ia-OiEFzQ) / [Discord](https://discord.com/invite/aCZqadJ)
+* [SMBX2](http://codehaus.wohlsoft.ru/index.php) - Super Mario Enhancement Mod / [Levels](https://rentry.co/FMHYBase64#smbx-preservation) / [Video](https://youtu.be/15ia-OiEFzQ) / [Discord](https://discord.com/invite/aCZqadJ)
 * [Super Mario and the Rainbow Stars](https://superstarshi.github.io/smatrs/) - Super Mario Mod / [Video](https://youtu.be/SqQuI1AbSQw) / [Discord](https://discord.gg/GBXUa7NF2J)
 * [Level Share Square](https://levelsharesquare.com/) - Custom Maps for Mario Fangames
 * [Mario Kart PC](https://mkpc.malahieude.net/mariokart.php) - Browser Mario Kart
@@ -362,7 +366,6 @@
 * [First-Person Tetris](https://firstpersontetris.com/) - Play Tetris in First Person
 * [Sandtris](https://sandtris.com/) - Falling Sand Style Tetris
 * [Play Snake](https://playsnake.org/) - Retro Snake 
-* [Google Maps Snake](https://snake.googlemaps.com/) - Google Snake
 * [Google Snake Mods](https://googlesnakemods.com/) - Google Snake Mods
 * [Snake-Game](https://www.onemotion.com/snake-game/) - 3D Snake
 * [TENNIS!](https://snek-vunderkind.vercel.app/games/tennis.html) - JavaScript Pong
@@ -393,13 +396,13 @@
 * [Spinner](https://hyperspace-wizard.itch.io/spinner) - Spinner Timing Game
 * [Ehmorris](https://ehmorris.com/lander/) - Spaceship Landing Game
 * [Dino Swords](https://dinoswords.gg/) - Stay Alive by Jumping / Destroying Cacti
+* [Rhythm Plus](https://rhythm-plus.com), [2](https://rhythmplus.io/) - Rhythm Game / [Discord](https://discord.com/invite/ZGhnKp4) / [GitHub](https://github.com/henryzt/Rhythm-Plus-Music-Game)
 * [Bemuse](https://bemuse.ninja/) - Rhythm Game
 * [Pulsus](https://www.pulsus.cc/play/) - 3x3 Tile Board Rhythm Game
 * [Sans Fight](https://jcw87.github.io/c2-sans-fight/) - Undertale Fight Simulator
 * [DB Evolution](https://www.txori.com/dbdevolution) - Dragon Ball Fighting Game
 * [Flappy Bird](https://flappybird.io/) - HTML5 Flappy Bird
 * [Slope Plus](https://coweggs.itch.io/slope-plus) - Downhill Ball Game
-* [Starship](https://starshipthegame.spacex.com/) - SpaceX Rocket Game
 * [Tensor Trust](https://tensortrust.ai/) - AI Prompting Multiplayer Skill Game
 * [Rooms](https://rooms.xyz/) - Room Design Game / [Discord](https://discord.gg/rooms)
 * [fsh.zone](https://fsh.zone/) - Fishing Games / [Discord](https://discord.com/invite/FKEzJSf)
@@ -421,8 +424,8 @@
 * ⭐ **[itch.io web games](https://itch.io/games/free/platform-web)** - Browser Games
 * ⭐ **[Newgrounds](https://www.newgrounds.com/games)** - Browser Games
 * ⭐ **[Armor Games](https://armorgames.com/)** - Browser Games
-* [Addicting Games](https://www.addictinggames.com/) - Browser Games
 * [RG Games](https://www.rgshows.me/games/) - Browser Games / [Discord](https://discord.gg/e34HMTgyEy)
+* [Addicting Games](https://www.addictinggames.com/) - Browser Games
 * [Kongregate](https://www.kongregate.com/) - Browser Games
 * [Y8](https://www.y8.com/) - Browser Games
 * [Poki](https://poki.com/) - Browser Games
@@ -435,7 +438,6 @@
 * [DAN-BALL](https://dan-ball.jp/en/) - Browser Games
 * [Miniplay](https://www.miniplay.com/) - Browser Games
 * [Yandex Games](https://yandex.com/games/) - Browser Games
-* [Poki](https://poki.com/) - Browser Games
 * [Arkadium](https://www.arkadium.com/) - Browser Games
 * [classroom-6x](https://www.classroom-6-x.games/) - Browser Games
 * [GamePix](https://www.gamepix.com/) - Browser Games
@@ -448,13 +450,15 @@
 * [Andkon](https://andkon.com/arcade/) - Browser Games
 * [FreeGames](https://freegames.org/) - Browser Games
 * [Friv](https://www.friv.com/) - Browser Games
+* [Emupedia](https://emupedia.net/beta/) - Browser Games
 * [/r/WebGames](https://reddit.com/r/WebGames) - Browser Games Subreddit
 * [Spatial](https://www.spatial.io/) - 3D Browser Games
-* [Rosebud AI](https://www.rosebud.ai/) - AI Made Browser Games
+* [Rosebud AI](https://www.rosebud.ai/) or [Wild West](https://www.wildwest.gg/) - AI Made Browser Games
+* [Noel Friedrich](https://www.noel-friedrich.de/terminal/) - Browser Terminal Games
 * [Unblock KISD](https://sites.google.com/view/unblockkisd/), [Tyrone's Unblocked](https://sites.google.com/site/tyronesgamesez/) or [UBG365](https://ubg365.github.io/) - Browser Games / Unblocked at Schools
 * [CoolMathGames](https://www.coolmathgames.com/) - Browser Game Site (disguised as edu games)
 * [FlashMuseum](https://flashmuseum.org/), [Flash Arch](https://flasharch.com/en) or [AlbinoBlackSheep](https://www.albinoblacksheep.com/games/) - Flash Games
-* [Arcade Prehacks](https://www.arcadeprehacks.com/), [SamsHackedGames](https://www.samshackedgames.com/) or [KongHack](https://konghack.com/) - Flash Game Mods
+* [Arcade Prehacks](https://www.arcadeprehacks.com/) or [KongHack](https://konghack.com/) - Flash Game Mods
 * [Js13kGames](https://js13kgames.com/entries), [HTML5 Games](https://html5games.com/) or [TheBestarcade](https://html5.thebestarcadescript.com/) - HTML5 Games
 * [iogames.space](https://iogames.space/), [itch.io](https://graebor.itch.io/), [Kindanice](https://kindanice.itch.io/), [Jezzamon](https://jezzamon.itch.io/), [Modd.io](https://www.modd.io/) or [Kevin Games](https://kevin.games/) - .io Games
 
@@ -466,20 +470,20 @@
 * ⭐ **[Codenames](https://codenames.game/)** - Party Card Games
 * ⭐ **[GarticPhone](https://garticphone.com/)** - Telephone Game
 * ⭐ **[skribbl](https://skribbl.io/)**, [DrawBattle](https://drawbattle.io/), [Sketchful](https://sketchful.io/), [Drawize](https://www.drawize.com/) or [Gartic](https://gartic.io/) - Drawing / Guessing Game / Multiplayer
-* ⭐ **[Eaglercraft](https://eaglercraftx1-8.github.io/eagler-files/1.8/resent4.0/index.html)**, [2](https://eaglercraft.com/) - Online Browser Minecraft / [Note](https://pastebin.com/wpDZzgN5) / [Source](https://git.eaglercraft.rip/eaglercraft)
+* ⭐ **[Eaglercraft](https://eaglercraftx1-8.github.io/eagler-files/1.8/resent4.0/index.html)**, [2](https://eaglercraft.com/) - Online Browser Minecraft / [Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#eaglercraft-note) / [Source](https://git.eaglercraft.rip/eaglercraft)
 * ⭐ **Eaglercraft Tools** - [Mod Loader](https://eaglerforge.github.io/) / [Mod Search](https://eaglerrinth.github.io/)  / [Create Mods](https://eaglerforge-builder.vercel.app/) / [Public Servers](https://servers.eaglercraft.com/)
-* [MiniBlox](https://miniblox.io/) - Online Minecraft Alternative
+* ⭐ **[Make It Meme](https://makeitmeme.com/)** - Meme Party Game
+* [Bloxd](https://bloxd.io/) or [MiniBlox](https://miniblox.io/) - Online Minecraft Clones
 * [Bloob.io](https://bloob.io/) - Multiple Games
 * [Gidd.io](https://gidd.io/) - Multiple Games
 * [Yucata](https://www.yucata.de/en/) - Multiple Games
 * [Foony](https://foony.com/) - Multiple Games
 * [Pixoguess](https://pixoguess.io/) - Guess Pixelated Images
 * [Gpop.io](https://gpop.io/) - Rhythm Game
-* [Spyfall](https://www.spyfall.app/) - Spy Party Game
 * [Betrayal](https://betrayal.io/) - Among Us Clone
 * [Death by AI](https://deathbyai.gg/) - Survival Plan Game
+* [Territorial](https://territorial.io/) - Conquest / War Games
 * [Smash Karts](https://smashkarts.io/) - Kart Battles
-* [Make It Meme](https://makeitmeme.com/) - Meme Party Game
 * [tix.tax](https://tix.tax/) - Tic-Tac-Toe
 
 ***
@@ -492,11 +496,13 @@
 * [OpenArena Live](https://kosmi.io/openarena) - Quake 3 Arena Clone
 * [Venge](https://venge.io/) - PvP FPS
 * [kour.io](https://kour.io/) - PvP FPS
+* [Deadshot](https://deadshot.io/) - PvP FPS
 * [LolShot](https://lolshot.io/) - PvP FPS
 * [1v1.LOL](https://1v1.lol/) - 1v1 Building / Battle Simulator
 * [ShellShock](https://www.shellshock.io/) - PvP FPS
 * [MiniRoyale](https://miniroyale.io/) - Battle Royale Game
 * [ZombsRoyale.io](https://zombsroyale.io/) - Top-Down Battle Royale 
+* [Gats.io](https://gats.io/) - Top-Down Battle Royale / [Discord](https://discord.gg/8Tspptdupm)
 * [Wings.io](https://wings.io/) - Multiplayer Plane Battles / [Discord](https://discord.com/invite/HQcTbuZByA)
 * [Operius](https://mors-games.itch.io/operius) - Space Shooter
 * [Galaxies](https://playcanv.as/p/Ikq6Uk6A/) - Space Combat Game 
@@ -520,6 +526,7 @@
 
 ## ▷ Simulation
 
+* [HatTrick](https://www.hattrick.org/) - Multiplayer Football Manager
 * [FSHistory](https://s-macke.github.io/FSHistory/) - Play Classic Flight Simulator 
 * [Hacker Wars](https://hackerwars.io/) or [SlaveHack2](https://www.slavehack2.com/) - Hacking Simulators
 * [Startup Simulator](https://toggl.com/startup-simulator/) - Startup Simulation Game
@@ -528,6 +535,7 @@
 * [Plane Food Simulator](https://sheepandram.itch.io/pfs2021) - Plane Food Eating Game
 * [Alternate History Simulator](https://abw.blue/) - Write Alternate History 
 * [NationStates](https://www.nationstates.net/) - Nation Simulation Game / [Scripts](https://hare.kractero.com/)
+* [Politics and War](https://politicsandwar.com/) - More Advanced Nation Building Simulation Game / [Discord](https://discord.com/invite/H9XnGxc)
 * [GeoFS](https://www.geo-fs.com/geofs.php) - Plane Simulator
 * [Money Simulator](https://simulator.money) - Money Simulator
 * [BrantSteele](https://brantsteele.net/) or [Simublast](https://www.simublast.com/) - Game Show Simulators
@@ -565,21 +573,23 @@
 * [FunNode](https://www.funnode.com/) - Online Board Games
 * [Screentop](https://screentop.gg/) - Online Board Games / [Discord](https://discord.gg/wva8ebh)
 * [PartyProject](https://char64.itch.io/partyproject) - Mario Party Style Multiplayer Game
+* [BlackReds](https://blacksreds.com/) - Multiplayer Card Games
 * [FlyOrDie](https://www.flyordie.com/) - Multiplayer Card Games
 * [Playok](https://www.playok.com/) - Multiplayer Card Games
 * [PlayingCards](https://playingcards.io/) - Multiplayer Card Games
 * [Richup](https://richup.io/) - Monopoly-Style Board Game
 * [Rally The Troops](https://www.rally-the-troops.com/) - Historical Board Games / [Discord](https://discord.gg/CBrTh8k84A)
-* [AllBad.Cards](https://bad.cards/) - Cards Against Humanity Online 
+* [PictureCards](https://picturecards.online/) / [Discord](https://discord.gg/kJB4bxSksw), [AllBad.Cards](https://bad.cards/) or [Pretend You're](https://pyx-1.pretendyoure.xyz/zy/game.jsp) - Cards Against Humanity Online
 * [Cards Against Humanity](https://www.cardsagainsthumanity.com/#downloads) - Printable Cards Against Humanity
 * [Wikidata Card Game Generator](https://cardgame.blinry.org/) - Generate "Top Trumps" Cards with Wikidata
-* [Solitaired](https://solitaired.com/), [Solitr](https://www.solitr.com/) or [Solitaire Owl](https://solitaireowl.com/) - Solitaire
+* [Solitaired](https://solitaired.com/), [Solitr](https://www.solitr.com/) or [Solitaire Owl](https://solitaireowl.com/) - Online Solitaire 
+* [PySolFC](https://pysolfc.sourceforge.io/) - Downloadable Solitaire / [GitHub](https://github.com/shlomif/PySolFC)
 * [Blackjack Break](https://blackjackbreak.com/) or [HTML5 Blackjack](https://www.html5blackjack.net/) - Browser Blackjack
 * [Poker Now](https://www.pokernow.club/) or [247 Free Poker](https://www.247freepoker.com/) - Multiplayer Poker
 * [KDice](https://www.kdice.com/) - Multiplayer Dice War
 * [Colonist](https://colonist.io/) - Multiplayer Settlers of Catan
 * [Hexxagon](https://hexxagon.com/) - Hexagonal Board Game
-* [The Bafflement Fires](https://www.dpoetry.com/fires/) - 1950's Freemasonic Board Game
+* [The Bafflement Fires](https://www.dpoetry.com/fires/) - 1950s Freemasonic Board Game
 * [Scorecard.gg](https://scorecard.gg/) - Board Game Scorecards
 
 ***
@@ -622,6 +632,7 @@
 * [Sokoban](https://suppilulemur.neocities.org/) - Zelda-Themed Sokoban Puzzles
 * [All The 2048](https://true65536.github.io/allthe2048/), [DuckDuckgo 2048](https://duckduckgo.com/?q=play+2048&amp;ia=answer) or [2048](https://play2048.co/) - 2048 Puzzles
 * [JetHolt](https://jetholt.com/hacking/), [RebelWithoutACause](https://rebelwithoutarootcause.com/demos/terminal/) or [Aramor](http://aramor.epizy.com/fallout-terminal/main) - Fallout Terminal Hacking Game
+* [mmmines!](https://mmmines.fly.dev/) or [MineJD](https://minesjd.com/) - Multiplayer Minesweeper
 * [Minesweeper Infinity](https://www.minesweeperinfinity.com/) - Infinte Minesweeper
 * [Minesweeper Twist](https://polyreplay.com/minesweepertwist) - Irregular Grid Minesweeper
 * [PROXX](https://proxx.app/) - Space Minesweeper
@@ -672,14 +683,17 @@
 * [FlightGuesser](https://flightguesser.com/) - Flight Path Guessing Game
 * [Akinator](https://en.akinator.com/) - 20 Questions
 * [The Re-Ride](https://thereri.de/) - You Don't Know Jack: The Ride Remake / [Discord](https://discord.com/invite/89sgMHnDRB)
-* [WTM](https://whatthemovie.com/), [Moviedle](https://moviedle.xyz/), [Kino.wtf](https://www.kino.wtf/) or [Framed](https://framed.wtf/) - Movie Guessing Games
+* [WTM](https://whatthemovie.com/), [Moviedle](https://moviedle.xyz/), [Actorle](https://actorle.com/), [Kino.wtf](https://www.kino.wtf/) or [Framed](https://framed.wtf/) - Movie Guessing Games
 * [Cinenerdle](https://www.cinenerdle.app/) or [Cinenerdle2](https://www.cinenerdle2.app/) - Movie Puzzles
 * [BoxOfficeGA](https://boxofficega.me/) - Box Office Guessing
 * [Scenewise](https://scenewise.io/) - Movie Scene Order Puzzle
+* [Actorle TV](https://actorle.tv/) - TV Show Guessing
 * [GuessAnimeQuiz](https://guessanimequiz.com/) - Anime Guessing
+* [AMQ](https://animemusicquiz.com/) - Anime Theme Guessing
 * [ConnectTheStars](https://connectthestars.xyz/) or [Movie To Movie](https://movietomovie.com/) - Connect Stars through Movies
-* [The Wiki Game](https://www.thewikigame.com/), [Six Degrees of Wikipedia](https://www.sixdegreesofwikipedia.com/) or [WikiRacer](https://wikiracer.io/) - Wiki Exploration Games / [Automation Tool](https://gitlab.com/johanbluecreek/wikiracer)
+* [The Wiki Game](https://www.thewikigame.com/), [Pedantle](https://cemantle.certitudes.org/pedantle), [Six Degrees of Wikipedia](https://www.sixdegreesofwikipedia.com/) or [WikiRacer](https://wikiracer.io/) - Wiki Exploration Games / [Automation Tool](https://gitlab.com/johanbluecreek/wikiracer)
 * [MusicNerd](https://musicnerd.io/) or [Heardle](https://heardle-wordle.com/game/heardle-main/) - Music Guessing Games
+* [More or Less](https://moreorless.io/) - More or Less Guessing
 * [DanceMusic](http://dancemusic.wtf/) - Electronic Music Genre Guessing Game
 * [Guess My Rank](https://guessmyrank.com/) - Guess Player Game Ranks
 * [Poeltl](https://poeltl.nbpa.com/) - NBA Guessing Game
@@ -689,13 +703,15 @@
 * [Guess The Price](https://guesstheprice.net/) - Price Guessing Game
 * [Apparle](https://www.apparle.com/) - Apparel Price Guessing Game
 * [Metazooa](https://metazooa.com/) - Animal Guessing Game
+* [Pufferdle](https://pufferdle.com/) - Fish Guessing Game
 * [ChessGuessr](https://www.chessguessr.com/) - Chess Style Guessing Game
 * [Huedle](https://huedle.com/), [Color Rush](https://www.colorrush.io/) or [Hexcodle](https://www.hexcodle.com/) - Hex Code Guessing Games
 * [Nerdle](https://nerdlegame.com/), [Additional](https://additional.today/) or [Countle](https://www.countle.org/) - Math Guessing Games
 * [Minecraftle](https://minecraftle.zachmanson.com/) - Minecraft Recipe Guessing Game
-* [Squirdle](https://squirdle.fireblend.com/) - Pokémon Guessing Game
+* [PkmnQuiz](https://pkmnquiz.com/), [Gearoid Pokémon](https://gearoid.me/pokemon/), [Pokedle](https://pokedle.net/) or [Squirdle](https://squirdle.fireblend.com/) - Pokémon Guessing Games
 * [LoLdle](https://loldle.net/) - League of Legends Guessing Games
-* [Worldle](https://worldle.teuteuf.fr/) - Country Guessing Game
+* [Owdle](https://owdle.guessing.day/) - Overwatch Guessing Games
+* [Teuteuf](https://teuteuf.fr/) - Geography Guessing Games
 * [Guess The Year](https://guess-the-year.davjhan.com/) or [ChronoPhoto](https://www.chronophoto.app/) - Year Guessing Game
 * [Wikitrivia](https://wikitrivia.tomjwatson.com/) - Guess Which Event Came First
 * [Human or Not?](https://www.humanornot.ai/) - Guess Human vs. AI
@@ -714,6 +730,7 @@
 * [WorldGuessr](https://www.worldguessr.com/) - Free GeoGuessr Alt
 * [City Guesser](https://virtualvacation.us/guess) - Video-Based GeoGuessr
 * [Quizzity](https://david-peter.de/quizzity/) - City Guessing Game
+* [Back Of Your Hand](https://backofyourhand.com/) - Local GeoGuessr
 * [LostGamer](https://lostgamer.io/) - Video Game GeoGuessr
 * [GTA V GeoGuesser](https://gta-geoguesser.com/) - GTA V GeoGuessr
 * [TimeGuessr](https://timeguessr.com/) - Historical Time-period GeoGuessr

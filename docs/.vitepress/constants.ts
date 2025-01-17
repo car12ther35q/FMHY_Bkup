@@ -28,7 +28,7 @@ export const meta = {
 
 export const commitRef =
   process.env.CF_PAGES && process.env.CF_PAGES_COMMIT_SHA
-    ? `<a href="https://github.com/fmhy/FMHYEdit/commit/${process.env.CF_PAGES_COMMIT_SHA
+    ? `<a href="https://github.com/fmhy/edit/commit/${process.env.CF_PAGES_COMMIT_SHA
     }">${process.env.CF_PAGES_COMMIT_SHA.slice(0, 8)}</a>`
     : 'dev'
 
@@ -110,7 +110,7 @@ export const search: DefaultTheme.Config['search'] = {
 }
 
 export const socialLinks: DefaultTheme.SocialLink[] = [
-  { icon: 'github', link: 'https://github.com/fmhy/FMHYEdit' },
+  { icon: 'github', link: 'https://github.com/fmhy/edit' },
   { icon: 'discord', link: 'https://rentry.co/fmhy-invite' },
   {
     ariaLabel: 'Reddit',
@@ -130,6 +130,7 @@ export const socialLinks: DefaultTheme.SocialLink[] = [
 
 export const nav: DefaultTheme.NavItem[] = [
   { text: '🔖 Glossary', link: 'https://rentry.org/The-Piracy-Glossary' },
+  { text: 'ℹ️ Guides', link: 'https://guides.fmhy.lol/' },
   {
     text: '💾 Backups',
     link: 'https://github.com/fmhy/FMHY/wiki/Backups'
@@ -139,10 +140,12 @@ export const nav: DefaultTheme.NavItem[] = [
     items: [
       { text: '🌐 Search', link: '/posts/search' },
       { text: '🔗 Bookmarks', link: 'https://github.com/fmhy/bookmarks' },
-      { text: '✅ SafeGuard', link: 'https://github.com/kenhendricks00/FMHY-SafeGuard' },
+      { text: '✅ SafeGuard', link: 'https://github.com/fmhy/FMHY-SafeGuard' },
       { text: '📋 snowbin', link: 'https://pastes.fmhy.net' },
+      { text: '💡 Site Hunting', link: 'https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/find-new-sites/' },
       { text: '🏞 Wallpapers', link: '/other/wallpapers' },  
       { text: '💙 Feedback', link: '/feedback' },
+      { text: '❓ FAQs', link: 'https://redd.it/xrxen7' },
       {
         text: '😇 SFW FMHY',
         link: 'https://fmhy.xyz/'
