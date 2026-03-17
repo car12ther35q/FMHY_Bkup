@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.827015264347">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.3.0.827027158141">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.3.0">
 
     <!-- Primary Meta Tags -->
     <title>► File Tools | FreeMediaHeckYeah</title>
@@ -25,14 +25,20 @@
     <meta property="og:site_name" content="FMHY">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://fmhy.pages.dev/docs/file-tools/">
+    <meta name="twitter:title" content="► File Tools | FreeMediaHeckYeah">
+    <meta name="twitter:description" content="◄◄ Back to Wiki Index">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.2.0.827015264347" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.3.0.827027158141" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.2.0.827015264347" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.2.0.827015264347" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.3.0.827027158141" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.3.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.3.0.827027158141" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="static/styles.css">
 
@@ -50,10 +56,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://fmhy.pages.dev/" class="flex items-center leading-snug text-2xl">
                         <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="../../static/fmhy.ico">
-                            <img class="max-h-10 hidden dark:inline-block" src="../../static/fmhy.ico">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="../../static/fmhy.ico" alt="" width="256" height="256">
+                            <img class="max-h-10 hidden dark:inline-block" src="../../static/fmhy.ico" alt="" width="256" height="256">
                         </span>
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">FMHY</span>
                     </a>
@@ -68,60 +74,48 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://redd.it/17f8msf">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
                                 </svg>
                                 <span>Discord</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fmhy-search.streamlit.app/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
                                 </svg>
                                 <span>Search</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
                                 </svg>
                                 <span>Reddit</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/fmhy">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
                                 </svg>
                                 <span>Github</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
                                 </svg>
                                 <span>Updates</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/backups">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M11.46 1.137a1.748 1.748 0 0 1 1.08 0l8.25 2.675A1.75 1.75 0 0 1 22 5.476V10.5c0 6.19-3.77 10.705-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.771 21.204 2 16.69 2 10.5V5.476c0-.76.49-1.43 1.21-1.664Zm.617 1.426a.253.253 0 0 0-.154 0L3.673 5.24a.25.25 0 0 0-.173.237V10.5c0 5.461 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0c5.15-1.943 8.43-5.965 8.43-11.426V5.476a.25.25 0 0 0-.173-.237ZM13 12.232V15a1 1 0 0 1-2 0v-2.768a2 2 0 1 1 2 0Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M11.46 1.137a1.748 1.748 0 0 1 1.08 0l8.25 2.675A1.75 1.75 0 0 1 22 5.476V10.5c0 6.19-3.77 10.705-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.771 21.204 2 16.69 2 10.5V5.476c0-.76.49-1.43 1.21-1.664Zm.617 1.426a.253.253 0 0 0-.154 0L3.673 5.24a.25.25 0 0 0-.173.237V10.5c0 5.461 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0c5.15-1.943 8.43-5.965 8.43-11.426V5.476a.25.25 0 0 0-.173-.237ZM13 12.232V15a1 1 0 0 1-2 0v-2.768a2 2 0 1 1 2 0Z"/>
                                 </svg>
                                 <span>Backups</span>
                             </a>
@@ -177,60 +171,48 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://redd.it/17f8msf">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="m3,0C1.35,0,0,1.35,0,3v13.5c0,1.65,1.35,3,3,3h4.5v3.75c0,.29.16.54.41.67.25.13.56.1.79-.07l5.8-4.35h6.5c1.65,0,3-1.35,3-3V3c0-1.65-1.35-3-3-3H3Z"/>
                                         </svg>
                                         <span>Discord</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://fmhy-search.streamlit.app/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="m19.5,9.75c0,2.15-.7,4.14-1.88,5.75l5.93,5.94c.59.59.59,1.54,0,2.12-.59.59-1.54.59-2.12,0l-5.93-5.94c-1.61,1.18-3.6,1.87-5.75,1.87C4.36,19.5,0,15.13,0,9.75S4.36,0,9.75,0s9.75,4.36,9.75,9.75Zm-9.75,6.75c3.73,0,6.75-3.02,6.75-6.75s-3.02-6.75-6.75-6.75-6.75,3.02-6.75,6.75,3.02,6.75,6.75,6.75Z"/>
                                         </svg>
                                         <span>Search</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="m9.36,14.4c-.67,0-1.2-.54-1.2-1.19s.54-1.2,1.2-1.2,1.19.54,1.19,1.2-.54,1.19-1.19,1.19Zm14.64-2.4c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Zm-6.4-1.99c-.45,0-.86.19-1.15.48-1.08-.75-2.55-1.23-4.17-1.29l.84-3.79,2.68.6c0,.66.54,1.19,1.19,1.19s1.2-.55,1.2-1.2-.54-1.2-1.2-1.2c-.47,0-.87.28-1.07.67l-2.96-.66c-.15-.04-.3.07-.33.21l-.92,4.18c-1.61.07-3.05.55-4.14,1.3-.3-.31-.71-.49-1.17-.49-1.69,0-2.24,2.27-.7,3.04-.05.24-.08.49-.08.75,0,2.55,2.86,4.61,6.39,4.61s6.4-2.06,6.4-4.61c0-.26-.03-.52-.09-.76,1.51-.77.96-3.02-.72-3.02Zm-3.33,5.62c-.88.88-3.68.87-4.53,0-.11-.11-.3-.11-.4,0-.12.12-.12.31,0,.42,1.1,1.1,4.22,1.1,5.33,0,.12-.11.12-.3,0-.42-.11-.11-.3-.11-.4,0Zm.37-3.63c-.66,0-1.19.54-1.19,1.2s.54,1.19,1.19,1.19,1.2-.54,1.2-1.19-.53-1.2-1.2-1.2Z"/>
                                         </svg>
                                         <span>Reddit</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/fmhy">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="m8.03,19.32c0,.1-.11.18-.25.18-.16.01-.27-.06-.27-.18,0-.1.11-.18.25-.18.15-.01.27.06.27.18Zm-1.5-.22c-.03.1.06.21.21.24.13.05.27,0,.3-.1s-.06-.21-.21-.26c-.13-.03-.27.01-.3.11Zm2.14-.08c-.14.03-.24.13-.22.24.01.1.14.16.29.13.14-.03.24-.13.22-.23-.01-.09-.15-.16-.29-.14ZM11.85,0C5.13,0,0,5.23,0,12.11c0,5.5,3.38,10.21,8.2,11.87.62.11.84-.28.84-.6s-.01-2-.01-3.05c0,0-3.39.74-4.1-1.48,0,0-.55-1.44-1.35-1.82,0,0-1.11-.78.08-.76,0,0,1.2.1,1.87,1.28,1.06,1.92,2.84,1.36,3.53,1.04.11-.79.43-1.34.77-1.67-2.7-.31-5.43-.71-5.43-5.48,0-1.36.37-2.05,1.14-2.92-.13-.32-.54-1.65.13-3.37,1.01-.32,3.34,1.34,3.34,1.34.97-.28,2.01-.42,3.04-.42s2.07.14,3.04.42c0,0,2.33-1.67,3.34-1.34.66,1.72.25,3.05.13,3.37.77.88,1.25,1.56,1.25,2.92,0,4.79-2.85,5.17-5.55,5.48.45.39.82,1.14.82,2.3,0,1.67-.01,3.74-.01,4.15,0,.32.22.71.84.6,4.84-1.65,8.12-6.36,8.12-11.86C24,5.23,18.56,0,11.85,0Zm-7.14,17.12c-.06.05-.05.16.03.26.08.08.19.11.25.05.06-.05.05-.16-.03-.26-.08-.08-.19-.11-.25-.05Zm-.52-.4c-.03.06.01.14.11.19.08.05.17.03.21-.03.03-.06-.01-.14-.11-.19-.1-.03-.17-.01-.21.03Zm1.57,1.77c-.08.06-.05.21.06.31.11.11.25.13.31.05.06-.06.03-.21-.06-.31-.11-.11-.25-.13-.31-.05Zm-.55-.73c-.08.05-.08.18,0,.29s.21.16.27.11c.08-.06.08-.19,0-.31-.07-.11-.19-.16-.27-.1Z"/>
                                         </svg>
                                         <span>Github</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/updates/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"/><path d="M4.125 0h15.75a4.11 4.11 0 0 1 2.92 1.205A4.11 4.11 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 1 1 .834-1.247A4.126 4.126 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0ZM15.75 19.875c0-1.38.476-2.786 1.128-4.15.649-1.358 1.509-2.743 2.343-4.086l.017-.028c.849-1.367 1.669-2.692 2.28-3.972.614-1.285.982-2.457.982-3.514A2.615 2.615 0 0 0 19.875 1.5a2.625 2.625 0 0 0-2.625 2.625c0 .865.421 1.509 1.167 2.009A.75.75 0 0 1 18 7.507H7.812c-.65 1.483-1.624 3.069-2.577 4.619-.334.544-.666 1.083-.98 1.612-1.355 2.287-2.38 4.371-2.38 6.137A2.625 2.625 0 0 0 4.5 22.5h12.193a4.108 4.108 0 0 1-.943-2.625ZM1.5 4.125c-.01.511.163 1.008.487 1.403.254.313.74.479 1.402.479h12.86a3.648 3.648 0 0 1-.499-1.882 4.11 4.11 0 0 1 .943-2.625H4.125A2.625 2.625 0 0 0 1.5 4.125Z"/>
                                         </svg>
                                         <span>Updates</span>
                                     </a>
                                 </li>
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/backups">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M11.46 1.137a1.748 1.748 0 0 1 1.08 0l8.25 2.675A1.75 1.75 0 0 1 22 5.476V10.5c0 6.19-3.77 10.705-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.771 21.204 2 16.69 2 10.5V5.476c0-.76.49-1.43 1.21-1.664Zm.617 1.426a.253.253 0 0 0-.154 0L3.673 5.24a.25.25 0 0 0-.173.237V10.5c0 5.461 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0c5.15-1.943 8.43-5.965 8.43-11.426V5.476a.25.25 0 0 0-.173-.237ZM13 12.232V15a1 1 0 0 1-2 0v-2.768a2 2 0 1 1 2 0Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M11.46 1.137a1.748 1.748 0 0 1 1.08 0l8.25 2.675A1.75 1.75 0 0 1 22 5.476V10.5c0 6.19-3.77 10.705-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.771 21.204 2 16.69 2 10.5V5.476c0-.76.49-1.43 1.21-1.664Zm.617 1.426a.253.253 0 0 0-.154 0L3.673 5.24a.25.25 0 0 0-.173.237V10.5c0 5.461 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0c5.15-1.943 8.43-5.965 8.43-11.426V5.476a.25.25 0 0 0-.173-.237ZM13 12.232V15a1 1 0 0 1-2 0v-2.768a2 2 0 1 1 2 0Z"/>
                                         </svg>
                                         <span>Backups</span>
                                     </a>
@@ -262,12 +244,7 @@
 <p><strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/tools-index">◄◄ Back to Wiki Index</a></strong></p>
 <hr>
 <hr>
-<doc-anchor-target id="-file-tools" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-file-tools">#</doc-anchor-trigger>
-        <span>► File Tools</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="-file-tools">► File Tools</h1>
 <ul>
 <li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_file_scanners">File Scanners</a></strong></li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://fileinfo.com/">Fileinfo</a></strong>, <a href="https://filext.com/">Filext</a> or <a href="https://www.openmyfiles.com/">OpenMyFiles</a> - File Extension Libraries</li>
@@ -293,12 +270,7 @@
 <li><a href="https://lessmsi.activescott.com/">lessmsi</a> - .msi Content Extractor / <a href="https://github.com/activescott/lessmsi">GitHub</a></li>
 </ul>
 <hr>
-<doc-anchor-target id="-download-managers">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-download-managers">#</doc-anchor-trigger>
-        <span>▷ Download Managers</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-download-managers">▷ Download Managers</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://jdownloader.org/jdownloader2">JDownloader</a></strong> - Download Manager / <a href="https://rentry.org/jdownloader2">Debloat</a> / <a href="https://redd.it/q3xrgj">Dark Theme</a>, <a href="https://github.com/moktavizen/material-darker-jdownloader/">2</a> / <a href="https://draculatheme.com/jdownloader2">Dracula Theme</a> / <a href="https://my.jdownloader.org/apps/">Apps</a></li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://gopeed.com/">Go Speed</a></strong> - Download Manager / <a href="https://github.com/GopeedLab/gopeed">GitHub</a> / <a href="https://github.com/GopeedLab/browser-extension">Extension</a> / <a href="https://github.com/search?q=topic%3Agopeed-extension&amp;type=repositories">Plugins</a></li>
@@ -317,12 +289,7 @@
 <li><a href="https://gitgud.io/Pyxia/mf-dl/">mf-dl</a> or <a href="https://github.com/NicKoehler/mediafire_bulk_downloader">mediafire_bulk_downloader</a> - Mediafire File Downloaders</li>
 </ul>
 <hr>
-<doc-anchor-target id="-archiving--compression">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-archiving--compression">#</doc-anchor-trigger>
-        <span>▷ Archiving / Compression</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-archiving--compression">▷ Archiving / Compression</h2>
 <ul>
 <li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://supercompression.org/">SuperCompression</a></strong> - File Compression Resources</li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/M2Team/NanaZip">NanaZip</a></strong> - File Archiver</li>
@@ -340,12 +307,7 @@
 <li><a href="https://upx.github.io/">UPX</a> - Executable File Compressor / <a href="https://github.com/upx/upx">GitHub</a></li>
 </ul>
 <hr>
-<doc-anchor-target id="-file-converters">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-file-converters">#</doc-anchor-trigger>
-        <span>▷ File Converters</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-file-converters">▷ File Converters</h2>
 <ul>
 <li><span class="docs-emoji">&#x1F310;</span> <strong><a href="https://rentry.co/tosites">.to Sites</a></strong> - File Converters Index</li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://file-converter.io/">File Converter</a></strong> - Convert / Compress Files / <a href="https://github.com/Tichau/FileConverter">GitHub</a></li>
@@ -375,12 +337,7 @@
 <li><a href="https://go4convert.com/">go4convert</a> - Online Document Converter / 100 MB</li>
 </ul>
 <hr>
-<doc-anchor-target id="-file-explorers">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-file-explorers">#</doc-anchor-trigger>
-        <span>▷ File Explorers</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-file-explorers">▷ File Explorers</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://files.community/">Files</a></strong> - Customizable File Manager / Use Classic Installer / <a href="https://discord.gg/files">Discord</a></li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://rentry.co/FMHYBase64#directory-opus">Directory Opus</a></strong> - Windows File Manager</li>
@@ -405,12 +362,7 @@
 <li><a href="https://github.com/LesFerch/WinSetView">WinSetView</a> - Globally Set Explorer Folder Views</li>
 </ul>
 <hr>
-<doc-anchor-target id="-file-searching">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-file-searching">#</doc-anchor-trigger>
-        <span>▷ File Searching</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-file-searching">▷ File Searching</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://voidtools.com/">Everything</a></strong> - File Search Engine</li>
 <li><a href="https://www.lesbonscomptes.com/recoll/">Recoll</a> / <a href="https://addons.mozilla.org/en-US/firefox/addon/recoll-we/">Addon</a>, <a href="https://github.com/spyglass-search/spyglass">Spyglass</a>, <a href="https://docfetcher.sourceforge.net/">DocFetcher</a> or <a href="https://0-range.github.io/">Orange</a> - Cross Platform Search Engines</li>
@@ -421,12 +373,7 @@
 <li><a href="https://github.com/simon987/sist2">sist2</a> - Simple Incremental Search Tool</li>
 </ul>
 <hr>
-<doc-anchor-target id="-file-encryption">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-file-encryption">#</doc-anchor-trigger>
-        <span>▷ File Encryption</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-file-encryption">▷ File Encryption</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.veracrypt.fr/en/Home.html">VeraCrypt</a></strong> - Disk Encrypter</li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/FiloSottile/age">age</a></strong> - File Encrypter</li>
@@ -435,12 +382,7 @@
 <li><a href="https://www.kryptor.co.uk/">Kryptor</a> - File Encrypter</li>
 </ul>
 <hr>
-<doc-anchor-target id="-file-sync">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-file-sync">#</doc-anchor-trigger>
-        <span>▷ File Sync</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-file-sync">▷ File Sync</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://syncthing.net/">SyncThing</a></strong> - Cross-Platform File Sync / <a href="https://martchus.github.io/syncthingtray/">Tray Support</a> / <a href="https://github.com/syncthing/syncthing">GitHub</a></li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://freefilesync.org/">FreeFileSync</a></strong> - Open-Source File Sync</li>
@@ -452,12 +394,7 @@
 <li><a href="https://github.com/bcpierce00/unison">Unison</a> - Bidirectional File Sync</li>
 </ul>
 <hr>
-<doc-anchor-target id="-file-backup">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-file-backup">#</doc-anchor-trigger>
-        <span>▷ File Backup</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-file-backup">▷ File Backup</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://kopia.io/">Kopia</a></strong> - Encrypted File Backup / <a href="https://github.com/kopia/kopia/">GitHub</a></li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://rescuezilla.com/">Rescuezilla</a></strong> or <a href="https://clonezilla.org/">CloneZilla</a> - Disk Image Backup</li>
@@ -472,12 +409,7 @@
 <li><a href="https://github.com/PortableApps/Toucan">Toucan</a> - Portable File Backup</li>
 </ul>
 <hr>
-<doc-anchor-target id="-file-recovery">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-file-recovery">#</doc-anchor-trigger>
-        <span>▷ File Recovery</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-file-recovery">▷ File Recovery</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.cgsecurity.org/wiki/TestDisk">TestDisk</a></strong> - File Recovery</li>
 <li><a href="https://www.cgsecurity.org/wiki/PhotoRec">PhotoRec</a> - File Recovery</li>
@@ -487,12 +419,7 @@
 <li><a href="https://www.shadowexplorer.com/">ShadowExplorer</a> or <a href="https://www.nirsoft.net/utils/shadow_copy_view.html/">ShadowCopyView</a> - Shadow Copy Explorers</li>
 </ul>
 <hr>
-<doc-anchor-target id="-formatting--deletion">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-formatting--deletion">#</doc-anchor-trigger>
-        <span>▷ Formatting / Deletion</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-formatting--deletion">▷ Formatting / Deletion</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete">SDelete</a></strong> - File Deletion CLI</li>
 <li><a href="https://eraser.heidi.ie/">Eraser</a>, <a href="https://fileshredder.org/">File Shredder</a>, <a href="https://www.alternate-tools.com/pages/c_fileshredder.php?lang=ENG">Alternate File Shredder</a>, <a href="https://developerstree.github.io/permadelete/">Permadelete</a> or <a href="https://github.com/differentrain/Delapp">Delapp</a> - File Shredding</li>
@@ -501,12 +428,7 @@
 <li><a href="https://www.jonasjohn.de/red.htm">RED</a> - Remove Empty Directories</li>
 </ul>
 <hr>
-<doc-anchor-target id="-data-automation">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-data-automation">#</doc-anchor-trigger>
-        <span>▷ Data Automation</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-data-automation">▷ Data Automation</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.advancedrenamer.com/">Advanced Renamer</a></strong> or <a href="https://www.bulkrenameutility.co.uk/">Bulk Rename Utility</a> - Bulk Renamers</li>
 <li><a href="https://dineshsolanki.github.io/FoliCon/">FoliCon</a> - Automatic Custom Media Icons / Folders / <a href="https://github.com/DineshSolanki/FoliCon">GitHub</a></li>
@@ -520,12 +442,7 @@
 <li><a href="https://learn.microsoft.com/en-us/windows/powertoys/powerrename">PowerRename</a>, <a href="https://github.com/qarmin/szyszka">Szyszka</a>, <a href="https://github.com/ayoisaiah/f2">F2</a>, <a href="https://www.antp.be/software/renamer">Ant Renamer</a> or <a href="https://github.com/sun-jiao/flut-renamer">Flut Renamer</a> - Bulk Renamers</li>
 </ul>
 <hr>
-<doc-anchor-target id="-pdf-tools">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-pdf-tools">#</doc-anchor-trigger>
-        <span>▷ PDF Tools</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-pdf-tools">▷ PDF Tools</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.sejda.com/">Sejda</a></strong> / <a href="https://rentry.co/FMHYBase64#sejda">Unlock</a>, <a href="https://www.ilovepdf.com/">ILovePDF</a>, <a href="https://digipdf.app/?lang=en_US">DigiPDF</a>, <a href="https://www.pdf2go.com/">PDF2Go</a> or <a href="https://simplepdf.eu/">SimplePDF</a> - Online PDF Toolkits</li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://www.pdfgear.com/">PDFGear</a></strong>, <strong><a href="https://www.pdf24.org/">PDF24</a></strong>, <a href="https://www.foxit.com/pdf-reader/">Foxit</a>, <a href="https://www.xpdfreader.com/">xPDFReader</a>, <a href="https://github.com/pdfarranger/pdfarranger">PDF Arranger</a>, <a href="https://photown.github.io/private-pdf/">PrivatePDF</a>, <a href="https://pdfbox.apache.org/">PDFBox</a> or <a href="https://github.com/LibrePDF/OpenPDF">OpenPDF</a> - Offline PDF Toolkits</li>
@@ -551,12 +468,7 @@
 <li><a href="https://www.printfriendly.com/">PrintFriendly</a> - Printer Formatting Tools</li>
 </ul>
 <hr>
-<doc-anchor-target id="-file-transfer">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-file-transfer">#</doc-anchor-trigger>
-        <span>► File Transfer</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="-file-transfer">► File Transfer</h1>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://localsend.org/">LocalSend</a></strong> - Desktop / Mobile Transfer / <a href="https://discord.com/invite/GSRWmQNP87">Discord</a> / <a href="https://github.com/localsend/localsend">GitHub</a></li>
 <li><a href="https://photondev.netlify.app/">Photon</a> - Desktop / Mobile Transfer / <a href="https://github.com/abhi16180/photon">GitHub</a></li>
@@ -575,12 +487,7 @@
 <li>IPFS Tools - <a href="https://awesome.ipfs.tech/">Resources</a>, <a href="https://github.com/ipfs/awesome-ipfs">2</a> / <a href="https://github.com/ipfs/ipfs-companion">Extension</a> / <a href="https://github.com/ipfs/ipfs-desktop">Desktop</a> / <a href="https://ipfscluster.io/">IPFS Cluster</a></li>
 </ul>
 <hr>
-<doc-anchor-target id="-p2p-transfer">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-p2p-transfer">#</doc-anchor-trigger>
-        <span>▷ P2P Transfer</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-p2p-transfer">▷ P2P Transfer</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://toffeeshare.com/">ToffeeShare</a></strong></li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://blaze.vercel.app/">Blaze</a></strong> / <a href="https://github.com/blenderskool/blaze">GitHub</a></li>
@@ -609,12 +516,7 @@
 <li><a href="https://file.love/">FileLove</a></li>
 </ul>
 <hr>
-<doc-anchor-target id="-file-hosts">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-file-hosts">#</doc-anchor-trigger>
-        <span>► File Hosts</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="-file-hosts">► File Hosts</h1>
 <ul>
 <li><strong>Note</strong> - Keep in mind that it&#x27;s <strong>never</strong> a good idea to upload personal or confidential files to any file host, even if they claim to be encrypted. Most file hosts only remove files after inactivity, while some delete them regardless. Check each host if you&#x27;re concerned about file expiry. Tags are: Storage Size / File Size / Expiry.</li>
 </ul>
@@ -669,12 +571,7 @@
 <li><a href="https://rentry.org/xc48kg">Limited Upload Hosts</a> - More Hosts / 1GB or Below</li>
 </ul>
 <hr>
-<doc-anchor-target id="-cloud-storage">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-cloud-storage">#</doc-anchor-trigger>
-        <span>▷ Cloud Storage</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-cloud-storage">▷ Cloud Storage</h2>
 <ul>
 <li><strong>Note</strong> - Monthly prices are based on annual plans. 2TB prices are halved for comparison if a 1TB plan doesn&#x27;t exist for a service.</li>
 </ul>
@@ -705,12 +602,7 @@
 <li><a href="https://www.seafile.com/en/home/">SeaFile</a> - Self-Hosted Cloud Storage</li>
 </ul>
 <hr>
-<doc-anchor-target id="-cloud-managers">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-cloud-managers">#</doc-anchor-trigger>
-        <span>▷ Cloud Managers</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-cloud-managers">▷ Cloud Managers</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://rclone.org/">Rclone</a></strong> - Cloud Storage Manager</li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong>Rclone Tools</strong> - <a href="https://telegra.ph/Simple-rclone-usage-01-13">Guide</a> / <a href="https://colab.research.google.com/github/szyha/RcloneLabArchive/blob/master/RcloneLab.ipynb">Colab</a> / <a href="https://t.me/rclonexbot">Telegram</a> / <a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool">Transfer Tool</a></li>
@@ -724,12 +616,7 @@
 <li><a href="https://xpipe.io">xpipe</a> - Remote File Manager</li>
 </ul>
 <hr>
-<doc-anchor-target id="-gdrive-tools">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-gdrive-tools">#</doc-anchor-trigger>
-        <span>▷ GDrive Tools</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-gdrive-tools">▷ GDrive Tools</h2>
 <ul>
 <li><span class="docs-emoji">&#x21AA;&#xFE0F;</span> <strong><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_gdrive_file_sharing">GDrive File Sharing</a></strong></li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://colab.research.google.com/github/biplobsd/OneClickRun/blob/master/OneClickRun.ipynb">OneClickRun</a></strong> - Google Drive Tools Colab / <a href="https://i.ibb.co/BfF3djW/f0ab560a3aef.png">Features</a> / Use Throwaways</li>
@@ -750,12 +637,7 @@
 <li><a href="https://driverename.iblogbox.com/">DriveRename</a> - Bulk GDrive File Rename</li>
 </ul>
 <hr>
-<doc-anchor-target id="-mega-tools">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#-mega-tools">#</doc-anchor-trigger>
-        <span>▷ Mega Tools</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="-mega-tools">▷ Mega Tools</h2>
 <ul>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/tonikelope/megabasterd">Megabasterd</a></strong> - MEGA Quota Bypass / <a href="https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#megabasterd-note">Note</a></li>
 <li><span class="docs-emoji">&#x2B50;</span> <strong><a href="https://github.com/qtchaos/py_mega_account_generator">Mega_account_generator</a></strong> - Unlimited Upload Size</li>
