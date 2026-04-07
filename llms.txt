@@ -1,0 +1,93 @@
+﻿#  | FreeMediaHeckYeah
+
+> The Largest Collection of Free Stuff On The Internet!
+
+- [Welcome](https://fmhy.pages.dev/readme.md): Welcome
+- [Beginners Guide to Piracy](https://fmhy.pages.dev/beginners-guide.md): How do I tell if a site or download is safe? Any tips?
+- [Adblocking / Privacy](https://fmhy.pages.dev/adblockvpnguide.md): Adblocking, Privacy, VPN's, Proxies, Antivirus
+- [Artificial Intelligence](https://fmhy.pages.dev/ai.md): Chat Bots, Text Generators, Image Generators, ChatGPT Tools
+- [Movies / TV / Anime](https://fmhy.pages.dev/videopiracyguide.md): Stream Videos, Download Videos, Torrent Videos
+- [Music / Podcasts / Radio](https://fmhy.pages.dev/audiopiracyguide.md): Stream Audio, Download Audio, Torrent Audio
+- [Gaming / Emulation](https://fmhy.pages.dev/gamingpiracyguide.md): Download Games, ROMs, Gaming Tools
+- [Books / Comics / Manga](https://fmhy.pages.dev/readingpiracyguide.md): Books, Comics, Magazines, Newspapers
+- [Downloading](https://fmhy.pages.dev/downloadpiracyguide.md): Download Sites, Software Sites, Open Directories
+- [Torrenting](https://fmhy.pages.dev/torrentpiracyguide.md): Torrent Clients, Torrent Sites, Trackers
+- [Educational](https://fmhy.pages.dev/edupiracyguide.md): Courses, Documentaries, Learning Resources
+- [Tools](https://fmhy.pages.dev/toolsguide.md): General Tools, Internet Tools, System Tools
+- [Image Tools](https://fmhy.pages.dev/img-tools.md): 🌐 Awesome Design Tools, 2, 3, 4, 5 - Design Resources
+- [Developer Tools](https://fmhy.pages.dev/devtools.md): 🌐 Awesome Cheatsheets, HowDoI, OverApi or Cheat Sheets - Programming Cheat Sheets
+- [Android / iOS](https://fmhy.pages.dev/android-iosguide.md): Apps, Jailbreaking, Android Emulators
+- [Linux / MacOS](https://fmhy.pages.dev/linuxguide.md): Apps, Software Sites, Gaming
+- [Non-English](https://fmhy.pages.dev/non-english.md): International Piracy Sites
+- [Miscellaneous](https://fmhy.pages.dev/miscguide.md): Extensions, Indexes, News, Health, Food, Fun
+- [NSFW](https://fmhy.pages.dev/nsfwpiracy.md): 🌐 PornDude / More Sites
+- [Unsafe Sites](https://fmhy.pages.dev/unsafesites.md): Scene groups do not have their own sites, so its best to avoid anything claiming to represent one.
+- [Base64](https://fmhy.pages.dev/base64.md): Use any Base64 Decoding site or extension. Alternatively, install this userscript
+- [STORAGE](https://fmhy.pages.dev/storage.md): ⭐ Blender
+- [Welcome](https://fmhy.pages.dev/docs/index.md): The largest collection of free stuff on the internet!
+- [Api](https://fmhy.pages.dev/api/readme.md): The website is no longer receiving new features and is now in maintenance mode. Please refrain from opening issues or pull requests.
+
+## Welcome
+
+### Other
+
+- [Contributing](https://fmhy.pages.dev/docs/other/contributing.md): How to contribute to the project.
+- [Wallpapers](https://fmhy.pages.dev/docs/other/wallpapers.md): Elevate yourself to the next level with our beautiful wallpapers.
+
+### Posts
+
+- [Posts](https://fmhy.pages.dev/docs/posts.md): All our posts, sorted by date.
+- [How-to Search FMHY](https://fmhy.pages.dev/docs/posts/search.md): Various tools to help you query FMHY.
+- [Internet Archive Breach](https://fmhy.pages.dev/docs/posts/internet-archive.md): Internet Archive was hacked
+- [Monthly Updates [April]](https://fmhy.pages.dev/docs/posts/april-2023.md): April 2023 updates.
+- [Monthly Updates [April]](https://fmhy.pages.dev/docs/posts/april-2024.md): April 2024 updates
+- [Monthly Updates [August]](https://fmhy.pages.dev/docs/posts/aug-2023.md): September 2023 updates.
+- [Monthly Updates [August]](https://fmhy.pages.dev/docs/posts/aug-2024.md): August 2024 updates
+- [Monthly Updates [December]](https://fmhy.pages.dev/docs/posts/dec-2024.md): December 2024 updates.
+- [Monthly Updates [December] 250k members!!](https://fmhy.pages.dev/docs/posts/dec-2023.md): Thank you all for 250K members! ♡
+- [Monthly Updates [Feb]](https://fmhy.pages.dev/docs/posts/feb-2024.md): Febuary 2024 updates.
+- [Monthly Updates [Jan] & Happy New Year!](https://fmhy.pages.dev/docs/posts/jan-2024.md): Happy New Year everyone! We've made a lot of progress this year.
+- [Monthly Updates [January]](https://fmhy.pages.dev/docs/posts/jan-2025.md): January 2025 updates.
+- [Monthly Updates [July]](https://fmhy.pages.dev/docs/posts/july-2023.md): July 2023 updates.
+- [Monthly Updates [July]](https://fmhy.pages.dev/docs/posts/july-2024.md): July 2024 updates.
+- [Monthly Updates [June]](https://fmhy.pages.dev/docs/posts/jun-2023.md): June 2023 updates.
+- [Monthly Updates [June]](https://fmhy.pages.dev/docs/posts/june-2024.md): June 2024 updates
+- [Monthly Updates [March]](https://fmhy.pages.dev/docs/posts/march-2024.md): March 2024 Updates
+- [Monthly Updates [May]](https://fmhy.pages.dev/docs/posts/may-2023.md): May 2023 updates.
+- [Monthly Updates [May]](https://fmhy.pages.dev/docs/posts/may-2024.md): May 2024 updates
+- [Monthly Updates [November]](https://fmhy.pages.dev/docs/posts/nov-2023.md): October 2023 updates.
+- [Monthly Updates [November]](https://fmhy.pages.dev/docs/posts/nov-2024.md): Nov 2024 updates
+- [Monthly Updates [Oct 2024]](https://fmhy.pages.dev/docs/posts/oct-2024.md): October 2024 updates
+- [Monthly Updates [October]](https://fmhy.pages.dev/docs/posts/oct-2023.md): October 2023 updates.
+- [Monthly Updates [Sept]](https://fmhy.pages.dev/docs/posts/sept-2024.md): September 2024 updates
+- [Monthly Updates [September]](https://fmhy.pages.dev/docs/posts/sept-2023.md): September 2023 updates.
+- [New Website](https://fmhy.pages.dev/docs/posts/new-site.md): Our brand new site (which you're on currently)
+- [Public Discord Server](https://fmhy.pages.dev/docs/posts/discord.md): Our new space to chat in.
+- [We Removed FileCR as we Found Malware](https://fmhy.pages.dev/docs/posts/filecr-malware.md): Update on FileCR
+- [-> Beginners Guide to Piracy <-](https://fmhy.pages.dev/docs/beginners-guide.md): Table of Contents [TOC2]
+- [► Adblocking](https://fmhy.pages.dev/docs/adblockvpnguide.md): ◄◄ Back to Wiki Index
+- [► AI Chatbots](https://fmhy.pages.dev/docs/ai.md): ◄◄ Back to Wiki Index
+- [► Android APKs](https://fmhy.pages.dev/docs/android-iosguide.md): ◄◄ Back to Wiki Index
+- [► Arabic / العربية](https://fmhy.pages.dev/docs/non-english.md): ◄◄ Back to Wiki Index
+- [► Dev Communities](https://fmhy.pages.dev/docs/devtools.md): ◄◄ Back to Wiki Index
+- [► Documentaries](https://fmhy.pages.dev/docs/edupiracyguide.md): ◄◄ Back to Wiki Index
+- [► Download Directories](https://fmhy.pages.dev/docs/downloadpiracyguide.md): ◄◄ Back to Wiki Index
+- [► Download Games](https://fmhy.pages.dev/docs/gamingpiracyguide.md): ◄◄ Back to Wiki Index
+- [► Ebooks](https://fmhy.pages.dev/docs/readingpiracyguide.md): ◄◄ Back to Wiki Index
+- [► File Tools](https://fmhy.pages.dev/docs/file-tools.md): ◄◄ Back to Wiki Index
+- [► Gaming Tools](https://fmhy.pages.dev/docs/gaming-tools.md): ◄◄ Back to Wiki Index
+- [► Image Editing](https://fmhy.pages.dev/docs/img-tools.md): ◄◄ Back to Wiki Index
+- [► Indexes](https://fmhy.pages.dev/docs/miscguide.md): ◄◄ Back to Wiki Index
+- [► Internet Tools](https://fmhy.pages.dev/docs/internet-tools.md): ◄◄ Back to Wiki Index
+- [► Linux Distros](https://fmhy.pages.dev/docs/linuxguide.md): ◄◄ Back to Wiki Index
+- [► Social Media Tools](https://fmhy.pages.dev/docs/social-media-tools.md): ◄◄ Back to Wiki Index
+- [► Spotify Clients](https://fmhy.pages.dev/docs/audiopiracyguide.md): ◄◄ Back to Wiki Index
+- [► Streaming Sites](https://fmhy.pages.dev/docs/videopiracyguide.md): ◄◄ Back to Wiki Index
+- [► System Tools](https://fmhy.pages.dev/docs/system-tools.md): ◄◄ Back to Wiki Index
+- [► Text Tools](https://fmhy.pages.dev/docs/text-tools.md): ◄◄ Back to Wiki Index
+- [► Torrent Sites](https://fmhy.pages.dev/docs/torrentpiracyguide.md): ◄◄ Back to Wiki Index
+- [► Video Tools](https://fmhy.pages.dev/docs/video-tools.md): ◄◄ Back to Wiki Index
+- [Feedback](https://fmhy.pages.dev/docs/feedback.md): Anonymous comments taken from Reddit, Discord, Twitter and our feedback system.
+- [Sandbox](https://fmhy.pages.dev/docs/sandbox.md): Testing info
+- [Storage](https://fmhy.pages.dev/docs/storage.md): ◄◄ Back to Wiki Index
+- [Unsafesites](https://fmhy.pages.dev/docs/unsafesites.md): To easily see which sites are trusted, and which are unsafe, try the FMHY SafeGuard extension, or simply add our Filterlist to your adblocker.
